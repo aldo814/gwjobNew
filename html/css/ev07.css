@@ -59,7 +59,7 @@
 .ev07_section03 #gameContainer img:nth-child(7){transform: rotate(45deg);right: 210px;top: 200px}
 .ev07_section03 #gameContainer img:nth-child(6){transform: rotate(90deg);right: 130px;top: 380px}
 .ev07_section03 #gameContainer img:nth-child(5){transform: rotate(135deg);bottom: 190px;right: 200px}
-.ev07_section03 #gameContainer img:nth-child(4){transform: rotate(180deg);bottom: 100px;right: 370px}
+.ev07_section03 #gameContainer img:nth-child(4){transform: rotate(180deg);bottom: 100px;right: 350px}
 .ev07_section03 #gameContainer img:nth-child(3){transform: rotate(-135deg);bottom: 160px;left: 205px}
 .ev07_section03 #gameContainer img:nth-child(2){transform: rotate(-90deg);left: 130px;top: 400px}
 .lottery_present{text-align: center;}
