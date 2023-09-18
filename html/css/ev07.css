@@ -132,7 +132,7 @@
     .ev07_section01 .box{background-size: 95% 95%;background-position: center}
     
     .ev07_section03 #gameContainer{zoom:0.75}
-    .ev07_section03 #gameContainer .board_start a{zoom:0.75}
+    .ev07_section03 #gameContainer .board_start a{zoom:0.8}
     .ev07_section03{padding: 130px 0 0 0}
     .ev07_section03 .bottom_gift{background: none;}
     .ev07_section03 .bottom_gift .ev_ticket{position: relative;margin: 70px  auto 0 auto;transform: none;left: auto;top: 0}
@@ -189,7 +189,7 @@
 
 @media all and (max-width:640px){
     .ev07_section03 #gameContainer{zoom:0.45}
-    .ev07_section03 #gameContainer .board_start a{zoom:0.5}
+    .ev07_section03 #gameContainer .board_start a{zoom:0.56}
     .ev07_section03{padding: 90px 0 0 0}
 }
 @media all and (max-width:480px){
@@ -204,7 +204,7 @@
     .ev07_section01 .box dl dd{font-size: 14px;width: calc(100% - 80px)}
     .ev07_section01 .box dl .num_list li{word-break:keep-all}
     .ev07_section03 #gameContainer{zoom:0.33}
-    .ev07_section03 #gameContainer .board_start a{zoom:0.5}
+    .ev07_section03 #gameContainer .board_start a{zoom:0.56}
     .ev07_section03 .bottom_gift .ev_ticket:before{left: 20px}
     .ev07_section03 .bottom_gift .bg_wrap > .item{width: 100%;margin-right: 0}
     .ev07_section04 .eTicket > .item:nth-child(6){margin-top: 30px;}
