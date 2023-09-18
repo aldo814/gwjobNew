@@ -11,6 +11,7 @@
     font-weight: normal;
     font-style: normal;
 }
+.ev07{overflow: hidden}
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 .noto{font-family: 'Noto Sans KR' !important}
 .jalan{font-family: 'yg-jalnan';}
@@ -50,17 +51,17 @@
 
 .ev07_section03 #gameContainer .board_bg img{width:100%;}
 .ev07_section03 #gameContainer .board_on{width:100%; height:100%;;left:0px; z-index: 55; background: url('../images/ev07/ev_roulette.png') no-repeat center;box-shadow: 0px 0px 30px rgba(253, 218, 69, 0.5);border-radius: 50%;}
-.ev07_section03 .inner{position: relative}
-.ev07_section03 .inner:nth-child(1):before{content: '';display: block;background: url(../images/ev07/ev07_03_bg02.png);width: 1159px;height: 923px;position: absolute;left: 50%;top: 100px;transform: translateX(-55%);z-index: 0}
+.ev07_section03 .inner{position: relative;}
+.ev07_section03 .inner:nth-child(2):before{content: '';display: block;background: url(../images/ev07/ev07_03_bg02.png);width: 1159px;height: 923px;position: absolute;left: 50%;top: 100px;transform: translateX(-55%);z-index: 0}
 .ev07_section03 #gameContainer img{position: absolute;}
 .ev07_section03 #gameContainer img:nth-child(1){transform: rotate(-45deg);left: 180px;top: 200px}
-.ev07_section03 #gameContainer img:nth-child(2){top: 100px;left: 420px}
-.ev07_section03 #gameContainer img:nth-child(3){transform: rotate(45deg);right: 210px;top: 200px}
-.ev07_section03 #gameContainer img:nth-child(4){transform: rotate(90deg);right: 130px;top: 380px}
-.ev07_section03 #gameContainer img:nth-child(5){transform: rotate(135deg);bottom: 200px;right: 200px}
-.ev07_section03 #gameContainer img:nth-child(6){transform: rotate(180deg);bottom: 100px;right: 370px}
-.ev07_section03 #gameContainer img:nth-child(7){transform: rotate(-135deg);bottom: 160px;left: 205px}
-.ev07_section03 #gameContainer img:nth-child(8){transform: rotate(-90deg);left: 130px;top: 380px}
+.ev07_section03 #gameContainer img:nth-child(8){top: 100px;left: 420px}
+.ev07_section03 #gameContainer img:nth-child(7){transform: rotate(45deg);right: 210px;top: 200px}
+.ev07_section03 #gameContainer img:nth-child(6){transform: rotate(90deg);right: 130px;top: 380px}
+.ev07_section03 #gameContainer img:nth-child(5){transform: rotate(135deg);bottom: 190px;right: 200px}
+.ev07_section03 #gameContainer img:nth-child(4){transform: rotate(180deg);bottom: 100px;right: 370px}
+.ev07_section03 #gameContainer img:nth-child(3){transform: rotate(-135deg);bottom: 160px;left: 205px}
+.ev07_section03 #gameContainer img:nth-child(2){transform: rotate(-90deg);left: 130px;top: 400px}
 .lottery_present{text-align: center;}
 .lottery_present img{margin-bottom: 20px}
 .ev07_section03 .bottom_gift{position: relative;background: url(../images/ev07/ev07_03_bg03.png) no-repeat top;}
