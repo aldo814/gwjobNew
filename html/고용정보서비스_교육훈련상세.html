@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="https://job.gwd.go.kr/page/gwjob/css/newStyle.css">
     <link rel="stylesheet" href="https://job.gwd.go.kr/page/common/css/common.css">
     <link rel="stylesheet" href="https://job.gwd.go.kr/page/gwjob/css/newSub.css">
-    <link rel="stylesheet" href="https://job.gwd.go.kr/page/gwjob/css/newStyle.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/sub.css">
@@ -21,39 +22,1539 @@
 </head>
 
 <body>
+ 
+   <header id="header" class="">
+	<div class="inner">
+		<h1>
+			<a href="/gwjob">강원일자리정보망</a>
+		</h1>
+		<a href="#A-Gnb-focus" id="A-Gnb-focus" class="blind">주메뉴 시작</a>
+
+		<div id="gnb_pc">
+			<div class="topbx">
+				<div class="memberbx">
+					<!--[d]로그인전-->
+					<div class="inbx">
+						
+							
+								<a href="/gwjob/additional_service/loginForm">로그인</a>
+								<a href="/gwjob/additional_service/membership/join_step1">회원가입</a>
+							
+							
+							
+						
+
+						
+					</div>
+				</div>
+				<div class="snsbx">
+					<a href="https://www.facebook.com/jobgw2019" rel="noopener noreferrer" target="_blank" class="face">페이스북</a>
+					<a href="https://instagram.com/jobgw_official" rel="noopener noreferrer" target="_blank" class="insta">인스타그램</a>
+					<a href="https://blog.naver.com/job_gw" rel="noopener noreferrer" target="_blank" class="blog">블로그</a>
+					<a href="https://www.youtube.com/channel/UC5OKAPHgS0bdG5TbK6M7Lyw" rel="noopener noreferrer" target="_blank" class="utube">유튜브</a>
+				</div>
+
+				
+					
+					
+						<a href="https://aijob.gwd.go.kr/" target="_blank" class="joblk v2">
+							<img src="/page/gwjob/images/renew/common/icon_jobis.png" alt="강원일자리정보망">
+						</a>
+					
+				
+
+				
+
+				<div class="searchbx">
+					<form name="searchBoxForm" id="searchBoxForm" method="post" action="/gwjob/additional_service/search" onkeydown="if(event.keyCode==13){search_w();}" onsubmit="return false;">
+						<label for="srch" class="blind">검색</label>
+						<input type="search" name="query" id="srch" placeholder="검색어를 입력해주세요">
+						<input type="submit" value="검색" onclick="search_w()">
+					</form>
+				</div>
+			</div>
+			<nav class="clearfix">
+				<ul class="depth_01">
+					
+						
+							<li>
+								<h2 class="">
+									<a href="/gwjob/empmn" class="">
+										<span>
+											기업홍보
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empmn/desEntCntnts">
+														<span>강소기업홍보관</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empmn/gw_visit_company">
+														<span>강원기업탐방</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empmn/gw_pr_vod_company">
+														<span>강원기업영상</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li>
+								<h2 class="">
+									<a href="/gwjob/job" class="">
+										<span>
+											구인구직
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/job_opening">
+														<span>채용정보</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/gw_public_jobs">
+														<span>공공채용</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/all_open_recruit">
+														<span>전국공채</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/onestop_job">
+														<span>원스톱채용</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/jobs_event">
+														<span>일자리행사</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job/jobs_news">
+														<span>일자리소식</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li>
+								<h2>
+									<a href="/gwjob/support_policy" class="">
+										<span>
+											지원정책
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/support_apply">
+														<span>지원사업신청</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/startups_policy">
+														<span>창업지원정책</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/growing_support">
+														<span>기업성장지원정책</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/financial_support">
+														<span>기업금융지원정책</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/workforce_support">
+														<span>기업인력지원정책</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/customized_info">
+														<span>맞춤형일자리지원</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/support_policy/plcyInfo">
+														<span>정책정보</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li>
+								<h2>
+									<a href="/gwjob/empymn_sprt" class="">
+										<span>
+											취업지원
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/diagnosis">
+														<span>취창업역량진단</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/program_reservation">
+														<span>프로그램신청</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/offline_consulting">
+														<span>직업상담신청</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/coverletter_consulting">
+														<span>자소서컨설팅</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/q&amp;a_consulting">
+														<span>취업준비Q&amp;A</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/empymn_sprt/interview_ai">
+														<span>AI모의면접</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li>
+								<h2>
+									<a href="/gwjob/job_plus" class="">
+										<span>
+											교육훈련
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job_plus/elearning">
+														<span>이러닝 학습</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job_plus/edu_curriculum">
+														<span>직업훈련</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job_plus/edu_community">
+														<span>교육훈련게시판</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/job_plus/venue_reservation">
+														<span>시설대관</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+							<li>
+								<h2>
+									<a href="/gwjob/community" class="">
+										<span>
+											커뮤니티
+										</span>
+									</a>
+								</h2>
+								<ul class="depth_02" style="height: 378px; display: none;">
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/community/faq">
+														<span>자주하는질문</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/community/center_consult">
+														<span>묻고답하기</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/community/employment_reviews">
+														<span>이용후기 EVENT</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/community/survey">
+														<span>설문조사</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+											<li>
+												<h3>
+													<a href="/gwjob/community/document">
+														<span>문서자료실</span>
+													</a>
+												</h3>
+											</li>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+								</ul>
+							</li>
+						
+					
+						
+					
+						
+					
+				</ul>
+			</nav>
+		</div>
+		<div id="gnb_mobile">
+
+			<div class="mjbx">
+				<div class="memberbx">
+					<!--[d]로그인전-->
+					<div class="inbx">
+						
+							
+								<a href="/gwjob/additional_service/loginForm">로그인</a>
+								<a href="/gwjob/additional_service/membership/join_step1">회원가입</a>
+							
+							
+							
+						
+
+						
+					</div>
+				</div>
+				<div class="snsbx">
+					<a href="https://www.facebook.com/jobgw2019" rel="noopener noreferrer" target="_blank" class="face">페이스북</a>
+					<a href="https://instagram.com/jobgw_official" rel="noopener noreferrer" target="_blank" class="insta">인스타그램</a>
+					<a href="https://blog.naver.com/job_gw" rel="noopener noreferrer" target="_blank" class="blog">블로그</a>
+					<a href="https://www.youtube.com/channel/UC5OKAPHgS0bdG5TbK6M7Lyw" rel="noopener noreferrer" target="_blank" class="utube">유튜브</a>
+				</div>
+
+				
+					
+					
+						<a href="https://aijob.gwd.go.kr/" target="_blank" class="joblk v2">
+							<img src="/page/gwjob/images/renew/common/icon_jobis.png" alt="강원일자리정보망">
+						</a>
+					
+				
+
+
+				<a href="/gwjf" class="joblk">
+					<img src="/page/gwjob/images/renew/common/icon03.png" alt="강원특별자치도일지리재단">
+				</a>
+			</div>
+
+			<div class="topbx">
+				<form name="searchForm_m" id="searchForm_m" method="post" action="/gwjob/additional_service/search" onkeydown="if(event.keyCode==13){search_m();}" onsubmit="return false;">
+					<label for="srch2" class="blind">검색</label>
+					<input type="search" name="query" id="srch2" placeholder="검색어를 입력해주세요">
+					<input type="submit" value="검색" onclick="search_m()">
+				</form>
+			</div>
+
+			<nav class="clearfix">
+				<ul class="depth_01">
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/empmn">
+										<span>기업홍보</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empmn/desEntCntnts">
+															<span>강소기업홍보관</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empmn/gw_visit_company">
+															<span>강원기업탐방</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empmn/gw_pr_vod_company">
+															<span>강원기업영상</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/job">
+										<span>구인구직</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/job/job_opening">
+															<span>채용정보</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/job_opening/jo_all">
+																				<span>전체</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/job_opening/jo_disabled">
+																				<span>장애인일자리</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/job/gw_public_jobs">
+															<span>공공채용</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_all">
+																				<span>전체</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_chunchen">
+																				<span>춘천</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_wonju">
+																				<span>원주</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_gangneung">
+																				<span>강릉</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_donghae">
+																				<span>동해</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_taebaek">
+																				<span>태백</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_sokcho">
+																				<span>속초</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_samcheok">
+																				<span>삼척</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_hongcheon">
+																				<span>홍천</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_hoengseong">
+																				<span>횡성</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_yeongwol">
+																				<span>영월</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_pyeongchang">
+																				<span>평창</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_jeongseon">
+																				<span>정선</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_cheolwon">
+																				<span>철원</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_hwacheon">
+																				<span>화천</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_yanggu">
+																				<span>양구</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_inje">
+																				<span>인제</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_goseong">
+																				<span>고성</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_yangyang">
+																				<span>양양</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/gw_public_jobs/pj_etc">
+																				<span>미구분</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job/all_open_recruit">
+															<span>전국공채</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/job/onestop_job">
+															<span>원스톱채용</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/onestop_job/online_job_fair">
+																				<span>온라인채용박람회</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/job/jobs_event">
+															<span>일자리행사</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/jobs_event/gw_events">
+																				<span>강원채용행사</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/job/jobs_event/kr_events">
+																				<span>전국채용행사</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job/jobs_news">
+															<span>일자리소식</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/support_policy">
+										<span>지원정책</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/support_policy/support_apply">
+															<span>지원사업신청</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/support_apply/interview_activity_expense">
+																				<span>면접활동비지원</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/support_apply/appy_youth_extrapay">
+																				<span>청년구직활동지원</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/support_apply/career_discon_women">
+																				<span>여성구직활동지원</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/support_policy/startups_policy">
+															<span>창업지원정책</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/support_policy/growing_support">
+															<span>기업성장지원정책</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/support_policy/financial_support">
+															<span>기업금융지원정책</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/support_policy/workforce_support">
+															<span>기업인력지원정책</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/support_policy/customized_info">
+															<span>맞춤형일자리지원</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/support_policy/plcyInfo">
+															<span>정책정보</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/plcyInfo/sprtPlcy">
+																				<span>지원정책</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/plcyInfo/eduTraining">
+																				<span>교육정보</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/support_policy/plcyInfo/intrnActvt">
+																				<span>대외활동</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/empymn_sprt">
+										<span>취업지원</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/empymn_sprt/diagnosis">
+															<span>취창업역량진단</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/prediagnosis">
+																				<span>사전진단서비스</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/job_preference_diagnosis">
+																				<span>직업선호도진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/job_ability_diagnosis">
+																				<span>NCS직업역량진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/empl_prep_diag">
+																				<span>취업준비도진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/empl_psbl_diag">
+																				<span>취업가능성진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/job_chng_prep_diag">
+																				<span>이전직준비도진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/fntn_aptd_inspc">
+																				<span>창업적성검사</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/diagnosis/fntn_ablt_diag">
+																				<span>창업역량진단</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empymn_sprt/program_reservation">
+															<span>프로그램신청</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empymn_sprt/offline_consulting">
+															<span>직업상담신청</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empymn_sprt/coverletter_consulting">
+															<span>자소서컨설팅</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/empymn_sprt/q&amp;a_consulting">
+															<span>취업준비Q&amp;A</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3 class="has_depth">
+														<a href="/gwjob/empymn_sprt/interview_ai">
+															<span>AI모의면접</span>
+														</a>
+													</h3>
+													
+														<ul class="depth_03">
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/interview_ai/interview_ai_guide">
+																				<span>AI모의면접 안내</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/interview_ai/interview_reference">
+																				<span>면접 자료실</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+																
+																	<li>
+																		<h4>
+																			<a href="/gwjob/empymn_sprt/interview_ai/current_events">
+																				<span>취업 시사상식</span>
+																			</a>
+																		</h4>
+																	</li>
+																
+															
+														</ul>
+													
+												</li>
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/job_plus">
+										<span>교육훈련</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job_plus/elearning">
+															<span>이러닝 학습</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job_plus/edu_curriculum">
+															<span>직업훈련</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job_plus/edu_community">
+															<span>교육훈련게시판</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/job_plus/venue_reservation">
+															<span>시설대관</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+							<li>
+								<h2>
+									<a href="/gwjob/community">
+										<span>커뮤니티</span>
+									</a>
+								</h2>
+									
+								
+								
+									
+									
+										
+									
+								
+
+								
+									<ul class="depth_02">
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/community/faq">
+															<span>자주하는질문</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/community/center_consult">
+															<span>묻고답하기</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/community/employment_reviews">
+															<span>이용후기 EVENT</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/community/survey">
+															<span>설문조사</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+												<li>
+													<h3>
+														<a href="/gwjob/community/document">
+															<span>문서자료실</span>
+														</a>
+													</h3>
+													
+												</li>
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+									</ul>
+								
+							</li>
+						
+					
+						
+						
+					
+						
+						
+					
+				</ul>
+			</nav>
+		</div>
+
+		<div class="btn_box clearfix">
+			<a href="#" role="button" class="sitemap" title="사이트맵">메뉴</a>
+			<a href="#" role="button" class="mopen">메뉴</a>
+		</div>
+	</div>
+	<div class="bg_pc" style="height: 378px; display: none;"></div>
+</header>
     <div id="sub">
         <!-- 콘텐츠 영역 -->
         <div id="contents">
             <div class="inner">
                 <div class="emp_infor_view">
-                    <div class="emp_infor_top">
-                        <div class="tit">
-                            <h3>[강릉시] 지역포용형 청년일자리사업 참여청년 재모집</h3>
-                            <span class="state_tct02 st_pink02"> D-3</span>
-                        </div>
-                        <div class="share">
-                            <a href="#" class="open">공유하기</a>
-                            <ul>
-                                <li><a href="#" class="blog">블로그</a></li>
-                                <li><a href="#" class="facebook">페이스북</a></li>
-                                <li><a href="#" class="twitter">트위터</a></li>
-                                <li><a href="#" class="cacao">카카오</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="data">
-                        <ul>
-                            <li>지원정책</li>
-                            <li>취업지원</li>
-                        </ul>
-                        <p class="hit">10234</p>
-                    </div>
                     <div class="view_top">
                         <div class="img imgFill">
                             <img src="images/sub/thumb.png" alt="">
                         </div>
                         <div class="txt">
-                            <ul>
+                            <div class="emp_infor_top">
+                                <div class="tit">
+                                    <h3>[강릉시] 지역포용형 청년일자리사업 참여청년 재모집</h3>
+                                    <span class="state_tct02 st_pink02"> D-3</span>
+                                </div>
+                            </div>
+
+                            <ul class="tag">
+                                <li># 청년</li>
+                                <li># 취업</li>
+                                <li># 지역취업</li>
+                                <li># 채용</li>
+                                <li># 지역인재</li>
+                                <li># 취업지원</li>
+                                <li># 지역발전</li>
+                            </ul>
+
+                            <ul class="cont">
+                                <li>
+                                    <p class="f18 tit">기관정보</p>
+                                    <p class="desc">강릉시 청년센터 두루
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="f18 tit two">주소</p>
+                                    <p class="desc">강원특별자치도 강릉시 수문길 17-2, 어울림플랫폼 2층 청년센터 두루
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <ul class="cont bg_gray">
                                 <li>
                                     <p class="f18 tit">모집일정</p>
                                     <p class="desc">2023-03-23 ~ 2023-04-26
@@ -71,47 +1572,134 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tag_wrap">
-                            <p class="f18 bold02">관련태그</p>
-                            <ul class="tag">
-                                <li># 청년</li>
-                                <li># 취업</li>
-                                <li># 지역취업</li>
-                                <li># 채용</li>
-                                <li># 지역인재</li>
-                                <li># 취업지원</li>
-                                <li># 지역발전</li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="btn_wrap tct">
-                        <a href="#" class="btn_style02 btn_blue btn">홈페이지 바로가기</a>
+                        <a href="https://job.gwd.go.kr/gwjob" class="btn_style02 btn_blue btn" target="_blank">홈페이지 바로가기</a>
                     </div>
                     <div class="view_cont">
-                        <ul>
-                             <li>
-                                <h3 class="title3 bold02">교육내용</h3>
+
+                        <ul class="link_go">
+                            <li class="active"><a href="#go01">상세내용</a>
                             </li>
-                            
-                             <li>
-                                <h3 class="title3 bold02">신청방법</h3>
+                            <li><a href="#go02">신청방법</a></li>
+                            <li><a href="#go03">기관정보</a></li>
+                        </ul>
+
+                        <ul class="target" id="go01">
+                            <li>
+                                <h3 class="title3 bold02">상세내용</h3>
+                                <p class="f20">기관명 : 강원도 일자리재단</p>
+                                <p class="f20">주소 : 강원도 춘천시 금강로 45 IBK 기업은행, 4층</p>
+                                <p class="f20">전화번호 : 033-256-9223</p>
+                                <p class="f20">홈페이지 : https://job.gwd.go.kr/gwjf
+</p>
+                            </li>
+                        </ul>
+
+                        <ul class="target" id="go02">
+                            <li>
+                                <h3 class="title3 bold02 target">신청방법</h3>
                                 <p class="symbol9">홈페이지 신청</p>
+                                <p>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                    신청방법<br>
+                                </p>
                             </li>
                             <li>
                                 <h3 class="title3 bold02">참고자료</h3>
                                 <p class="symbol9 down"><span>사업 신청 양식 붙임 1.</span>
-                                <a href="#">다운로드</a></p>
+                                    <a href="#">다운로드</a>
+                                </p>
                                 <p class="symbol9 down"><span>사업 신청 양식 붙임 2.</span>
-                                <a href="#">다운로드</a></p>
+                                    <a href="#">다운로드</a>
+                                </p>
                             </li>
+                        </ul>
+                        <ul class="target" id="go03">
                             <li>
                                 <h3 class="title3 bold02">기관정보</h3>
                                 <p class="symbol9">기관명 : 강원도 일자리재단</p>
                                 <p class="symbol9">주소 : 강원도 춘천시 금강로 45 IBK 기업은행, 4층
-</p>
+                                </p>
                                 <p class="symbol9">전화번호 : 033-256-9223</p>
                                 <p class="symbol9">홈페이지 : https://job.gwd.go.kr/gwjf
+                                </p>
+                                <p>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                    기관정보<br>
+                                </p>
+                                
+                                <h3 class="title3 bold02">지도보기</h3>
+                                <div class="map">
+                                    
+                                </div>
+                                <div class="gray_box">
+                                    <p>해당 정보는 서비스 제공기관의 사정, 기간변경 등 다양한 원인으로 언제든지 변경될 수 있으며, 현행화의 시간차이 등으로 100% 정확하지 않을 수 있으니, <br>
+반드시 해당기관의 홈페이지 또는 전화문의를 통하여 확인하시기 바랍니다.<br><br>
+
+본 정보는 기관 및 홈페이지에서 수집한 내용을 토대로 제공하는 정보로 동의없이 무단 전재 및 재배포, 재가공 할 수 없습니다.<br><br>
+
+정보통신망법 제50조에 따라 본 게시물 상의 연락처는 내용상의 서비스 제공에 대한 문의 외에 사전동의 없이 전자메일 등으로 광고성 정보를 전송 및 연락하는 행위를 하면 안됩니다.
 </p>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -120,6 +1708,7 @@
         </div>
         <!-- //콘텐츠 영역 -->
     </div>
+     
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/imgLiquid-min.js"></script>
@@ -129,6 +1718,18 @@
     <script src="./js/printThis.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/run.js"></script>
+    <script>
+    
+$(document).ready(function () {
+	$(window).on('scroll load', function () {
+	    if ($(document).scrollTop() > 30) {
+	        $('#header').addClass('fixed');
+	    } else {
+	        $('#header').removeClass('fixed');
+	    }
+	});
+});
+    </script>
 
 </body>
 

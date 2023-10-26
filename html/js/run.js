@@ -937,7 +937,49 @@ $(document).ready(function () {
     
 
 
-    
+
+        // 퀵메뉴
+        $('.link_go li a').click(function() {
+            return false
+            $(this).parent().addClass('active');
+            $(this).parent().siblings().removeClass('active');
+        });
+	// target 위치 표시와, 이동  
+        var sections = $('.target'),
+            nav = $('.link_go'),
+            nav_height = $('#header').outerHeight();
+           
+
+        $(window).on('scroll', function() {
+            var cur_pos = $(this).scrollTop();
+
+            sections.each(function() {
+                var top = $(this).offset().top - nav_height,
+                    bottom = top + $(this).outerHeight();
+
+                if (cur_pos >= top && cur_pos <= bottom) {
+                    nav.find('a').parent().removeClass('active');
+                    sections.removeClass('active');
+
+                    $(this).parent().addClass('active');
+                    nav.find('a[href="#' + $(this).attr('id') + '"]').parent().addClass('active');
+                }
+            });
+        });
+
+        nav.find('a').on('click', function() {
+            var $el = $(this),
+                id = $el.attr('href'),
+                nav_height = $('#header').outerHeight();
+                var target = $(this.hash);
+                offsetTop = target.offset().top - nav_height
+            
+            $('html, body').animate({
+                scrollTop: offsetTop
+            }, 500);
+
+            return false;
+        })
     
 });
 
