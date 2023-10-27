@@ -1764,8 +1764,8 @@ width: calc(100% - 170px);
 .emp_infor_view .data .hit{position: relative;padding-left: 30px}
 .emp_infor_view .data .hit:before{content: '';display: block;background: url(../images/sub/hit_ico.png) no-repeat;width: 23px;height: 13px;position: absolute;left: 0;top: 50%;transform: translateY(-50%)}
 .emp_infor_view .view_top{display: flex;margin-top: 4rem;}
-.emp_infor_view .view_top .img{width: 480px;border-radius: 10px;overflow: hidden;min-height: 250px; max-height: 388px}
-.emp_infor_view .view_top .txt{width: calc(100% - 480px);margin-left: 30px}
+.emp_infor_view .view_top .img{width: 400px;border-radius: 10px;overflow: hidden;height: 240px}
+.emp_infor_view .view_top .txt{width: calc(100% - 430px);margin-left: 30px}
 .emp_infor_view .view_top .bg_gray{background: #f5f5f5;padding: 20px;border-radius: 5px;}
 .emp_infor_view .view_top .txt .cont{margin: 20px 0}
 .emp_infor_view .view_top .txt .cont li{margin-bottom: 10px;display: flex;}
