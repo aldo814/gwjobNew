@@ -2808,7 +2808,7 @@ width: calc(100% - 170px);
     /* 고용정보서비스 상세 */
     .emp_infor_view .btn_wrap a{padding: 10px 30px}
     .emp_infor_view .emp_infor_top .tit span{padding: 5px 15px}
-    .emp_infor_view .view_top .img{height: 400px}
+    .emp_infor_view .view_top .img{height: 350px}
     .emp_infor_view .view_cont h3{font-size: 2rem}
     .emp_infor_view .view_cont p.symbol9{font-size: 1.8rem !important}
     
