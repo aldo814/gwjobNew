@@ -1769,10 +1769,11 @@ width: calc(100% - 170px);
 .emp_infor_view .view_top .txt .cont{margin: 20px 0}
 .emp_infor_view .view_top .txt .cont li{margin-bottom: 10px;display: flex;}
 .emp_infor_view .view_top .txt .cont li .tit{width: 85px}
-.emp_infor_view .view_top .txt .cont li .tit.two{letter-spacing: 33px;white-space: nowrap;}
+.emp_infor_view .view_top .txt .cont li .tit.two{letter-spacing: 31px;white-space: nowrap;}
 .emp_infor_view .view_top .txt .cont li:last-child{margin-bottom: 0}
 .emp_infor_view .view_top .txt .cont li .desc{width: calc(100% - 85px)}
-.emp_infor_view .view_top .txt .cont .f18{font-weight: bold;margin-bottom: 5px}
+.emp_infor_view .view_top .txt .cont li:last-child .f18{margin-bottom: 0}
+.emp_infor_view .view_top .txt .cont .f18{font-weight: bold;}
 .emp_infor_view .view_top .tag{display: flex;flex-wrap: wrap;}
 .emp_infor_view .view_top .txt .cont:last-child{margin-bottom: 0}
 .emp_infor_view .view_top .tag li{background: #eeeeee;border-radius: 20px;padding: 5px 20px;margin-top: 10px}
@@ -2450,6 +2451,7 @@ width: calc(100% - 170px);
 
 @media all and (max-width:1024px){
 .ev_page .ev_ex_slider{min-height: 632px}
+    .emp_infor_view .view_top .txt .cont li .tit.two{letter-spacing:29px}
 }
 
 @media all and (max-width:768px){
@@ -2860,6 +2862,8 @@ width: calc(100% - 170px);
     
     .emp_infor_view .link_go > li a{font-size: 1.8rem;padding-bottom: 10px}
     .emp_infor_view .map{height: 200px}
+    
+        .emp_infor_view .view_top .txt .cont li .tit.two{letter-spacing:24px}
 }
 
 @media all and (max-width:640px){
