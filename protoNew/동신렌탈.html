@@ -1,56 +1,101 @@
 <html lang="ko">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="wclassth=device-wclassth, initial-scale=1, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-	<title class="comName">기업명</title>
-	<link rel="stylesheet" type="text/css" href="https://cdn.kldp.org/fonts/Free/S-Core/css/scdream.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title class="comName">기업명</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.kldp.org/fonts/Free/S-Core/css/scdream.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="https://aldo814.github.io/gwjobNew/proto/inc/pt-common.css" rel="stylesheet">
-	<style>
-	/* 기업별 스타일을 추가해주세요 */
+    <style>
+        /* 기업별 스타일을 추가해주세요 */
 
 
-	@media all and (max-width:1024px) { }
+        @media all and (max-width:1024px) {}
 
-	@media all and (max-width:768px) { }
+        @media all and (max-width:768px) {}
 
-	@media all and (max-width:640px) { }
+        @media all and (max-width:640px) {}
 
-	@media all and (max-width:480px) { }
+        @media all and (max-width:480px) {}
 
-   </style>
-   <script src="//code.jquery.com/jquery-1.12.2.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
-   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </style>
+    <script src="//code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
+
 <body>
-	<!-- 모듈 추가 및 수정 -->
-	<div class="module-wrap com_navi">
-    <div class="innerSection">
-        <ul class="navi">
-            <li><a href="#summary">기업개요</a></li>
-            <li><a href="#industry">산업 내 위치</a></li>
-            <li><a href="#finance">재무정보</a></li>
-            <li><a href="#view">기업전경</a></li>
-            <li><a href="#business">사업영역</a></li>
-            <li><a href="#product">주요상품</a></li>
-            <li><a href="#culture">기업문화/복리후생</a></li>
-            <li><a href="#talent">인재상</a></li>
-            <li><a href="#interview">인터뷰</a></li>
-            <li><a href="#info">취업정보</a></li>
-            <li><a href="#incruit">채용공고</a></li>
-            <li><a href="#location">기업위치</a></li>
-        </ul>
+    <!-- 모듈 추가 및 수정 -->
+    <div class="module-wrap com_navi">
+        <div class="innerSection">
+            <ul class="navi">
+                <li><a href="#summary">기업개요</a></li>
+                <li><a href="#industry">산업 내 위치</a></li>
+                <li><a href="#finance">재무정보</a></li>
+                <li><a href="#view">기업전경</a></li>
+                <li><a href="#business">사업영역</a></li>
+                <li><a href="#product">주요상품</a></li>
+                <li><a href="#culture">기업문화/복리후생</a></li>
+                <li><a href="#talent">인재상</a></li>
+                <li><a href="#interview">인터뷰</a></li>
+                <li><a href="#info">취업정보</a></li>
+                <li><a href="#incruit">채용공고</a></li>
+                <li><a href="#location">기업위치</a></li>
+            </ul>
+        </div>
     </div>
-</div>
+    <div class="module-wrap sns_mod_info sty01">
+        <div class="cnt-container">
+            <ul class="info_wrap">
+                <li>
+                    <div class="ico"></div>
+                    설립일
+                    <div class="cnt"><span class="comBuildDate">-</span></div>
+                </li>
+                <li>
+                    <div class="ico"></div>
+                    매출액(백만원)
+                    <div class="cnt"><span class="fiSales">-</span></div>
+                </li>
+                <li>
+                    <div class="ico"></div>
+                    사원수
+                    <div class="cnt lastEmployeeState"><span class="lastTotal">-</span></div>
+                </li>
+                <li>
+                    <div class="ico"></div>
+                    자본금(백만원)
+                    <div class="cnt"><span class="fiCapital">-</span></div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-<script>
-	$(document).ready(function(){
-		// 복사한 스크립트 추가영역
+    <script>
+        $(document).ready(function() {
+            // 복사한 스크립트 추가영역
+            $(".com_navi").simpleMenu({
+                stickyMenu: true,
+                slidingLine: true,
+                slidingLineColor: 'transparent',
+                pageNavigationSpeedAnimate: 500,
+                winMobWidth: 0,
+            });
 
-	});
-</script>
+            var navOffset = $(".com_navi_header").offset().top;
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > navOffset) {
+                    $(".com_navi_header").addClass("fixed");
+                } else {
+                    $(".com_navi_header").removeClass("fixed");
+                }
+            });
+        });
+
+    </script>
 </body>
+
 </html>
