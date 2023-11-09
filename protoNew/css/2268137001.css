@@ -156,6 +156,7 @@ body{max-width: 1440px;width: 100%;margin: auto;}
     .mod_percent01 .percent_wrap .ico{background-size: 70px !important;height: 70px !important}
     
     .mod_interview06 .bg{margin-top: -100px}
+    .mod_info02 > div:nth-child(1), .mod_info02 > div:nth-child(5){height: 150px}
     
     
 }
