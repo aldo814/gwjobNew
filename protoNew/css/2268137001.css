@@ -123,8 +123,10 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 
 @media all and (max-width:1024px){
     .mod_history04 .history_wrap .thumb{width: 300px}
-    .mod_history04 .history_wrap .history{width: calc(100% - 300px)
+    .mod_history04 .history_wrap .history{width: calc(100% - 300px)}
     .mod_percent01 .container{padding: 0}
+    
+    .mod_history04 .history_wrap{width: 100%}
     }
 
 @media all and (max-width:768px){
@@ -167,5 +169,6 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 }
 
 @media all and (max-width:480px){
+    .mod_history04 .history_wrap .thumb, .mod_history04 .history_wrap .history{width: 100%}
     
 }
