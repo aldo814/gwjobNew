@@ -29,6 +29,7 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .mod_strategic01 .task_wrap .slick-slide:nth-child(3n) .list{border-bottom: 0}
 .mod_strategic01 .task_wrap .list .tit{font-size: 2rem;font-weight: 500;margin-bottom: 1rem}
 .mod_strategic01 .task_wrap .list .desc{color: #666666;}
+.mod_strategic01 .slick-slide{height: auto}
 .mod_strategic01 .slick-dots{position: absolute;left: 50%;transform: translateX(-50%);text-align: center}
 .mod_strategic01 .slick-dots li{display: inline-block;margin: 0 10px;}
 .mod_strategic01 .slick-dots li button{width: 15px;height: 15px;background: #f4f4f4;border-radius: 50%;text-indent: -9999px;}
@@ -80,3 +81,90 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .mod_culture05 .cul_slide {max-width: 1200px;margin: auto;}
 .mod_culture05 .culwel_wrap{height: auto;}
 .mod_culture05 .container{max-width: 1440px;width: calc(100% - 40px);margin: auto;position: relative;}
+.mod_interview06 .interview_txt strong{color: #003b90}
+.mod_interview06 .interview_txt h3{font-weight: bold;}
+.mod_interview06 .q.active{background: #003b90;}
+.mod_interview06 .slick-track{display: flex;}
+.mod_interview06 .bg{margin-top: -151px}
+.mod_interview06 .qa_mng .q.active,
+.mod_interview06 .qa_emp .q.active{background: #527f9e;}
+.mod_interview06 .interview_txt strong{color: #527f9e}
+.mod_media .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(../images/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_media{position: relative;}
+.mod_media .slick-disabled{opacity:.1;}
+.mod_media .slick-prev{left:0;background-position:0 0;}
+.mod_media .slick-next{right:0;background-position:-70px 0;}
+.mod_media .slick-list,
+.mod_media .slick-slider,
+.mod_media .slick-track,
+.mod_media .container{position: static;}
+.mod_media .slick-slide{height: auto;}
+
+@media all and (max-width:1200px){
+    .mod_visual .container,
+    .mod_strategic01 .container{width: calc(100% - 40px)}
+    .mod_percent01 .container{padding: 0}
+    
+    .mod_interview06 .interview_txt h3{max-width: calc(100% - 60px)}
+}
+
+@media all and (max-width:1024px){
+    .mod_history04 .history_wrap .thumb{width: 300px}
+    .mod_history04 .history_wrap .history{width: calc(100% - 300px)
+    .mod_percent01 .container{padding: 0}
+    }
+
+@media all and (max-width:768px){
+    html{font-size: 8px}
+    .mod_visual {height: 250px;padding: 3rem 0}
+    .mod_visual img{max-width: 130px;margin: 0 0 2rem auto;}
+    .mod_visual .title{font-size: 2rem;}
+    .mod_visual .comName{font-size: 3rem;}
+    
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    .mod_history04 .history_wrap .thumb{height: 70px}
+    .mod_history04 .history_wrap .thumb span{top: 0}
+    
+    .mod_strategic01 .task_wrap{display: block;margin-bottom: 15rem}
+    .mod_strategic01 .task_wrap .item{width: 100%;}
+    .mod_strategic01 .task_wrap .item + .item{margin-top: 7rem;margin-right: 0;}
+    .mod_strategic01 .task_wrap .item .slick-dots{bottom: -50px}
+    .mod_strategic01 .task_wrap .item + .item .slick-dots{bottom: -80px}
+    .mod_finance03 > div .tab_wrap .tab{border-color: #003b90 !important}
+    .mod_finance03 > div .tab_wrap .tab > div{border-color: #003b90 }
+    .mod_finance03 > div .tab_wrap{overflow: hidden}
+    
+    .mod_percent01 .percent_wrap .ico{background-size: 70px !important;height: 70px !important}
+    
+    .mod_interview06 .bg{margin-top: -100px}
+    
+    
+}
+
+@media all and (max-width:640px){
+    .mod_percent01 .percent_wrap > div:nth-child(-n + 2){margin-bottom: 20px}
+    
+}
+
+@media all and (max-width:480px){
+    
+}
