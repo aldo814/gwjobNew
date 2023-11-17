@@ -1,0 +1,13 @@
+body{max-width: 1440px;width: 100%;margin: auto;}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{background: url(../images/3492000392_visual.png) no-repeat;padding: 200px 0 100px 0;background-size: cover;}
+.mod_visual .title{font-size: 26px;color: #fff;margin-bottom: 1rem}
+.mod_visual .comName{font-size: 6.5rem;color: #fff;font-weight: bold}
+.mod_visual .imgCi{margin-top: 160px}
+
+.sns_mod_info.sty01 {background: #642072;}
+.sns_mod_info.sty01 .info_wrap > li{color: #fac000;}
+
+.mod_info01{background: url(../images/3492000392_vision.png) no-repeat;background-size: cover;}
