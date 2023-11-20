@@ -1,16 +1,19 @@
+
 body{max-width: 1440px;width: 100%;margin: auto;}
 .mg70{margin: 7rem 0}
 .pd70{padding: 7rem 0}
-.mod_visual{width: 100%;height: 700px;padding: 60px 0;background: url(../images/2268137001_visual.png) no-repeat;background-size: cover;}
+.mod_visual{width: 100%;height: 700px;padding: 60px 0;background: url(images/2268137001_visual.png) no-repeat;background-size: cover;}
 .mod_visual img{display: block;margin:0 0 5rem auto}
 .mod_visual .comName{color: #003b90;font-size: 6.5rem;font-weight: bold;}
 .mod_visual .title{font-size: 2.6rem;color: #fff}
-.sns_mod_info{background: url(../images/2268137001_info.png) no-repeat !important;background-size: cover !important}
+.sns_mod_info{background: url(images/2268137001_info.png) no-repeat !important;background-size: cover !important}
+.mod_culture05 .culture_wrap{background: none}
 .sns_mod_info li{color: #003b90 !important}
 .mod_history04 .history_wrap{margin-top: 5rem;}
 .mod_history04 .history_wrap .thumb span{left: 0;transform: none;background: #003b90;letter-spacing: 1;font-size: 1.8rem}
 .mod_history04 .history > div > span::before{background: #003b90}
-.mod_history04 .history > div > ul > li .month{color: #cccccc}
+.mod_history04 .history > div > ul > li{margin-top: 5px}
+.mod_history04 .history > div > ul > li .month{color: #cccccc;width: 20px;}
 .mod_info02 > div:nth-child(even){background: #fff;padding: 7rem 0}
 .mod_info02 > div:nth-child(1) img, 
 .mod_info02 > div:nth-child(5) img{object-fit: cover;height: 100%}
@@ -48,19 +51,22 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .mod_percent01 .percent_wrap > div > div span strong{font-size: 1.8rem;font-weight: 400;margin-right: 1rem}
 .mod_percent01 .percent_wrap > div > div span em{font-size: 2.4rem;font-weight: bold;}
 .mod_percent01 .percent_wrap .ico{margin: 1rem auto 0 auto;width: 100% !important;height: 111px !important}
-.mod_percent01 .percent_wrap .scale .ico{background: url(../images/2268137001_fin01.png) no-repeat center;}
-.mod_percent01 .percent_wrap .growth .ico{background: url(../images/2268137001_fin02.png) no-repeat center;}
-.mod_percent01 .percent_wrap .profit .ico{background: url(../images/2268137001_fin03.png) no-repeat center;}
-.mod_percent01 .percent_wrap .stable .ico{background: url(../images/2268137001_fin04.png) no-repeat center;}
+.mod_percent01 .percent_wrap .scale .ico{background: url(images/2268137001_fin01.png) no-repeat center;}
+.mod_percent01 .percent_wrap .growth .ico{background: url(images/2268137001_fin02.png) no-repeat center;}
+.mod_percent01 .percent_wrap .profit .ico{background: url(images/2268137001_fin03.png) no-repeat center;}
+.mod_percent01 .percent_wrap .stable .ico{background: url(images/2268137001_fin04.png) no-repeat center;}
 .mod_business_area01{background: #003b90;}
 .mod_business_area01 .container{background: #0a397d}
 .mod_business_area01 .sw_btn_wrap .prevv_arrow{left:0;background-position:0 0;}
 .mod_business_area01 .sw_btn_wrap .nextt_arrow{right:0;background-position:-70px 0;}
 .mod_culture05{padding: 0;position: relative;}
 .mod_culture05 h3 span{color: #cccccc;}
-.mod_culture05 .culture_wrap{background: url(../images/2268137001_culture.png) no-repeat;}
-.mod_culture05 .welfare_wrap{background: url(../images/2268137001_welfare.png) no-repeat;}
-
+.mod_culture05 .culwel_wrap.first{background: url(images/2268137001_culture.png) no-repeat;background-size:cover}
+.mod_culture05 .culwel_wrap{background: url(images/2268137001_welfare.png) no-repeat;background-size:cover}
+.mod_culture05 .container .slick-dots{top: auto;bottom: 20px;}
+.mod_culture05 .culwel_wrap > div{height: 100%;}
+.mod_culture05 .slick-slider{height: calc(100% - 30px)}
+.mod_culture05 .slick-slider{height: 100%;}
 .mod_culture05 .sww_btn_wrap .slick-arrow{
     position:absolute;
     top:50%;
@@ -70,7 +76,7 @@ body{max-width: 1440px;width: 100%;margin: auto;}
     width:70px;
     height:100px;
     background-color:rgba(0,0,0,.5);
-    background-image:url(../images/slider_arrow2.png);
+    background-image:url(images/slider_arrow2.png);
     background-repeat:no-repeat;
     opacity:.7;
     z-index:1;
@@ -79,13 +85,13 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .mod_culture05 .sww_btn_wrap .prev_arrow{left:0;background-position:0 0;}
 .mod_culture05 .sww_btn_wrap .next_arrow{right:0;background-position:-70px 0;}
 .mod_culture05 .cul_slide {max-width: 1200px;margin: auto;}
-.mod_culture05 .culwel_wrap{height: auto;}
 .mod_culture05 .container{max-width: 1440px;width: calc(100% - 40px);margin: auto;position: relative;}
 .mod_interview06 .interview_txt strong{color: #003b90}
 .mod_interview06 .interview_txt h3{font-weight: bold;}
 .mod_interview06 .q.active{background: #003b90;}
 .mod_interview06 .slick-track{display: flex;}
-.mod_interview06 .bg{margin-top: -151px}
+.mod_interview06 .bg{margin-top: -150px}
+.mod_interview06 .q{position: relative;z-index: 5}
 .mod_interview06 .qa_mng .q.active,
 .mod_interview06 .qa_emp .q.active{background: #527f9e;}
 .mod_interview06 .interview_txt strong{color: #527f9e}
@@ -98,7 +104,7 @@ body{max-width: 1440px;width: 100%;margin: auto;}
     width:70px;
     height:100px;
     background-color:rgba(0,0,0,.5);
-    background-image:url(../images/slider_arrow2.png);
+    background-image:url(images/slider_arrow2.png);
     background-repeat:no-repeat;
     opacity:.7;
     z-index:1;
@@ -119,10 +125,10 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
 .sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
 .sns_mod_info.sty01 ul li:last-child{margin-right: 0}
-.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(../images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(../images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(../images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(../images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
 
 
 @media all and (max-width:1200px){

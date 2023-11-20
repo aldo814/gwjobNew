@@ -1,8 +1,9 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 body{max-width: 1440px;width: 100%;margin: auto;}
-.mg70{margin: 7rem 0}
-.pd70{padding: 7rem 0}
+.mg70{margin: 8rem 0}
+.pd70{padding: 8rem 0}
 
-.mod_visual{background: url(../images/3492000392_visual.png) no-repeat;padding: 200px 0 100px 0;background-size: cover;}
+.mod_visual{background: url(../images/3492000392_visual.png) no-repeat center;padding: 200px 0 100px 0;background-size: cover;}
 .mod_visual .title{font-size: 26px;color: #fff;margin-bottom: 1rem}
 .mod_visual .comName{font-size: 6.5rem;color: #fff;font-weight: bold}
 .mod_visual .imgCi{margin-top: 160px}
@@ -11,6 +12,7 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 .sns_mod_info.sty01 {background: #333;padding: 10rem 0}
 .sns_mod_info.sty01 .info_wrap{display: flex;}
 .sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #5a6af4}
+.mod_info01 > div .num{color: #fac000}
 .sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
 .sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
 .sns_mod_info.sty01 ul li:last-child{margin-right: 0}
@@ -25,13 +27,145 @@ body{max-width: 1440px;width: 100%;margin: auto;}
 
 .mod_info01{background: url(../images/3492000392_vision.png) no-repeat;background-size: cover;}
 .mod_talent01{background:  linear-gradient(90deg, rgba(84,21,125,1) 0%, rgba(163,61,146,1) 100%);}
+.mod_talent01 .title_area h2:before{background: #fff}
 .mod_talent01 .text_area,
 .mod_talent01 > .container > div{color: #fff;}
 
 
 .mod_strategic01{background: #f4f4f4;}
-.mod_strategic01 h3{border-left: 2px solid #333333;padding-left: 2rem;display: flex;align-items:flex-end;line-height: 1.2}
+.mod_strategic01 h3{border-left: 2px solid #333333;padding-left: 2rem;display: flex;align-items:flex-end;line-height: 1.2;margin-bottom: 5rem}
 .mod_strategic01 h3 p{font-size: 4rem;font-weight: bold;text-transform: uppercase;color: #333;}
 .mod_strategic01 h3 span{color: #333;line-height: 1.8;font-size: 2.1rem;margin-left: 3rem}
 .mod_strategic01 .item + .item{margin-top: 8rem;padding-top: 8rem;border-top: 1px solid #cccccc;}
-.mod_strategic01 .keyTask{display: flex;margin-bottom: 5ren}
+.mod_strategic01 .item{position: relative;}
+.mod_strategic01 .keyTask{max-width: 900px;width: 100%;position: relative;padding-bottom: 50px;}
+.mod_strategic01 .item:nth-child(1):after{content: '';display: block;background: url(../images/3492000392_kt.png) no-repeat;width: 377px;height: 426px;position: absolute;right: -80px;top: 50px}
+.mod_strategic01 .keyTask .list {text-align: center;font-size: 3rem;background: #fff;width: calc(33.333% - 16.666px);border-radius: 15px;font-size: 3rem;font-weight: bold;min-height: 280px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.mod_strategic01 .keyTask .list:before{content: '';margin-bottom: 2rem;width: 100%;height: 55px}
+.mod_strategic01 .keyTask .slick-list{margin: 0 -10px}
+.mod_strategic01 .keyTask .slick-slide{margin: 0 10px;height: auto}
+.mod_strategic01 .keyTask .list:before{background: url(../images/3492000392_kt01.png) no-repeat center;}
+.mod_strategic01 .keyTask .list:nth-child(2n):before{background: url(../images/3492000392_kt02.png) no-repeat center;}
+.mod_strategic01 .keyTask .list:nth-child(3n):before{background: url(../images/3492000392_kt03.png) no-repeat center;}
+
+.mod_strategic01 .slick-dots{position: absolute;bottom: 0;text-align: center;left: 50%;transform: translateX(-50%)}
+.mod_strategic01 .slick-dots li{display: inline-block;margin: 0 5px;}
+.mod_strategic01 .slick-dots li button{width: 10px;height: 10px;text-indent: -9999px;background: #ccc;border-radius: 50%;}
+.mod_strategic01 .slick-dots li.slick-active button{border-radius: 30px;background: #53157d;width: 50px;}
+.mod_strategic01 .slick-dots li.slick-active:only-child button{display: none}
+
+.mod_strategic01 .keyTask .list *{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .item:nth-child(2){max-width: 900px;width: 100%;margin-left: auto;}
+.mod_strategic01 .item:nth-child(2):after{content: '';display: block;background: url(../images/3492000392_kv.png) no-repeat;width: 490px;height: 348px;position: absolute;left: -410px;bottom: -30px;}
+.mod_strategic01 .keyValue li{background: #fff;font-size: 3rem;font-weight: bold;text-align: center;padding: 10rem 5rem;border-radius: 15px;}
+.mod_strategic01 .keyValue li *{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .keyValue li + li{margin-top: 3rem}
+
+.mod_swot02{background: #fff;padding: 0;}
+.mod_swot02 h3 span{color: #cccccc;}
+.mod_swot02 .swot_wrap .swotS span{background: #641997}
+.mod_swot02 .swot_wrap .swotS .tit{color: #641997}
+.mod_swot02 .swot_wrap .swotS .tit:before{background: url(../images/3492000392_swot01.png) no-repeat center;}
+.mod_swot02 .swot_wrap .swotW span{background: #8ab0cd}
+.mod_swot02 .swot_wrap .swotW .tit{color: #8ab0cd}
+.mod_swot02 .swot_wrap .swotW .tit:before{background: url(../images/3492000392_swot02.png) no-repeat center;}
+.mod_swot02 .swot_wrap .swotO span{background: #377ea7}
+.mod_swot02 .swot_wrap .swotO .tit{color: #377ea7}
+.mod_swot02 .swot_wrap .swotO .tit:before{background: url(../images/3492000392_swot03.png) no-repeat center;}
+.mod_swot02 .swot_wrap .swotT span{background: #394955}
+.mod_swot02 .swot_wrap .swotT .tit{color: #394955}
+.mod_swot02 .swot_wrap .swotT .tit:before{background: url(../images/3492000392_swot04.png) no-repeat center;}
+
+.mod_finance08{margin: 0;background: #f4f4f4}
+.mod_finance08 h3{}
+.mod_finance08 h3 span{color: #53157d;font-weight: bold;}
+.mod_finance08 .tit_wrap > h3 span:after{background: #53157d}
+.mod_finance08 .conts_wrap > div{background: #53157d}
+.mod_finance08 .conts_wrap > div:nth-child(even){border-color: #53157d;color: #53157d}
+.mod_finance08 .conts_wrap > div:nth-child(odd){position: relative;z-index: 5}
+
+.mod_percent01,
+.mod_business_area03{padding: 0 !important}
+
+.mod_business_area03 h3 em{color: #53157d;}
+.mod_percent01 .percent_wrap > div > div span{color: #a43e92}
+.mod_percent01 .percent_wrap .scale .ico{background: url(../images/3492000392_percent01.png) no-repeat;}
+.mod_percent01 .percent_wrap .growth .ico{background: url(../images/3492000392_percent02.png) no-repeat;}
+.mod_percent01 .percent_wrap .profit .ico{background: url(../images/3492000392_percent03.png) no-repeat;}
+.mod_percent01 .percent_wrap .stable .ico{background: url(../images/3492000392_percent04.png) no-repeat;}
+
+.mod_culture11 .culture_wrap .item.dvCulture_0:before{background: url(../images/3492000392_cul01.png) no-repeat;}
+.mod_culture11 .culture_wrap .item.dvCulture_1:before{background: url(../images/3492000392_cul02.png) no-repeat;}
+.mod_culture11 .culture_wrap .item.dvCulture_2:before{background: url(../images/3492000392_cul03.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.deduct:before{background: url(../images/3492000392_wel01.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.insurance:before{background: url(../images/3492000392_wel02.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.education:before{background: url(../images/3492000392_wel03.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.convenience:before{background: url(../images/3492000392_wel04.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.leisure:before{background: url(../images/3492000392_wel05.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.reward:before{background: url(../images/3492000392_wel06.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.facilities:before{background: url(../images/3492000392_wel07.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.holiday:before{background: url(../images/3492000392_wel08.png) no-repeat;}
+.mod_culture11 .welfare_wrap .item.handicap:before{background: url(../images/3492000392_wel09.png) no-repeat;}
+
+.mod_culture11{background: #f0deed}
+.mod_culture11 h3 span{color: #fff;}
+.mod_culture11 h3{color: #333}
+.mod_culture11 .welfare_wrap .title{background: #53157d}
+
+.mod_imgCom {position: relative}
+.mod_imgCom .container,
+.mod_imgCom .img_wrap{position: static;}
+.mod_imgCom .slick-arrow{position: absolute;top: 50%;transform: translateY(-50%);width: 80px;height: 100px;text-indent: -9999px;z-index: 55}
+.mod_imgCom .slick-prev{left: 0;background: url(../images/3492000392_comPic_prev.png) no-repeat center #999;}
+.mod_imgCom .slick-next{right: 0;background: url(../images/3492000392_comPic_next.png) no-repeat center #999;}
+.mod_imgCom .slick-arrow.slick-disabled{opacity: 0.5}
+.mod_imgCom .slick-list{margin: 0 -10px}
+.mod_imgCom .slick-slide{height: auto;margin: -20px 10px}
+.mod_imgCom .slick-slide > div{margin: 20px 0}
+
+.mod_comMov .comMov{border-radius: 0}
+
+@media all and (max-width:1200px){
+    .mod_visual .container,
+    .mod_strategic01 .container,
+    .mod_talent01 .container{max-width: 1200px;width: calc(100% - 40px);}
+    .mod_strategic01 .item:nth-child(1):after,
+    .mod_strategic01 .item:nth-child(2):after{display: none}
+    .mod_strategic01 .keyTask,
+    .mod_strategic01 .item:nth-child(2){max-width: 100%}
+    .mod_strategic01 .item + .item{margin-top: 5rem;padding-top: 5rem}
+}
+
+@media all and (max-width:1024px){
+    
+    .mod_visual{padding: 70px 0}
+    .mod_visual .title{font-size: 1.8rem;}
+    .mod_visual .comName{font-size: 4rem}
+    .mod_visual .imgCi{margin-top: 5rem}
+    .mod_visual .imgCi img{max-width:120px; }
+}
+
+@media all and (max-width:768px){
+    html{font-size: 8px}
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    .mod_strategic01 .keyTask .list{min-height: 200px;}
+    .mod_strategic01 .keyTask .list *{font-size: 2rem;}
+    .mod_strategic01 .keyTask .list:before{background-size: 30px !important;height: 37px !important;margin-bottom: 1rem !important}
+    .mod_swot02 .swot_wrap .swotS .tit:before, .mod_swot02 .swot_wrap .swotW .tit:before, .mod_swot02 .swot_wrap .swotO .tit:before, .mod_swot02 .swot_wrap .swotT .tit:before{background-size: 40px !important}
+    .mod_percent01 .percent_wrap .ico{background-size: 60px !important}
+    .mod_imgCom .slick-arrow{width: 50px;height: 70px;background-size: 15px !important}
+}
+
+@media all and (max-width:640px){
+    
+}
+
+@media all and (max-width:480px){
+    
+}
