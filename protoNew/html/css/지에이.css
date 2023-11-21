@@ -1,5 +1,60 @@
-body{width: 100%;margin: auto;}
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
 
-.mod_visual{background: url(../)}
+.mod_visual{background: url(../images/2248138829_visual.png) no-repeat center;padding: 40px 0;height: 700px;background-size: cover}
 .mg70{margin: 7rem 0}
 .pd70{padding: 7rem 0}
+.mod_visual .txt{margin-top: 160px;text-align:center;width: 100%;}
+.mod_visual .txt .title{font-size: 3rem;color: #fff;margin-bottom: 1.5rem;}
+.mod_visual .txt .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
+
+.sns_mod_info.sty01{background: url(../images/2248138829_info.png) no-repeat;background-size: cover;}
+.sns_mod_info.sty01 .info_wrap > li{color: #516a0c}
+
+.mod_history02 .history .slick-slide > span::before{background: #516a0c}
+.mod_history02 .history .slick-slide > span{border-top-color: #516a0c}
+.mod_history02 .history .slick-slide > ul li .month{color: #cccccc}
+.mod_history02 .history .slick-slide > span{font-size: 3rem;font-weight: 500}
+.mod_history02 .slick-slide{height: auto;}
+
+.mod_info01{background: url(../images/2248138829_vission.png) no-repeat !important;background-size: cover}
+.mod_info01 > div{background: none;}
+.mod_info01 > div .num{color: #516a0c;line-height: 1;font-weight: 500}
+
+.mod_talent02 .title_area h2:before {width: 3px;height: 80%;content: "";display: block;position: absolute;left: 0;top: 50%;transform: translateY(-50%);background: #333;}
+.mod_talent02 .title_area h2 {padding: 0 0 0 30px;font-size: 4rem;font-weight: 800;text-transform: uppercase;position: relative;}
+.mod_talent02 .title_area span{font-size: 3rem;font-weight: bold;margin-bottom: 5px;display: inline-block;margin-left: 3rem}
+.mod_talent02 .tit_bt{padding: 0 0 0 30px;font-size: 2rem;color: #666666;margin-top: 2rem}
+.mod_talent02 .talent_area{margin-top: 8rem;position: relative;}
+.mod_talent02 .talent_area .slick-slide{height: auto;}
+.mod_talent02 .slick-dots{width: 100%;text-align: center;margin-top: 5rem}
+.mod_talent02 .slick-dots li{display: inline-block;margin: 0 5px;}
+.mod_talent02 .slick-dots li button{width: 10px;height: 10px;border-radius: 50%;text-indent: -9999px;background: #ccc}
+.mod_talent02 .slick-dots li.slick-active button{width: 50px;border-radius: 30px;background: #516a0c}
+.mod_talent02 .slick-dots li.slick-active:only-child{display: none}
+.mod_talent02 .talent_area .item{text-align: center;}
+.mod_talent02 .talent_area .item .img{display: flex;justify-content: center;align-items: center;flex-direction: column;height: 132px;}
+.mod_talent02 .talent_area .item .img img{max-width: 100%;}
+.mod_talent02 .talent_area .item .tit{font-size: 2rem;margin: 1.5rem 2rem;font-weight: bold;}
+.mod_talent02 .talent_area .item .desc{word-break: keep-all;font-size: 1.8rem;color: #666666;}
+.mod_talent02 .slick-list {margin: 0 -30px}
+.mod_talent02 .slick-slide {margin: 0 30px}
+
+.mod_strategic01 .task_wrap{display: flex;}
+.mod_strategic01 .task_wrap > div{padding: 7rem 0;width: 50%}
+.mod_strategic01 .task_wrap .kt_bg{background: url(../images/2248138829_kt.png) no-repeat;background-size: cover;}
+.mod_strategic01 .task_wrap .kv_bg{background: url(../images/2248138829_kv.png) no-repeat;background-size: cover;}
+.mod_strategic01 .task_wrap > div > .item{padding: 4rem;box-sizing: border-box;max-width: 540px;width: calc(100% - 20px);background: rgba(255, 255, 255, 0.85)}
+.mod_strategic01 .task_wrap .kt_bg .item{margin-left: auto;border-radius: 15px 0 0 0;}
+.mod_strategic01 .task_wrap .kv_bg .item{margin-right: auto;border-radius: 0 0 15px 0 ;position: relative;}
+.mod_strategic01 .task_wrap .kv_bg .item:before{content: '';display: block;width: 1px;height: calc(100% - 70px);background: #ddd;position: absolute;left: 0;top: 50%;transform: translateY(-50%)}
+.mod_strategic01 .task_wrap .slick-slide{height: auto;}
+.mod_strategic01 .task_wrap h3{font-size: 3rem;font-weight: bold;color: #18006d;margin-bottom: 2.5rem}
+.mod_strategic01 .task_wrap .keyTask .tit{font-size: 2rem;font-weight: bold;display: block;margin-bottom: 1rem;color: #18006d}
+.mod_strategic01 .task_wrap .keyTask .desc{display: block;font-size: 1.6rem;}
+.mod_strategic01 .task_wrap .keyTask .list{padding-bottom: 1.5rem;margin-bottom: 1.5rem;border-bottom: 1px solid #dddddd}
+.mod_strategic01 .slick-dots{width: 100%;text-align: center;margin-top: 5rem}
+.mod_strategic01 .slick-dots li{display: inline-block;margin: 0 5px;}
+.mod_strategic01 .slick-dots li button{width: 10px;height: 10px;border-radius: 50%;text-indent: -9999px;background: #ccc}
+.mod_strategic01 .slick-dots li.slick-active button{width: 50px;border-radius: 30px;background: #18006d}
+.mod_strategic01 .slick-dots li.slick-active:only-child{display: none}
