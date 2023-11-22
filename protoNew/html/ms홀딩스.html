@@ -366,7 +366,7 @@
                     </div>
                     <div class='info'>
                         <h4>ms마트</h4>
-                        <p>좋은 상품을 저렴한 가격에 판매하는 춘천 대표향토기업</p>
+                        <p>좋은 상품을 저렴한 가격에 판매하는 춘천 대표향토기업<br>좋은 상품을 저렴한 가격에 판매하는 춘천 대표향토기업좋은 상품을 저렴한 가격에 판매하는 춘천 대표향토기업<br>
                     </div>
                 </div>
 
@@ -378,6 +378,13 @@
     <div class="mod_product mg70">
         <div class="container">
             <div class="product product_slide">
+                <div class='item'>
+                    <div class='thumb'><img src='images/2218133427_pro01.png' alt='Electronic Warfare 전자전 시스템'></div>
+                    <div class='info'>
+                        <h4>Electronic Warfare<br />전자전 시스템</h4>
+                        <p>전자전 시스템은 적 레이더, 미사일 등에서 방사되는 전자파를 탐지, 분석, 식별, 경고, 공격, 방어하는 무기체계로 ㈜빅텍은 해군과 공군에 다양한 전자전 장비를 납품해왔습니다.</p>
+                    </div>
+                </div>
                 <div class='item'>
                     <div class='thumb'><img src='images/2218133427_pro01.png' alt='Electronic Warfare 전자전 시스템'></div>
                     <div class='info'>
@@ -724,27 +731,52 @@
 
         interview06 = $('.mod_interview06 .interview');
 
-        function interview06_slide() {
-            interview06.slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: false,
-                dots: false,
-                arrows: false,
-                infinite: false,
-                adaptiveHeight: false,
-            });
-        }
-        interview06_slide();
-
-        $(".mod_interview06 .bg .q").click(function() {
-            var $this = $(this);
-            var $parent = $this.parent().siblings();
-            $parent.find(".q").removeClass("active");
-            $this.addClass("active");
-            interview06.slick('unslick');
+            function interview06_slide() {
+                interview06.slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                    dots: false,
+                    infinite: false,
+                    adaptiveHeight: true,
+                    prevArrow: $('.prev_arrow'),
+                    nextArrow: $('.next_arrow'),
+                });
+            }
             interview06_slide();
-        });
+
+            $(".mod_interview06 .bg .q").click(function() {
+                var $this = $(this);
+                var $parent = $this.parent().siblings();
+                $parent.find(".q").removeClass("active");
+                $this.addClass("active");
+
+                var itHeight = $('.mod_interview06 .slick-track').height();
+                $('.mod_interview06 .slick-list').css('height', itHeight);
+
+            });
+        
+        function setThumbMinHeight() {
+    var maxInfoHeight = 0;
+
+    // 각 info 요소의 높이를 확인하고 최대 높이를 찾음
+    $('.mod_business_cst .info').each(function() {
+        var currentHeight = $(this).height();
+        maxInfoHeight = Math.max(maxInfoHeight, currentHeight);
+    });
+
+    $('.mod_business_cst .thumb img').css('min-height', maxInfoHeight + 'px');
+}
+
+// 초기 로드 때 실행
+setThumbMinHeight();
+
+// 윈도우 리사이즈 이벤트 핸들러 등록
+$(window).resize(function() {
+    // 리사이즈할 때마다 함수 호출
+    setThumbMinHeight();
+});
+
 
     </script>
 
