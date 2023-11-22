@@ -114,3 +114,13 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_business_area03 h3 span{color: #333}
 .mod_business_area03 h3{color: #cccccc}
 .mod_business_area03 h3 em{color: #333333}
+.mod_culture07 h3 span{color: #ccc}
+.mod_culture07 .container .slick-track > .item{background: #516a0c}
+.mod_culture07 .container .slick-track > .item:nth-child(even){background:#f78c00 }
+.mod_culture07 .prev_arrow{background: url(../images/2248138829_cul_prev.png) no-repeat center}
+.mod_culture07 .next_arrow{background: url(../images/2248138829_cul_next.png) no-repeat center}
+
+.mod_interview04 .container .iv_tab h2 > p{font-weight: bold;}
+.mod_interview04 .container .iv_tab .btn_g button{background-color: #f78c00 !important}
+.mod_interview04 .container .iv_cont::after {color: #f78c00}
+.mod_interview04 .container .slick-dots li.slick-active{background: #f78c00}

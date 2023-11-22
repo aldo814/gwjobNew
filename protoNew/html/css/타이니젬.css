@@ -123,7 +123,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_imgCom .slick-list{margin: 0 -10px}
 .mod_imgCom .slick-slide{height: auto;margin: -20px 10px}
 .mod_imgCom .slick-slide > div{margin: 20px 0}
-
+.mod_imgCom img{width: 100%}
 .mod_comMov .comMov{border-radius: 0}
 
 @media all and (max-width:1200px){
