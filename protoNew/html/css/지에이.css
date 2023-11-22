@@ -17,6 +17,17 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_history02 .history .slick-slide > span{font-size: 3rem;font-weight: 500}
 .mod_history02 .slick-slide{height: auto;}
 
+.sns_mod_info{background: url(../images/2218133427_info.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #516a0c}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(../images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(../images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(../images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(../images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
 .mod_info01{background: url(../images/2248138829_vission.png) no-repeat !important;background-size: cover}
 .mod_info01 > div{background: none;}
 .mod_info01 > div .num{color: #516a0c;line-height: 1;font-weight: 500}
@@ -45,9 +56,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .task_wrap .kt_bg{background: url(../images/2248138829_kt.png) no-repeat;background-size: cover;}
 .mod_strategic01 .task_wrap .kv_bg{background: url(../images/2248138829_kv.png) no-repeat;background-size: cover;}
 .mod_strategic01 .task_wrap > div > .item{padding: 4rem;box-sizing: border-box;max-width: 540px;width: calc(100% - 20px);background: rgba(255, 255, 255, 0.85)}
-.mod_strategic01 .task_wrap .kt_bg .item{margin-left: auto;border-radius: 15px 0 0 0;}
-.mod_strategic01 .task_wrap .kv_bg .item{margin-right: auto;border-radius: 0 0 15px 0 ;position: relative;}
+.mod_strategic01 .task_wrap .kt_bg .item{margin-left: auto;border-radius: 15px 0 0 0;  flex: 1;
+  display: flex;
+  flex-direction: column;}
+.mod_strategic01 .task_wrap .kv_bg .item{margin-right: auto;border-radius: 0 0 15px 0 ;position: relative;height: 100%}
 .mod_strategic01 .task_wrap .kv_bg .item:before{content: '';display: block;width: 1px;height: calc(100% - 70px);background: #ddd;position: absolute;left: 0;top: 50%;transform: translateY(-50%)}
+
 .mod_strategic01 .task_wrap .slick-slide{height: auto;}
 .mod_strategic01 .task_wrap h3{font-size: 3rem;font-weight: bold;color: #18006d;margin-bottom: 2.5rem}
 .mod_strategic01 .task_wrap .keyTask .tit{font-size: 2rem;font-weight: bold;display: block;margin-bottom: 1rem;color: #18006d}
@@ -58,3 +72,45 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .slick-dots li button{width: 10px;height: 10px;border-radius: 50%;text-indent: -9999px;background: #ccc}
 .mod_strategic01 .slick-dots li.slick-active button{width: 50px;border-radius: 30px;background: #18006d}
 .mod_strategic01 .slick-dots li.slick-active:only-child{display: none}
+.mod_strategic01 .task_wrap .keyValue{height: calc(100% - 65px);}
+.mod_strategic01 .task_wrap .keyValue li:after{content: '';background: url(../images/2248138829_kv_img.png) no-repeat center;width: 100%;height: 219px;margin-top: 5rem}
+.mod_strategic01 .task_wrap .keyValue li{display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;height: 100%}
+.mod_strategic01 .task_wrap .keyValue li .tit{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .task_wrap .keyValue li .desc{font-size: 1.8rem;margin-top: 1rem}
+.mod_strategic01 .task_wrap .keyValue .slick-list,
+.mod_strategic01 .task_wrap .keyValue .slick-track{height: 100%;}
+
+.mod_swot04 .diagram_area ul .swotS{background: #000000}
+.mod_swot04 .txt .swotS dt{color: #fff}
+.mod_swot04 .diagram_area ul .swotW{background: #516a0c}
+.mod_swot04 .txt .swotW dt{color: #516a0c}
+.mod_swot04 .diagram_area ul .swotO{background: #f78c00}
+.mod_swot04 .txt .swotO dt{color: #f78c00}
+.mod_swot04 .diagram_area ul .swotT{background: #18006d}
+.mod_swot04 .txt .swotT dt{color: #18006d}
+
+.mod_finance10{padding: 0 !important;background: #fff}
+.mod_finance10 .container > h3{background: url(../images/2248138829_fin.png) no-repeat center}
+.mod_finance10 .conts_wrap > div:nth-child(1):before{background: url(../images/2248138829_fin01.png) no-repeat center;}
+.mod_finance10 .conts_wrap > div:nth-child(2):before{background: url(../images/2248138829_fin02.png) no-repeat center;}
+.mod_finance10 .conts_wrap > div:nth-child(3):before{background: url(../images/2248138829_fin03.png) no-repeat center;}
+.mod_finance10 .conts_wrap > div:nth-child(4):before{background: url(../images/2248138829_fin04.png) no-repeat center;}
+
+.mod_percent04{background: #f9f9f9}
+.mod_percent04 .percent_wrap > div:nth-child(1){background:linear-gradient(33deg, rgba(168,233,206,1) 0%, rgba(109,210,170,1) 100%);}
+.mod_percent04 .percent_wrap > div:nth-child(2){background: #3fa1c6}
+.mod_percent04 .percent_wrap > div:nth-child(3){background: #18688d}
+.mod_percent04 .percent_wrap > div:nth-child(4){background: linear-gradient(180deg, rgba(7,36,53,1) 0%, rgba(14,78,114,1) 39%);}
+.mod_percent04 .percent_wrap > div:nth-child(4) > div {transform: none;top: -50px}
+.mod_percent04 .percent_wrap > div:nth-child(3) div{top: 35%}
+.mod_percent04 .percent_wrap > div:after{background: #6d95aa}
+.mod_percent04 .percent_wrap > div:nth-child(4):before{border-bottom-color: #072435}
+.mod_percent04 .percent_wrap > div > div{display: flex;flex-direction: column-reverse;}
+.mod_percent04 .percent_wrap > div > div span{margin-top: 1rem}
+.mod_business_area02{padding: 0 !important}
+.mod_business_area02 h3 span{color: #cccccc;font-weight: 500}
+.mod_business_area02 .bizDiv .slick-slide .info > h4{font-weight: 500}
+.mod_business_area03{background: #f9f9f9}
+.mod_business_area03 h3 span{color: #333}
+.mod_business_area03 h3{color: #cccccc}
+.mod_business_area03 h3 em{color: #333333}

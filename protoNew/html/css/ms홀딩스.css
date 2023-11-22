@@ -131,7 +131,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_imgCom  .img_wrap li + li {margin-top: 2rem}
 .mod_imgCom .img_wrap + .comMov{margin-top: 5rem;border-radius: 0}
 
-
+.mod_finance10 .container > h3{background-position: center}
 @media all and (max-width:1440px){
     .mod_visual .container,
     .mod_strategic01 .container{max-width: 1200px; width: calc(100% - 40px)}
