@@ -205,7 +205,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_product .thumb,
     .mod_product .info{width: calc(100% - 90px)}
     .mod_product .info{margin-top: 2rem}
-    .mod_product .slides-numbers{position: static;width: calc(100% - 160px);margin: 2rem auto 0 auto}
+    .mod_product .slides-numbers{position: static;width: calc(100% - 90px);margin: 2rem auto 0 auto}
     .mod_product h4{font-size: 2.2rem}
     .mod_interview06 .bg{margin-top: -120px}
     .mod_imgCom h3,
