@@ -38,7 +38,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .item {position: relative;}
 .mod_strategic01 .item ul{max-width: 990px;width: 100%;}
 .mod_strategic01 .item ul li{display: flex;justify-content: space-between;}
-.mod_strategic01 .item ul li *{border-radius: 15px;padding: 20px;box-sizing: border-box;display: flex;flex-direction: column;justify-content: center;}
+.mod_strategic01 .item ul li *{border-radius: 15px;padding: 20px;box-sizing: border-box;display: flex;flex-direction: column;justify-content: center;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)}
 .mod_strategic01 .item ul li .tit{background: #fab0a9;color: #fff;font-size: 2rem;text-align: center;width: 170px;box-sizing: border-box;align-items: center;}
 .mod_strategic01 .item ul li .desc{background: #fff;width: calc(100% - 190px);}
 .mod_strategic01 .item ul li + li{margin-top: 2rem;}
@@ -61,7 +61,6 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_percent02 .percent_wrap .stable .ico{background: url(../images/6618700413_fin04.png) no-repeat center}
 
 .mod_percent02{padding: 0 !important}
-
 
 .mod_business_cst .item{}
 .mod_business_cst .thumb img{object-fit: cover;height: 100%}
@@ -132,6 +131,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_strategic01 .item ul{max-width: 100%;}
     .mod_strategic01 .item:nth-child(2) h3,
     .mod_strategic01 .item:nth-child(2) ul{max-width: 100%;}
+    
 }
 
 @media all and (max-width:1200px){
@@ -189,6 +189,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_imgCom h3{font-size: 30px;}
     .mod_culture_cst h3 span{font-size: 12px}
     .mod_culture_cst h3{font-size: 30px}
+    .mod_talent_cst .text_area h3{font-size: 3rem}
+    .mod_talent_cst .text_area li{font-size: 2rem}
 }
 
 @media all and (max-width:480px){

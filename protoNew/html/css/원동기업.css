@@ -1,0 +1,191 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+
+.mod_visual{background: url(../images/3918801219_visual.png) no-repeat center;padding: 9rem 0;height: 700px;background-size: cover}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+.mod_visual .imgCi{margin-top: 7rem}
+.mod_visual .txt{margin-top: 6rem;width: 100%;}
+.mod_visual .txt .title{font-size: 2.6rem;margin-bottom: 1.5rem;}
+.mod_visual .txt .comName{color: #62840e;font-size: 6.5rem;font-weight: bold;}
+
+.sns_mod_info.sty01{background: url(../images/3918801219_info.png) no-repeat;background-size: cover;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #8cc10f}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(../images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(../images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(../images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(../images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+ .mod_history01 .history > div > span{
+        background: linear-gradient(90deg, #8bc00e 0%, #113600 100%)}
+
+.mod_history01 .history > div > ul > li .month{color: #8bc00e}
+.mod_info01 > div{background: #111}
+.mod_info01 > div .num{color: #8bc00e}
+
+.mod_talent_cst .top_img{background: url(../images/3918801219_tabBg.png) no-repeat center bottom #ebf5cf;text-align: center;padding-top:8rem }
+.mod_talent_cst .top_img img{max-width: 90%}
+.mod_talent_cst .text_area{background: #a6c451;text-align: center;padding: 5rem 0}
+.mod_talent_cst .text_area h3{color: #fff;font-size: 4rem;margin-bottom: 2rem;font-weight: bold;}
+.mod_talent_cst .text_area li{color: #fff;font-size: 2.4rem;}
+.mod_talent_cst .text_area li + li{margin-top: 1.5rem}
+.mod_talent_cst .text_area li:before{content: '“';display: inline}
+.mod_talent_cst .text_area li:after{content: '”';display: inline}
+
+
+.mod_strategic01 {background: url(../images/3918801219_kt.png) no-repeat bottom center #e7edd9;padding-bottom: 12rem}
+.mod_strategic01 h3{border-left: 2px solid #333333;padding-left: 2rem;display: flex;align-items:flex-end;line-height: 1.2;margin-bottom: 5rem}
+.mod_strategic01 h3 p{font-size: 4rem;font-weight: bold;text-transform: uppercase;color: #333;}
+.mod_strategic01 h3 span{color: #333;line-height: 1.8;font-size: 2.1rem;margin-left: 3rem}
+.mod_strategic01 .item {position: relative;}
+.mod_strategic01 .item:nth-child(1) ul{max-width:700px;width: 100%;}
+.mod_strategic01 .item ul li *{border-radius: 15px;padding: 5rem 20px;box-sizing: border-box;display: flex;flex-direction: column;justify-content: center;font-weight: bold}
+.mod_strategic01 .item ul li .tit{background: #fff;color: #333;font-size: 2rem;text-align: center;box-sizing: border-box;align-items: center;}
+
+.mod_strategic01 .item ul li + li{margin-top: 2rem;}
+.mod_strategic01 .item + .item{border-top: 1px solid #cccccc;padding-top: 7rem;margin-top: 7rem;}
+.mod_strategic01 .item:nth-child(1):after{content: '';display: block;background: url(../images/3918801219_kv.png) no-repeat;width: 398px;height: 418px;position: absolute;right: -0;bottom: -7rem;}
+.mod_strategic01 .item:nth-child(2) h3{max-width: 700px;width: 100%;margin-left: auto;flex-direction: row-reverse;border-left: 0;border-right: 2px solid #333;padding-left: 0;padding-right: 2rem}
+.mod_strategic01 .item:nth-child(2) h3 span{margin-left: 0;margin-right: 3rem}
+.mod_strategic01 .item:nth-child(2) ul{max-width: 700px;margin-left: auto;width: 100%}
+
+.mod_finance08 h3 span{color: #8cc10f}
+.mod_finance08 .tit_wrap > h3 span:after{background: #8cc10f}
+.mod_finance08 .conts_wrap > div{background: #8cc10f}
+.mod_finance08 .conts_wrap > div:nth-child(even){border-color: #8cc10f;color: #8cc10f}
+.mod_finance08 .conts_wrap > div:nth-child(even) .tit{color: #333}
+.mod_finance08 .conts_wrap > div:nth-child(odd){position: relative;}
+
+.mod_percent02{background: #e7edd9}
+.mod_percent02 .percent_wrap > div > div span{color: #00877b;}
+.mod_percent02 .percent_wrap .scale .ico{background: url(../images/3918801219_per01.png) no-repeat center}
+.mod_percent02 .percent_wrap .growth .ico{background: url(../images/3918801219_per02.png) no-repeat center}
+.mod_percent02 .percent_wrap .profit .ico{background: url(../images/3918801219_per03.png) no-repeat center}
+.mod_percent02 .percent_wrap .stable .ico{background: url(../images/3918801219_per04.png) no-repeat center}
+
+.mod_business_area03{background:#f4f4f4 }
+.mod_business_area03 h3 em{color: #8cc10f}
+
+.mod_business_area03 .bizDiv .slick-slide{background:transparent }
+.mod_product .slick-slide{height: auto;}
+.mod_product .item{display: flex;flex-direction: row-reverse;align-items: center;position: relative;justify-content: space-between}
+.mod_product h4{font-size: 4rem;font-weight: bold;margin-bottom: 2rem;color: #002856;}
+.mod_product p{font-size: 1.8rem;color: #666666;word-break: keep-all}
+.mod_product .thumb{width: 55%}
+.mod_product .thumb img{width: 100%}
+.mod_product .info{width: 45%;padding-right: 4rem;box-sizing: border-box;}
+.mod_product .slides-numbers{display: flex;position: absolute;bottom: 0;left: calc(45% - 100px)}
+.mod_product .slides-numbers .active{font-size: 3rem;color: #f68a1e;font-weight: bold}
+.mod_product .slides-numbers .total{font-size: 1.6rem;color: #898989;font-weight: bold;}
+.mod_product .slides-numbers em{color: #898989}
+.mod_product .slick-arrow{width: 70px;height: 80px;text-indent: -9999px;position: absolute;top: 50%;transform: translateY(-50%);z-index: 5}
+.mod_product .slick-prev{background: url(../images/2218133427_prev.png) no-repeat rgba(0, 0, 0, 0.2) center;left: calc(45% - 35px)}
+.mod_product .slick-next{background: url(../images/2218133427_next.png) no-repeat rgba(0, 0, 0, 0.2) center;right: -35px;}
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_culture{background: #f4f4f4}
+.mod_culture .item{position: relative;}
+.mod_culture .item + .item{margin-top: 4rem}
+.mod_culture .item .img{width: 560px;}
+.mod_culture .item .img img{max-width: 100%;}
+.mod_culture .item dl{background: #fff;width: 700px;padding: 6rem;box-sizing: border-box;position: absolute;top: 50%;transform: translateY(-50%);box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)}
+.mod_culture .item dt{font-size: 3rem;font-weight: bold;margin-bottom: 2rem}
+.mod_culture .item dd{font-size: 1.8rem;color: #666666;word-break: keep-all;}
+.mod_culture .item:nth-child(1) .img{margin-left: auto;}
+.mod_culture .item:nth-child(1) dl{left: 0;}
+.mod_culture .item:nth-child(2) dl{right: 0}
+
+.mod_imgCom .img_area{position: relative;}
+.mod_imgCom h3{text-align: center;font-size: 4rem;font-weight: bold;margin-bottom: 4rem}
+.mod_imgCom .slick-slide{height: auto;}
+.mod_imgCom .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_imgCom .sw_btn_wrap .slick-disabled{opacity:.3;}
+.mod_imgCom .sw_btn_wrap .prev_arrow{left:0;background-position:0 0;}
+.mod_imgCom .sw_btn_wrap .next_arrow{right:0;background-position:-70px 0;}
+
+
+@media all and (max-width:1440px){
+    
+    .mod_strategic01 .item:nth-child(1):after{display: none}
+    
+    .mod_product .slick-next{right: 0}
+    .mod_product .slick-prev{left: 45%}
+    
+    .mod_culture .container{width: calc(100% - 40px)}
+}
+
+@media all and (max-width:1200px){
+    .mod_visual .container,
+    .mod_strategic01 .container{width: calc(100% - 40px)}
+}
+
+
+@media all and (max-width:1024px){
+    .mod_visual{height: auto;}
+    .mod_visual .imgCi{margin-top: 0}
+    
+    .mod_culture .item .img{width: 400px}
+    .mod_culture .item dl{max-width: 600px;width: calc(90% - 40px)}
+}
+
+@media all and (max-width:768px){
+    html {font-size: 8px}
+    .mod_visual .imgCi img{max-width: 130px}
+    .mod_visual .txt{margin-top: 4rem}
+    .mod_visual .txt .title{font-size: 2rem;margin-bottom: 1rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    .mod_strategic01{background-size: 400px;padding-bottom: 7rem}
+    
+    .mod_product .item{flex-direction: column}
+    .mod_product .slick-arrow{width: 30px;height: 50px;background-size: 10px}
+    .mod_product .slick-prev{left: 0}
+    .mod_product .thumb,
+    .mod_product .info{width: calc(100% - 90px)}
+    .mod_product .info{margin-top: 2rem}
+    .mod_product .slides-numbers{position: static;width: calc(100% - 90px);margin: 2rem auto 0 auto}
+    .mod_product h4{font-size: 2.2rem}
+    
+    .mod_culture .item dt{font-size: 2.4rem;margin-bottom: 1rem}
+    .mod_culture .item dl{padding: 4rem 3rem}
+    .mod_imgCom .sw_btn_wrap .slick-arrow{width: 50px;height: 70px;background-size: 15px !important}
+}
+
+@media all and (max-width:640px){
+    .mod_culture .item .img{width: 250px}
+    .mod_culture .item dt{font-size: 2rem}
+    .pro_tit span{font-size: 12px}
+    .mod_imgCom h3{font-size: 30px}
+}
+
+@media all and (max-width:480px){
+     .mod_strategic01 h3 p{font-size: 3rem}
+    .mod_strategic01 h3 span{font-size: 1.8rem}
+    .mod_swot05 .swot_wrap .diagram_area{zoom:0.7}
+}
