@@ -161,6 +161,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_swot02 .swot_wrap .swotS .tit:before, .mod_swot02 .swot_wrap .swotW .tit:before, .mod_swot02 .swot_wrap .swotO .tit:before, .mod_swot02 .swot_wrap .swotT .tit:before{background-size: 40px !important}
     .mod_percent01 .percent_wrap .ico{background-size: 60px !important}
     .mod_imgCom .slick-arrow{width: 50px;height: 70px;background-size: 15px !important}
+    .mod_strategic01 .keyValue li{padding: 5rem 2rem}
+    .mod_strategic01 .keyValue li *{font-size: 2.2rem}
 }
 
 @media all and (max-width:640px){

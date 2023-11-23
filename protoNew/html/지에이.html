@@ -613,10 +613,10 @@
                             <div class="interview_txt">
                                 <div class="ivCeoPhoto photo">
                                     <!-- 데이터 연동에 따른 영역 자동 출력 : 아래 영역은 자동 치환 - 레이아웃 잡을 경우 활용용 데이터 -->
-                                    <img src='http://placeimg.com/600/800/people' alt=''>
+                                    <img src='images/2248138829_ceo.png' alt=''>
                                 </div>
                                 <div class="txt">
-                                    <h3>CEO 인터뷰</h3>
+                                    <h3>대표이사 인터뷰</h3>
                                     <strong>도전, 열정, 창의 가장 행복한 자리는 일자리입니다.</strong>
                                     <p>도전과 실패를 두려워하지 않으며, 문제 처리에 있어 관행적인 방식보다는 새로운 방식을 선호하고 능동적으로 행동한다. 지속가능한 가치를 추구하고, 고객의 니즈 충족과 회사 이익에 부합되는 대안을 효과적으로 제시한다. 잠재적인 기회를 찾아내기 위해 관심을 보이고, 새로운 기회를 포착하면 신속히 결단하여 경쟁력 확보에 힘쓴다. </p>
                                 </div>
@@ -651,10 +651,10 @@
                             <div class="interview_txt">
                                 <div class="ivMngPhoto photo">
                                     <!-- 데이터 연동에 따른 영역 자동 출력 : 아래 영역은 자동 치환 - 레이아웃 잡을 경우 활용용 데이터 -->
-                                    <img src='http://placeimg.com/600/800/tech' alt=''>
+                                    <img src='images/2248138829_mng.png' alt=''>
                                 </div>
                                 <div class="txt">
-                                    <h3>인사담당자 인터뷰</h3>
+                                    <h3>인사담당자</h3>
                                     <strong>도전, 열정, 창의 가장 행복한 자리는 일자리입니다.</strong>
                                     <p>도전과 실패를 두려워하지 않으며, 문제 처리에 있어 관행적인 방식보다는 새로운 방식을 선호하고 능동적으로 행동한다. 지속가능한 가치를 추구하고, 고객의 니즈 충족과 회사 이익에 부합되는 대안을 효과적으로 제시한다. 잠재적인 기회를 찾아내기 위해 관심을 보이고, 새로운 기회를 포착하면 신속히 결단하여 경쟁력 확보에 힘쓴다. </p>
                                 </div>
@@ -689,10 +689,10 @@
                             <div class="interview_txt">
                                 <div class="ivEmpPhoto photo">
                                     <!-- 데이터 연동에 따른 영역 자동 출력 : 아래 영역은 자동 치환 - 레이아웃 잡을 경우 활용용 데이터 -->
-                                    <img src='http://placeimg.com/600/800/nature' alt=''>
+                                    <img src='images/2248138829_emp.png' alt=''>
                                 </div>
                                 <div class="txt">
-                                    <h3>재직자 인터뷰</h3>
+                                    <h3>재직자 인터뷰(1년차)</h3>
                                     <strong>도전, 열정, 창의 가장 행복한 자리는 일자리입니다.</strong>
                                     <p>도전과 실패를 두려워하지 않으며, 문제 처리에 있어 관행적인 방식보다는 새로운 방식을 선호하고 능동적으로 행동한다. 지속가능한 가치를 추구하고, 고객의 니즈 충족과 회사 이익에 부합되는 대안을 효과적으로 제시한다. 잠재적인 기회를 찾아내기 위해 관심을 보이고, 새로운 기회를 포착하면 신속히 결단하여 경쟁력 확보에 힘쓴다. </p>
                                 </div>
@@ -728,6 +728,32 @@
             </div>
         </div>
     </div>
+
+
+    <div class="mod_comPic mg70">
+        <div class="container">
+            <ul class="comPic img_wrap">
+                <li>
+                    <img src="images/2248138829_comPic.png" alt="">
+                </li>
+                <li>
+                    <img src="images/2248138829_comPic.png" alt="">
+                </li>
+            </ul>
+            <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="background-size: 0% 100%;">
+                <span class="slider__label sr-only"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mod_comMov mg70">
+        <div class="container">
+            <div class="comMov">
+                <iframe width="896" height="504" src="https://www.youtube.com/embed/8CzIK0gorCw" title="2 시간 지브리 음악 🚍 지브리 역사상 컬렉션" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <script>
         $('.mod_history02 .history').slick({
             slidesToShow: 3,
@@ -780,7 +806,22 @@
             rows: 5,
             slidesToShow: 1,
             arrows: false,
-            dots: true
+            dots: true,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                   rows: 3,
+                }
+            },
+                         {
+                             breakpoint: 640,
+                settings: {
+                   rows: 2,
+                }
+                         }
+                        
+                        
+                        ]
         });
         $('.mod_strategic01 .keyValue').slick({
             slidesToShow: 1,
@@ -915,10 +956,11 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: false,
-                dots: true,
-                arrows: true,
+                dots: false,
                 infinite: false,
-                adaptiveHeight: false,
+                adaptiveHeight: true,
+                prevArrow: $('.prev_arrow'),
+                nextArrow: $('.next_arrow'),
             });
         }
         interview06_slide();
@@ -928,8 +970,53 @@
             var $parent = $this.parent().siblings();
             $parent.find(".q").removeClass("active");
             $this.addClass("active");
-            interview06.slick('unslick');
-            interview06_slide();
+
+            var itHeight = $('.mod_interview06 .slick-track').height();
+            $('.mod_interview06 .slick-list').css('height', itHeight);
+
+        });
+
+        function setThumbMinHeight() {
+            var maxInfoHeight = 0;
+
+
+        }
+
+        setThumbMinHeight()
+
+        // slick slider 초기화 (예시로 사용)
+        $('.img_wrap').slick({
+            slidesToShow: 1,
+            arrows: false
+        });
+
+        const progressBar = $(".progress");
+        const slider = $(".img_wrap");
+
+        function updateProgressBar() {
+            const currentSlide = slider.slick("slickCurrentSlide");
+            const slideCount = slider.slick("getSlick").slideCount;
+            const percent = (currentSlide + 1) * (100 / slideCount);
+            progressBar.find(".slider__label").css("width", `${percent}%`);
+            progressBar.find(".slider__label").text(`${percent}% completed`);
+        }
+
+        slider.on("init reInit afterChange", function(event, slick, currentSlide) {
+            updateProgressBar();
+        });
+
+        // 페이지 로드 시 초기 너비 설정
+        updateProgressBar();
+
+        // Progress 바 클릭 시 해당 슬라이드로 이동
+        progressBar.on("click", function(e) {
+            const clickX = e.pageX - $(this).offset().left;
+            const barWidth = $(this).width();
+            const percent = (clickX / barWidth) * 100;
+            const slideCount = slider.slick("getSlick").slideCount;
+            const slideIndex = Math.floor((percent * slideCount) / 100);
+
+            slider.slick("slickGoTo", slideIndex);
         });
 
     </script>
