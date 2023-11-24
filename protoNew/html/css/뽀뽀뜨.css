@@ -186,11 +186,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_culture_cst .welfare .item{width: 100%;margin-right: 0}
     .mod_culture_cst .welfare .item:nth-child(2){margin-top: 1rem}
     
-    .mod_imgCom h3{font-size: 30px;}
     .mod_culture_cst h3 span{font-size: 12px}
     .mod_culture_cst h3{font-size: 30px}
     .mod_talent_cst .text_area h3{font-size: 3rem}
     .mod_talent_cst .text_area li{font-size: 2rem}
+    
+    .mod_imgCom h3{font-size: 30px;}
 }
 
 @media all and (max-width:480px){

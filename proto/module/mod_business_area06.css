@@ -1,0 +1,27 @@
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+.mod_product .slick-slide{height: auto;}
+.mod_product .item{display: flex;flex-direction: row-reverse;align-items: center;position: relative;justify-content: space-between}
+.mod_product h4{font-size: 4rem;font-weight: bold;margin-bottom: 2rem;color: #002856;}
+.mod_product p{font-size: 1.8rem;color: #666666;word-break: keep-all}
+.mod_product .thumb{width: 55%}
+.mod_product .thumb img{width: 100%}
+.mod_product .info{width: 45%;padding-right: 4rem;box-sizing: border-box;}
+.mod_product .slides-numbers{display: flex;position: absolute;bottom: 0;left: calc(45% - 100px)}
+.mod_product .slides-numbers .active{font-size: 3rem;color: #f68a1e;font-weight: bold}
+.mod_product .slides-numbers .total{font-size: 1.6rem;color: #898989;font-weight: bold;}
+.mod_product .slides-numbers em{color: #898989}
+.mod_product .slick-arrow{width: 70px;height: 80px;text-indent: -9999px;position: absolute;top: 50%;transform: translateY(-50%);z-index: 5}
+.mod_product .slick-prev{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_prev.png) no-repeat rgba(0, 0, 0, 0.2) center;left: calc(45% - 35px)}
+.mod_product .slick-next{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_next.png) no-repeat rgba(0, 0, 0, 0.2) center;right: -35px;}
+
+@media all and (max-width:768px){
+    .mod_product h4{font-size: 2.2rem}
+    .mod_product .item{flex-direction: column}
+    .mod_product .slick-arrow{width: 30px;height: 50px;background-size: 10px}
+    .mod_product .slick-prev{left: 0}
+    .mod_product .thumb,
+    .mod_product .info{width: calc(100% - 90px)}
+    .mod_product .info{margin-top: 2rem}
+    .mod_product .slides-numbers{position: static;width: calc(100% - 90px);margin: 2rem auto 0 auto}
+}
