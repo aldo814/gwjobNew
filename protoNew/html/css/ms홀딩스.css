@@ -135,7 +135,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 @media all and (max-width:1440px){
     .mod_visual .container,
     .mod_strategic01 .container{max-width: 1200px; width: calc(100% - 40px)}
-    .mod_strategic01 .keyTask{width: 984px;background-size: 984px;height: 295px;padding-top: 120px}
+    .mod_strategic01 .keyValue{width: 984px;background-size: 984px;height: 295px;padding-top: 120px}
     
     .mod_product .slick-next{right: 0}
     .mod_product .slick-prev{left: 45%}
