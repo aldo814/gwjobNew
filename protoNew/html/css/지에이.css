@@ -64,21 +64,22 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 
 .mod_strategic01 .task_wrap .slick-slide{height: auto;}
 .mod_strategic01 .task_wrap h3{font-size: 3rem;font-weight: bold;color: #18006d;margin-bottom: 2.5rem}
-.mod_strategic01 .task_wrap .keyTask .tit{font-size: 2rem;font-weight: bold;display: block;margin-bottom: 1rem;color: #18006d}
-.mod_strategic01 .task_wrap .keyTask .desc{display: block;font-size: 1.6rem;}
-.mod_strategic01 .task_wrap .keyTask .list{padding-bottom: 1.5rem;margin-bottom: 1.5rem;border-bottom: 1px solid #dddddd}
+.mod_strategic01 .task_wrap .keyValue .tit{font-size: 2rem;font-weight: bold;display: block;margin-bottom: 1rem;color: #18006d}
+.mod_strategic01 .task_wrap .keyValue .desc{display: block;font-size: 1.6rem;}
+.mod_strategic01 .task_wrap .keyValue .list{padding-bottom: 1.5rem;margin-bottom: 1.5rem;border-bottom: 1px solid #dddddd}
 .mod_strategic01 .slick-dots{width: 100%;text-align: center;margin-top: 5rem}
 .mod_strategic01 .slick-dots li{display: inline-block;margin: 0 5px;}
 .mod_strategic01 .slick-dots li button{width: 10px;height: 10px;border-radius: 50%;text-indent: -9999px;background: #ccc}
 .mod_strategic01 .slick-dots li.slick-active button{width: 50px;border-radius: 30px;background: #18006d}
 .mod_strategic01 .slick-dots li.slick-active:only-child{display: none}
-.mod_strategic01 .task_wrap .keyValue{height: calc(100% - 65px);}
-.mod_strategic01 .task_wrap .keyValue li:after{content: '';background: url(../images/2248138829_kv_img.png) no-repeat center;width: 100%;height: 219px;margin-top: 5rem}
-.mod_strategic01 .task_wrap .keyValue li{display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;height: 100%}
-.mod_strategic01 .task_wrap .keyValue li .tit{font-size: 3rem;font-weight: bold;}
-.mod_strategic01 .task_wrap .keyValue li .desc{font-size: 1.8rem;margin-top: 1rem}
-.mod_strategic01 .task_wrap .keyValue .slick-list,
-.mod_strategic01 .task_wrap .keyValue .slick-track{height: 100%;}
+.mod_strategic01 .task_wrap .keyTask{height: calc(100% - 130px);}
+.mod_strategic01 .task_wrap .keyTask li .item_wrap:after{content: '';background: url(../images/2248138829_kv_img.png) no-repeat center;width: 100%;height: 219px;margin-top: 5rem}
+.mod_strategic01 .task_wrap .keyTask li{height: 100%}
+.mod_strategic01 .task_wrap .keyTask li .item_wrap{display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;height: 100%}
+.mod_strategic01 .task_wrap .keyTask li .tit{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .task_wrap .keyTask li .desc{font-size: 1.8rem;margin-top: 1rem}
+.mod_strategic01 .task_wrap .keyTask .slick-list,
+.mod_strategic01 .task_wrap .keyTask .slick-track{height: 100%;}
 
 .mod_swot04 .diagram_area ul .swotS{background: #000000}
 .mod_swot04 .txt .swotS dt{color: #fff}

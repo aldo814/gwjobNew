@@ -39,15 +39,15 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 h3 span{color: #333;line-height: 1.8;font-size: 2.1rem;margin-left: 3rem}
 .mod_strategic01 .item + .item{margin-top: 8rem;padding-top: 8rem;border-top: 1px solid #cccccc;}
 .mod_strategic01 .item{position: relative;}
-.mod_strategic01 .keyTask{max-width: 900px;width: 100%;position: relative;padding-bottom: 50px;}
+.mod_strategic01 .keyValue{max-width: 900px;width: 100%;position: relative;padding-bottom: 50px;}
 .mod_strategic01 .item:nth-child(1):after{content: '';display: block;background: url(../images/3492000392_kt.png) no-repeat;width: 377px;height: 426px;position: absolute;right: -80px;top: 50px}
-.mod_strategic01 .keyTask .list {text-align: center;font-size: 3rem;background: #fff;width: calc(33.333% - 16.666px);border-radius: 15px;font-size: 3rem;font-weight: bold;min-height: 280px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
-.mod_strategic01 .keyTask .list:before{content: '';margin-bottom: 2rem;width: 100%;height: 55px}
-.mod_strategic01 .keyTask .slick-list{margin: 0 -10px}
-.mod_strategic01 .keyTask .slick-slide{margin: 0 10px;height: auto}
-.mod_strategic01 .keyTask .list:before{background: url(../images/3492000392_kt01.png) no-repeat center;}
-.mod_strategic01 .keyTask .list:nth-child(2n):before{background: url(../images/3492000392_kt02.png) no-repeat center;}
-.mod_strategic01 .keyTask .list:nth-child(3n):before{background: url(../images/3492000392_kt03.png) no-repeat center;}
+.mod_strategic01 .keyValue .list {text-align: center;font-size: 3rem;background: #fff;width: calc(33.333% - 16.666px);border-radius: 15px;font-size: 3rem;font-weight: bold;min-height: 280px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.mod_strategic01 .keyValue .list:before{content: '';margin-bottom: 2rem;width: 100%;height: 55px}
+.mod_strategic01 .keyValue .slick-list{margin: 0 -10px}
+.mod_strategic01 .keyValue .slick-slide{margin: 0 10px;height: auto}
+.mod_strategic01 .keyValue .list:before{background: url(../images/3492000392_kt01.png) no-repeat center;}
+.mod_strategic01 .keyValue .list:nth-child(2n):before{background: url(../images/3492000392_kt02.png) no-repeat center;}
+.mod_strategic01 .keyValue .list:nth-child(3n):before{background: url(../images/3492000392_kt03.png) no-repeat center;}
 
 .mod_strategic01 .slick-dots{position: absolute;bottom: 0;text-align: center;left: 50%;transform: translateX(-50%)}
 .mod_strategic01 .slick-dots li{display: inline-block;margin: 0 5px;}
@@ -55,12 +55,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .slick-dots li.slick-active button{border-radius: 30px;background: #53157d;width: 50px;}
 .mod_strategic01 .slick-dots li.slick-active:only-child button{display: none}
 
-.mod_strategic01 .keyTask .list *{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .keyValue .list *{font-size: 3rem;font-weight: bold;}
 .mod_strategic01 .item:nth-child(2){max-width: 900px;width: 100%;margin-left: auto;}
 .mod_strategic01 .item:nth-child(2):after{content: '';display: block;background: url(../images/3492000392_kv.png) no-repeat;width: 490px;height: 348px;position: absolute;left: -410px;bottom: -30px;}
-.mod_strategic01 .keyValue li{background: #fff;font-size: 3rem;font-weight: bold;text-align: center;padding: 10rem 5rem;border-radius: 15px;}
-.mod_strategic01 .keyValue li *{font-size: 3rem;font-weight: bold;}
-.mod_strategic01 .keyValue li + li{margin-top: 3rem}
+.mod_strategic01 .keyTask li{background: #fff;font-size: 3rem;font-weight: bold;text-align: center;padding: 10rem 5rem;border-radius: 15px;}
+.mod_strategic01 .keyTask li *{font-size: 3rem;font-weight: bold;}
+.mod_strategic01 .keyTask li + li{margin-top: 3rem}
 
 .mod_swot02{background: #fff;padding: 0;}
 .mod_swot02 h3 span{color: #cccccc;}
@@ -132,7 +132,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_talent01 .container{max-width: 1200px;width: calc(100% - 40px);}
     .mod_strategic01 .item:nth-child(1):after,
     .mod_strategic01 .item:nth-child(2):after{display: none}
-    .mod_strategic01 .keyTask,
+    .mod_strategic01 .keyValue,
     .mod_strategic01 .item:nth-child(2){max-width: 100%}
     .mod_strategic01 .item + .item{margin-top: 5rem;padding-top: 5rem}
 }
@@ -155,14 +155,14 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
     .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
     
-    .mod_strategic01 .keyTask .list{min-height: 200px;}
-    .mod_strategic01 .keyTask .list *{font-size: 2rem;}
-    .mod_strategic01 .keyTask .list:before{background-size: 30px !important;height: 37px !important;margin-bottom: 1rem !important}
+    .mod_strategic01 .keyValue .list{min-height: 200px;}
+    .mod_strategic01 .keyValue .list *{font-size: 2rem;}
+    .mod_strategic01 .keyValue .list:before{background-size: 30px !important;height: 37px !important;margin-bottom: 1rem !important}
     .mod_swot02 .swot_wrap .swotS .tit:before, .mod_swot02 .swot_wrap .swotW .tit:before, .mod_swot02 .swot_wrap .swotO .tit:before, .mod_swot02 .swot_wrap .swotT .tit:before{background-size: 40px !important}
     .mod_percent01 .percent_wrap .ico{background-size: 60px !important}
     .mod_imgCom .slick-arrow{width: 50px;height: 70px;background-size: 15px !important}
-    .mod_strategic01 .keyValue li{padding: 5rem 2rem}
-    .mod_strategic01 .keyValue li *{font-size: 2.2rem}
+    .mod_strategic01 .keyTask li{padding: 5rem 2rem}
+    .mod_strategic01 .keyTask li *{font-size: 2.2rem}
 }
 
 @media all and (max-width:640px){

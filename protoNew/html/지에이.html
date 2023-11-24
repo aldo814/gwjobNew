@@ -208,7 +208,7 @@
             <div class="kt_bg">
                 <div class="item">
                     <h3>핵심가치</h3>
-                    <ul class="keyTask">
+                    <ul class="keyValue">
                         <li class="list">
                             <span class="tit">핵심가치 제목입니다.</span>
                             <span class="desc">핵심가치 내용입니다.핵심가치 내용입니다.핵심가치 내용입니다.</span>
@@ -233,18 +233,22 @@
                             <span class="tit">핵심가치 제목입니다.</span>
                             <span class="desc">핵심가치 내용입니다.핵심가치 내용입니다.핵심가치 내용입니다.</span>
                         </li>
+
                     </ul>
                 </div>
             </div>
             <div class="kv_bg">
                 <div class="item">
                     <h3>전략과제</h3>
-                    <ul class="keyValue">
+                    <ul class="keyTask">
                         <li class="list">
                             <span class="tit">전략과제 제목입니다.</span>
                             <span class="desc">전략과제 내용입니다.전략과제 내용입니다.전략과제 내용입니다.</span>
                         </li>
-
+                        <li class="list">
+                            <span class="tit">전략과제 제목입니다.</span>
+                            <span class="desc">전략과제 내용입니다.전략과제 내용입니다.전략과제 내용입니다.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -745,7 +749,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="mod_comMov mg70">
         <div class="container">
             <div class="comMov">
@@ -802,33 +806,36 @@
             }, ]
         });
 
-        $('.mod_strategic01 .keyTask').slick({
+        $('.mod_strategic01 .keyValue').slick({
             rows: 5,
             slidesToShow: 1,
             arrows: false,
             dots: true,
             responsive: [{
-                breakpoint: 768,
-                settings: {
-                   rows: 3,
+                    breakpoint: 768,
+                    settings: {
+                        rows: 3,
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        rows: 2,
+                    }
                 }
-            },
-                         {
-                             breakpoint: 640,
-                settings: {
-                   rows: 2,
-                }
-                         }
-                        
-                        
-                        ]
+
+
+            ]
         });
-        $('.mod_strategic01 .keyValue').slick({
+        $('.mod_strategic01 .keyTask').slick({
             slidesToShow: 1,
             arrows: false,
             dots: true
         });
 
+        $('.mod_strategic01 .task_wrap .keyTask li.slick-slide').each(function() {
+            $(this).wrapInner('<div class="item_wrap"></div>');
+        });
 
         $('.mod_business_area02 .bizDiv_slide').slick({
             slidesToShow: 3,
