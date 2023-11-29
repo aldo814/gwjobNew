@@ -11,6 +11,8 @@
 .sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
 
 
+
+
 @media all and (max-width:768px){
     .sns_mod_info.sty01{padding: 5rem 0}
     .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
