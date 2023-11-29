@@ -1,0 +1,32 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{box-sizing: border-box;height: 700px;background: url(../images/%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9%EB%AA%A8%EC%9B%94/visual.png) no-repeat center;background-size: cover;}
+.mod_visual .container{display: flex;justify-content: center;align-items: center;height: 100%;text-align: center;}
+.mod_visual .title{font-size: 2.6rem;color: #fff;margin: 3rem 0 1rem 0}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
+
+.sns_mod_info{background: url(../images/2218133427_info.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #5a6af4}
+.mod_info01 > div .num{color: #fac000}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(../images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(../images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(../images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(../images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+
+@media all and (max-width:768px){
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+}
