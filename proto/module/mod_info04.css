@@ -16,6 +16,8 @@
 .mod_info04 .info_wrap .vm_wrap .item:nth-child(1){background: #acc048}
 .mod_info04 .info_wrap .vm_wrap .item:nth-child(2){background: #949293}
 
+
+
 @media all and (max-width:640px){
     .mod_info04 .info_wrap{display: block;}
     .mod_info04 .info_wrap .vm_wrap,

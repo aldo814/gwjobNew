@@ -21,6 +21,11 @@
 .mod_info03 .kv_wrap .item li,
 .mod_info03 .kv_wrap .item li *{font-size: 1.8rem;color: #666666}
 
+@media all and (max-width:1440px){
+    .mod_info03 .container{width: calc(100% - 40px);}
+}
+
+
 @media all and (max-width:1024px){
     .mod_info03 .kv_wrap .item:before{width: 350px;}
     .mod_info03 .kv_wrap .item .text{width: calc(100% - 350px)}

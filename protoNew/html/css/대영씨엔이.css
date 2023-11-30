@@ -97,6 +97,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_visual .container,
     .mod_talent02 .container,
     .mod_keyValue  .container{width: calc(100% - 40px);}
+    .mod_info03 .container{width: calc(100% - 40px);}
     .mod_visual .imgCi img{max-width: 300px}
     
     .mod_keyValue .keyValue .tit:before{width:160px;height: 160px; }
