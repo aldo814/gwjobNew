@@ -1,0 +1,178 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{background: url(../images/남이섬/visual.png) no-repeat;background-size: cover;height: 700px;position: relative}
+.mod_visual div{color: #fff;text-align: center;}
+.mod_visual .container{height: 100%;}
+.mod_visual .txt{position: absolute;left: 0;width: 100%;top: 50%;transform: translateY(-50%)}
+.mod_visual .imgCi{position: absolute;left: 0;width: 100%;bottom: 50px;}
+.mod_visual .title{font-size: 2rem}
+.mod_visual .comName{font-size: 6.5rem;font-weight: bold}
+
+
+.sns_mod_info{background: url(../images/남이섬/infoBg.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #fee100}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+.mod_history02 .history .slick-slide > span::before{background: #00765e}
+.mod_history02 .history .slick-slide > span{border-color: #00765e;color:#00765e }
+.mod_history02 .history .slick-slide > ul li .month{color: #cccccc}
+.mod_history02 .history .slick-slide {height: auto}
+.mod_info05{margin: 7rem 0;}
+.mod_info05 .info_area{display: flex;justify-content: space-between}
+.mod_info05 .info_area:before{content: '';background: url(../images/남이섬/infoImg.png) no-repeat center;width: 580px;height: auto;background-size: cover;}
+.mod_info05 .info_area .txt{width: calc(100% - 620px);}
+.mod_info05 .info_area .txt .item{margin:7rem 0 }
+.mod_info05 .info_area .txt h4{font-size: 3rem;font-weight: bold;color: #006c7e;border-bottom: 1px solid #ddd;padding-bottom: 10px;margin-bottom: 15px}
+.mod_info05 .info_area .txt div{font-size: 1.8rem}
+.mod_business_area04{padding: 7rem 0;background: #f4f4f4}
+.mod_business_area04 h3 span{color: #ccc}
+.mod_business_area04 .bizDiv .slick-slide{background: none;}
+.mod_business_area04 .bizDiv .slick-slide .info > h4{color: #ee9322}
+.mod_finance03{padding: 0;margin: 7rem 0}
+.mod_finance03 > div .tab_wrap .tab > div + div,
+.mod_finance03 > div .tab_wrap .tab{border-color: #ffd14d !important}
+
+.mod_finance03 > div{background: #fff1c9}
+.mod_finance03 > div .tab_wrap .tab > div.on{background: #ffd14d}
+.mod_finance03 > div .tab_wrap .tab > div{color: #999999}
+.mod_percent02{padding: 0;margin: 7rem 5rem}
+.mod_percent02 .percent_wrap > div > div span{color: #006c7e}
+.mod_percent02 .percent_wrap .scale .ico{background: url(../images/남이섬/percent01.png) no-repeat center}
+.mod_percent02 .percent_wrap .growth .ico{background: url(../images/남이섬/percent02.png) no-repeat center}
+.mod_percent02 .percent_wrap .profit .ico{background: url(../images/남이섬/percent03.png) no-repeat center}
+.mod_percent02 .percent_wrap .stable .ico{background: url(../images/남이섬/percent04.png) no-repeat center}
+
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_talent02{padding: 7rem 0;background: #bde9e0}
+.mod_talent02 h3 span{color: #fff}
+.mod_talent02 .text_area{background: #fff;border-radius: 15px;padding: 8rem 5rem;text-align: center;margin-top: -62px}
+.mod_talent02 .pro_tit:after{content: '';display: block;background: url(../images/남이섬/talBg.png) no-repeat;width: 716px;height: 377px;margin: 6rem auto}
+.mod_talent02 .text_area > p{color: #006c7e;font-weight: bold;font-size: 3rem;margin-bottom: 5rem;}
+.mod_talent02 .text_area ul{display: flex;justify-content: space-between;}
+.mod_talent02 .text_area ul li{width: calc(25% - 22.5px);background: #006c7e;display: flex;justify-content: center;flex-direction: column;align-items: center;color: #fff;font-size: 1.8rem;padding: 4rem;box-sizing: border-box;border-radius: 15px;}
+.mod_talent02 .text_area ul li:before{content: '';margin-bottom: 3rem;width: 100%;height: 99px;}
+.mod_talent02 .text_area ul li:nth-child(1):before{background: url(../images/남이섬/tal01.png) no-repeat center;}
+.mod_talent02 .text_area ul li:nth-child(2):before{background: url(../images/남이섬/tal02.png) no-repeat center;}
+.mod_talent02 .text_area ul li:nth-child(3):before{background: url(../images/남이섬/tal03.png) no-repeat center;}
+.mod_talent02 .text_area ul li:nth-child(4):before{background: url(../images/남이섬/tal04.png) no-repeat center;}
+
+.mod_culture05 h3 span{color: #ccc;}
+.mod_culture05 .culture_wrap{background: url(../images/남이섬/culBg.png) no-repeat;}
+.mod_culture05 .container .slick-dots li.slick-active{background: #006c7e}
+
+.mod_interview06 .prev_arrow{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_prev.png) no-repeat #666 center;background-size: 10px}
+.mod_interview06 .next_arrow{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_next.png) no-repeat #666 center;background-size: 10px}
+
+.mod_interview06 .interview_txt .photo{display: flex;flex-direction: column;justify-content: flex-end}
+.mod_interview06 .bg{margin-top: -150px}
+
+.mod_imgCom .img_area{position: relative;}
+.mod_imgCom h3{text-align: center;font-size: 4rem;font-weight: bold;margin-bottom: 4rem}
+.mod_imgCom .slick-slide{height: auto;}
+.mod_imgCom .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_imgCom .sw_btn_wrap .slick-disabled{opacity:.3;}
+.mod_imgCom .sw_btn_wrap .prev_arrow{left:0;background-position:0 0;}
+.mod_imgCom .sw_btn_wrap .next_arrow{right:0;background-position:-70px 0;}
+.mod_imgCom .slick-list{margin: 0 -10px}
+.mod_imgCom .slick-slide{margin: 0 10px}
+
+.mod_interview06 .slick-slide{height: auto}
+
+@media all and (max-width:1440px){
+    .mod_visual .container,
+    .mod_talent02 .container{width: calc(100% - 40px);}
+    
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{height: auto;}
+    .mod_visual .container{height: auto;padding: 20rem 0}
+    .mod_interview04 .container .iv_cont > div .ivCeo:after{display: none}
+    
+    .mod_info05 .info_area:before{width: 50%}
+    .mod_info05 .info_area .txt{width: calc(50% - 40px)}
+    .mod_info05 .info_area .txt .item{margin: 5rem 0}
+    
+    .mod_talent02 .text_area ul li:before{background-size: 50px !important;height: 50px}
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    .mod_visual .imgCi img{max-width: 120px}
+    
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    .mod_finance03 > div .tab_wrap .tab > div{border-color: #ffd14d !important}
+    
+    .mod_info05 .info_area{display: block;}
+    
+    .mod_percent02{padding: 0}
+    .mod_percent02 .container{padding: 0}
+    
+    .mod_talent02 .pro_tit:after{background-size: 600px;width: 600px;height: 329px}
+    .mod_talent02 .text_area ul{flex-wrap: wrap}
+    .mod_talent02 .text_area ul li{width: calc(50% - 10px);margin-right: 20px;}
+    .mod_talent02 .text_area ul li:nth-child(2n){margin-right: 0}
+    .mod_talent02 .text_area ul li:nth-child(-n + 2){margin-bottom: 20px}
+    .mod_talent02 .text_area{padding: 3rem}
+    .mod_talent02 .text_area > p{font-size: 2.4rem;margin-bottom: 2rem}
+    
+    .mod_interview06 .interview_txt .photo{display: none}
+    
+   
+}
+
+@media all and (max-width:640px){
+    .mod_visual .container{padding: 15rem}
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    
+    .mod_visual .imgCi {bottom: 20px}
+    
+    .pro_tit {font-size: 30px}
+    .pro_tit span{font-size: 12px}
+    
+    .mod_info04 .info_wrap{display: block;}
+    .mod_info04 .info_wrap .vm_wrap,
+    .mod_info04 .info_wrap > .item{width: 100%;}
+    .mod_info04 .info_wrap .vm_wrap .item + .item{margin-top: 20px}
+    .mod_info04 .info_wrap > .item{margin-left: 0;margin-top: 20px}
+    .mod_info04 .info_wrap > .item ul{padding: 0}
+    .mod_info04 .info_wrap > .item ul li .tit{width: 40px}
+    .mod_info04 .info_wrap > .item ul li .desc{width: calc(100% - 40px)}   
+}
