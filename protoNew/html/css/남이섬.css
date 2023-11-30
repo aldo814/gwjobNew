@@ -140,6 +140,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_finance03 > div .tab_wrap .tab > div{border-color: #ffd14d !important}
     
     .mod_info05 .info_area{display: block;}
+    .mod_info05 .info_area:before{width: 100%;height: 200px;display: block}
+    .mod_info05 .info_area .txt{width: 100%;}
     
     .mod_percent02{padding: 0}
     .mod_percent02 .container{padding: 0}
@@ -167,12 +169,6 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .pro_tit {font-size: 30px}
     .pro_tit span{font-size: 12px}
     
-    .mod_info04 .info_wrap{display: block;}
-    .mod_info04 .info_wrap .vm_wrap,
-    .mod_info04 .info_wrap > .item{width: 100%;}
-    .mod_info04 .info_wrap .vm_wrap .item + .item{margin-top: 20px}
-    .mod_info04 .info_wrap > .item{margin-left: 0;margin-top: 20px}
-    .mod_info04 .info_wrap > .item ul{padding: 0}
-    .mod_info04 .info_wrap > .item ul li .tit{width: 40px}
-    .mod_info04 .info_wrap > .item ul li .desc{width: calc(100% - 40px)}   
+    
+    .mod_talent02 .pro_tit:after{background-size: 300px;width: 100%;background-position: center;height: 185px}
 }
