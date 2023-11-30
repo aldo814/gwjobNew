@@ -241,12 +241,12 @@ xmlhttp.onload = function() {
     // 핵심가치
     var kvCnt = myObj.keyValue.length;
     var kvWrap = myObj.keyValue;
-    var keyValue = "<dl>";
-    for(var i=0; i<kvCnt; i++){
-        keyValue += "<dt>"+kvWrap[i].title+"</dt>";
-        keyValue += "<dd>"+kvWrap[i].desc+"</dd>";
+    var keyValue = "<ul>";
+     for(var i=0; i<kvCnt; i++){
+        keyValue += "<li><span class='tit'>"+kvWrap[i].title+"</span>";
+        keyValue += "<span class='desc'>"+kvWrap[i].desc+"</span></li>";
     }
-    keyValue += "</dl>";
+    keyValue += "</ul>";
     $(".keyValue").html(keyValue);
     // SWOT
     var swotWrap = myObj.swot[0];
@@ -309,12 +309,12 @@ xmlhttp.onload = function() {
     // 핵심과제
     var keyTaskCnt = myObj.keyTask.length;
     var keyTaskWrap = myObj.keyTask;
-    var keyTask = "<dl>";
-    for(var i=0; i<keyTaskCnt; i++){
-        keyTask += "<dt>"+keyTaskWrap[i].title+"</dt>";
-        keyTask += "<dd>"+keyTaskWrap[i].desc+"</dd>";
+    var keyTask = "<ul>";
+    for(var i=0; i<kvCnt; i++){
+        keyTask += "<li><span class='tit'>"+kvWrap[i].title+"</span>";
+        keyTask += "<span class='desc'>"+kvWrap[i].desc+"</span></li>";
     }
-    keyTask += "</dl>";
+    keyTask += "</ul>";
     $(".keyTask").html(keyTask);
     // CEO 인터뷰
     var imgCeo = myObj.imgCeo;

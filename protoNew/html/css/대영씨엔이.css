@@ -65,21 +65,21 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_finance09 .percent_wrap .stable .ico{background: url(../images/대영씨엔이/fin04.png) no-repeat center;}
 .mod_finance09 .percent_wrap .ico + div{color: #0174be}
 
-.mod_product .slick-slide{height: auto;}
-.mod_product .product_wrap {position: relative;}
-.mod_product .item{display: flex;flex-direction: row-reverse;justify-content: space-between;}
-.mod_product .slider-container{position: absolute;top: 0;left: 0;}
-.mod_product h4{font-size:3rem;font-weight: bold;margin-bottom: 2rem;color: #000;}
-.mod_product p{font-size: 1.8rem;color: #333;word-break: keep-all}
-.mod_product .thumb{width: 55%;}
-.mod_product .thumb img{width: 100%}
-.mod_product .info{width: 45%;padding-right: 4rem;box-sizing: border-box;padding-top: 3.5rem}
-.mod_product .slides-numbers span{font-size: 2rem;font-weight: 500;color: #333b97}
-.mod_product .slick-dots{position: absolute;left: 0;bottom: 0;}
-.mod_product .slick-dots li {display: inline-block;}
-.mod_product .slick-dots li + li{margin-left: 10px}
-.mod_product .slick-dots li button{width: 10px;height: 10px;text-indent: -9999px;border-radius: 50%;background: #ddd}
-.mod_product .slick-dots li.slick-active button{background: #333b97;width: 30px;border-radius: 30px}
+.mod_product02 .slick-slide{height: auto;}
+.mod_product02 .product_wrap {position: relative;}
+.mod_product02 .item{display: flex;flex-direction: row-reverse;justify-content: space-between;}
+.mod_product02 .slider-container{position: absolute;top: 0;left: 0;}
+.mod_product02 h4{font-size:3rem;font-weight: bold;margin-bottom: 2rem;color: #000;}
+.mod_product02 p{font-size: 1.8rem;color: #333;word-break: keep-all}
+.mod_product02 .thumb{width: 55%;}
+.mod_product02 .thumb img{width: 100%}
+.mod_product02 .info{width: 45%;padding-right: 4rem;box-sizing: border-box;padding-top: 3.5rem}
+.mod_product02 .slides-numbers span{font-size: 2rem;font-weight: 500;color: #333b97}
+.mod_product02 .slick-dots{position: absolute;left: 0;bottom: 0;}
+.mod_product02 .slick-dots li {display: inline-block;}
+.mod_product02 .slick-dots li + li{margin-left: 10px}
+.mod_product02 .slick-dots li button{width: 10px;height: 10px;text-indent: -9999px;border-radius: 50%;background: #ddd}
+.mod_product02 .slick-dots li.slick-active button{background: #333b97;width: 30px;border-radius: 30px}
 .mod_culture07{padding: 7rem 0;background: #f4f4f4}
 .mod_culture07 .container .slick-track > .item{background: #0174be}
 .mod_culture07 .container .slick-track > .item:nth-child(even){background:#00baff }
@@ -118,8 +118,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_finance09 .percent_wrap .growth .ico{background-size: 70px !important}
     .mod_finance09 .percent_wrap .stable .ico{background-size: 70px !important}
     
-     .mod_product .slick-next{right: 0}
-    .mod_product .slick-prev{left: 45%}
+     .mod_product02 .slick-next{right: 0}
+    .mod_product02 .slick-prev{left: 45%}
     
 }
 
@@ -138,12 +138,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
     .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
     
-    .mod_product .slick-track{padding-bottom: 50px}
-    .mod_product h4{font-size: 2.2rem}
-    .mod_product .item{flex-direction: column-reverse}
-    .mod_product .thumb,
-    .mod_product .info{width: calc(100%)}
-    .mod_product .info{margin-bottom: 2rem}
+    .mod_product02 .slick-track{padding-bottom: 50px}
+    .mod_product02 h4{font-size: 2.2rem}
+    .mod_product02 .item{flex-direction: column-reverse}
+    .mod_product02 .thumb,
+    .mod_product02 .info{width: calc(100%)}
+    .mod_product02 .info{margin-bottom: 2rem}
     
     .mod_info05 .info_area{display: block;}
     .mod_info05 .info_area:before{width: 100%;height: 200px;display: block}
