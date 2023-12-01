@@ -101,7 +101,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 
 
 @media all and (max-width:1440px){
-    .mod_visual .container{width: calc(100% - 40px);}
+    .mod_visual .container,
+    .mod_info04 .container{width: calc(100% - 40px);}
     .mod_visual .imgCi img{max-width: 300px}
      
 }
@@ -118,6 +119,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_finance09 .percent_wrap .profit .ico{background-size: 80px !important}
     .mod_finance09 .percent_wrap .growth .ico{background-size: 70px !important}
     .mod_finance09 .percent_wrap .stable .ico{background-size: 70px !important}
+    
+    .mod_info04 .bg{width: 300px;background-size: 300px;height: 298px}
+    .mod_info04 .bg img{max-width: 70px}
+    .mod_info04 .info_wrap > div{width: calc(50% - 170px);margin-right: 340px}
+    
+    .mod_interview04 .container .iv_cont > div .interview .a{margin-bottom: 0}
     
 }
 
@@ -136,6 +143,11 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
     .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
     
+    .mod_info04 .info_wrap > div:nth-child(odd){padding-left: 0}
+    .mod_info04 .info_wrap > div:nth-child(even){padding-right: 0}
+    .mod_info04 .info_wrap > div{padding-top: 3rem}
+    .mod_info04 .info_wrap > div h4{font-size: 2.6rem}
+    
     
 }
 
@@ -147,6 +159,13 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     
     .pro_tit {font-size: 30px}
     .pro_tit span{font-size: 12px}
+    
+    .mod_visual:before{width: 60%}
+    
+    .mod_info04 .bg{position: relative;;top: 0;transform: translateX(-50%)}
+    .mod_info04 .info_wrap{min-height: auto;}
+    .mod_info04 .info_wrap > div{width: 100%;margin-top: 50px;margin-right: 0;margin-bottom: 0 !important}
+    .mod_info04 .info_wrap > div:last-child{margin-bottom: 0}
     
     
     

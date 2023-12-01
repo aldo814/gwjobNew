@@ -106,6 +106,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_visual{min-height: auto;padding-bottom: 80px;height: auto;box-sizing: border-box}
     .mod_visual .txt{margin-top: 5rem}
     .mod_interview04 .container .iv_cont > div .ivCeo:after{display: none}
+    .mod_interview04 .container .iv_cont > div .interview .q, .mod_interview04 .container .iv_cont > div .interview .a{max-width: 100%}
 }
 
 @media all and (max-width:768px){
