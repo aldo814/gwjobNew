@@ -82,7 +82,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_comPic .slick-prev{background: url(../images/이앤지테크/prev.png) no-repeat;left: 0}
 .mod_comPic .slick-next{background: url(../images/이앤지테크/next.png) no-repeat;right: 0}
 .mod_culture05 h3 span{color: #ccc}
-.mod_culture05 .culture_wrap{background: url(../images/이앤지테크/culBg.png) no-repeat;background-size: cover}
+.mod_culture05 .culture_wrap{background: url(../images/이앤지테크/culBG.png) no-repeat;background-size: cover}
 .mod_culture05 .container .slick-dots li.slick-active{background: #232653}
 .mod_culture05 .container .slick-dots li{background: #5c5c5b}
 
