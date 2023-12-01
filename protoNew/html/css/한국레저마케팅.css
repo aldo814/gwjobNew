@@ -91,9 +91,10 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_interview04 .container .iv_cont > div .interview .q{color: #acc048}
 .mod_interview04 .container .slick-dots li.slick-active{background: #acc048}
 .mod_interview04 .container .iv_cont > div .ivCeo{position: relative;}
-.mod_interview04 .container .iv_cont > div .ivCeo:after{content: '';display: block;background: url(../images/한국레저마케팅/ceo.png) no-repeat;width: 318px;height: 486px;position: absolute;right: -100px;bottom: -90px}
+.mod_interview04 .container .iv_cont > div .ivCeo:after{content: '';display: block;background: url(../images/한국레저마케팅/ceo.png) no-repeat;width: 318px;height: 486px;position: absolute;right: -70px;bottom: -219px}
 .mod_interview04 .container .iv_cont > div .interview .q,
-.mod_interview04 .container .iv_cont > div .interview .a{max-width: calc(100% - 100px)}
+.mod_interview04 .container .iv_cont > div .interview .a{max-width: calc(100% - 150px)}
+.w100  {max-width: 100% !important}
 
 @media all and (max-width:1440px){
     .mod_visual .container{width: calc(100% - 40px);height: auto;}

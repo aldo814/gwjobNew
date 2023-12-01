@@ -1,0 +1,153 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{background: url(../images/이앤지테크/visual.png) no-repeat;background-size: cover;height: 700px;padding: 10rem 0;box-sizing: border-box;position: relative}
+.mod_visual:before{content: '';display: block;width: 50%;height: 100%;background: rgba(0, 0, 0, 0.3);position: absolute;left: 0;top: 0}
+.mod_visual .txt{margin-top: 4rem}
+.mod_visual .imgCi{}
+.mod_visual .title{font-size: 3rem;color: #fff}
+.mod_visual .comName{font-size: 6rem;font-weight: bold;display: inline-block;border-bottom: 1px solid #fff;padding-right: 5rem;color: #fff;padding-bottom: 1rem}
+
+
+.sns_mod_info{background: url(../images/이앤지테크/infoBg.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #4e7fc0}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+.mod_history02 .history .slick-slide > span::before{background: #171c61}
+.mod_history02 .history .slick-slide > span{border-color: #171c61;color:#171c61 }
+.mod_history02 .history .slick-slide > ul li .month{color: #cccccc}
+.mod_history02 .history .slick-slide {height: auto}
+
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_info04{padding: 7rem 0;background: #f4f4f4;}
+.mod_info04 .info_area{position: relative;}
+.mod_info04 .bg{position: absolute;background: url(../images/이앤지테크/missionBg.png) no-repeat;width: 523px;height: 518px;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%)}
+.mod_info04 .bg .imgCi{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%)}
+.mod_info04 .info_wrap{min-height: 518px;display: flex;flex-wrap: wrap;}
+.mod_info04 .info_wrap > div{width: calc(50% - 300px);margin-right: 600px;border-top: 1px solid #ddd;padding-top: 6rem;position: relative;}
+.mod_info04 .info_wrap > div:before{content: '';display: block;width: 10px;height: 10px;border-radius: 50%;background: #ddd;position: absolute;top: -5px}
+.mod_info04 .info_wrap > div:nth-child(2n){margin-right: 0}
+.mod_info04 .info_wrap > div h4{font-size: 4rem;font-weight: bold;margin-bottom: 1rem}
+.mod_info04 .info_wrap > div:nth-child(-n + 2){margin-bottom: 18rem}
+.mod_info04 .info_wrap > div *:not(h4){color: #7f7f7f;font-size: 2rem;word-break: keep-all}
+.mod_info04 .info_wrap > div:nth-child(odd){padding-left: 4rem}
+.mod_info04 .info_wrap > div:nth-child(odd):before{left: 0}
+.mod_info04 .info_wrap > div:nth-child(even):before{right: 0}
+.mod_info04 .info_wrap > div:nth-child(even){padding-right: 4rem;text-align: right}
+.mod_info04 .info_wrap > div:nth-child(1){border-top-color: #cecece}
+.mod_info04 .info_wrap > div:nth-child(1):before{background: #cecece}
+.mod_info04 .info_wrap > div:nth-child(2){border-top-color: #898989}
+.mod_info04 .info_wrap > div:nth-child(2):before{background: #898989}
+.mod_info04 .info_wrap > div:nth-child(3){border-top-color: #4e7fc0}
+.mod_info04 .info_wrap > div:nth-child(3):before{background: #4e7fc0}
+.mod_info04 .info_wrap > div:nth-child(4){border-top-color: #171c61}
+.mod_info04 .info_wrap > div:nth-child(4):before{background: #171c61}
+
+.mod_finance08 h3{color: #000000;font-weight: bold;}
+.mod_finance08 h3 span{color: #4e7fc0;font-weight: bold;}
+.mod_finance08 .tit_wrap > h3 span:after{background: #4e7fc0}
+.mod_finance08 .conts_wrap > div{background: #4e7fc0}
+.mod_finance08 .conts_wrap > div:nth-child(even){border-color:#4e7fc0 ;color: #4e7fc0}
+
+.mod_percent02{padding: 0 !important;margin: 7rem 0}
+.mod_percent02 .percent_wrap > div > div span{color: #4e7fc0}
+.mod_percent02 .percent_wrap .scale .ico{background: url(../images/이앤지테크/per01.png) no-repeat center;}
+.mod_percent02 .percent_wrap .growth .ico{background: url(../images/이앤지테크/per02.png) no-repeat center;}
+.mod_percent02 .percent_wrap .profit .ico{background: url(../images/이앤지테크/per03.png) no-repeat center;}
+.mod_percent02 .percent_wrap .stable .ico{background: url(../images/이앤지테크/per04.png) no-repeat center;}
+
+.mod_business_area04 h3 span{color: #ccc;}
+.mod_business_area04 .item{text-align: center;}
+.mod_business_area04 .item .thumb img{border-radius: 20px;box-sizing: border-box;}
+.mod_business_area04 .bizDiv .slick-slide .info > h4{color: #171c61;font-size: 2.4rem}
+.mod_business_area04 .bizDiv .slick-slide .info > p{color: #666;font-size: 1.8rem;}
+
+.mod_comPic .img_wrap{padding: 0 8rem}
+.mod_comPic .slick-slide{height: auto;text-align: center}
+.mod_comPic .slick-slide img{width: 100%;border-radius: 20px}
+.mod_comPic .slick-arrow{width: 27px;height: 47px;text-indent: -9999px;position: absolute;top: 50%;transform: translateY(-50%);}
+.mod_comPic .slick-prev{background: url(../images/이앤지테크/prev.png) no-repeat;left: 0}
+.mod_comPic .slick-next{background: url(../images/이앤지테크/next.png) no-repeat;right: 0}
+.mod_culture05 h3 span{color: #ccc}
+.mod_culture05 .culture_wrap{background: url(../images/이앤지테크/culBg.png) no-repeat;background-size: cover}
+.mod_culture05 .container .slick-dots li.slick-active{background: #232653}
+.mod_culture05 .container .slick-dots li{background: #5c5c5b}
+
+.mod_interview04{background: url(../images/이앤지테크/itvBg.png) no-repeat;background-size: cover}
+.mod_interview04 .container .iv_tab .btn_g button.next,
+.mod_interview04 .container .iv_tab .btn_g button.prev{background-color: #4e7fc0}
+.mod_interview04 .container .iv_cont:after{color: #4e7fc0}
+.mod_interview04 .container .iv_cont > div .interview .q{color: #4e7fc0}
+.mod_interview04 .container .slick-dots li.slick-active{background: #4e7fc0}
+.mod_interview04 .container .iv_cont > div .photo{bottom: 60px;right: 60px;}
+.mod_interview04 .container .iv_cont > div{padding-bottom: 0px;}
+.mod_interview04 .container .iv_cont > div .interview .a{margin-bottom: 220px}
+.mod_interview04 .container .iv_cont > div,
+.mod_interview04 .container .iv_cont > div .interview,
+.mod_interview04 .container .iv_cont > div .slick-slide{height: auto}
+
+
+@media all and (max-width:1440px){
+    .mod_visual .container{width: calc(100% - 40px);}
+    .mod_visual .imgCi img{max-width: 300px}
+     
+}
+
+@media all and (max-width:1024px){
+    
+    .mod_visual{height: auto;padding: 5rem 0 20rem 0}
+    .mod_info05 .info_area:before{width: 50%}
+    .mod_info05 .info_area .txt{width: calc(50% - 40px)}
+    .mod_info05 .info_area .txt .item{margin: 5rem 0}
+    
+    .mod_finance09 .percent_wrap .ico{margin: 0 auto 20px auto}
+    .mod_finance09 .percent_wrap .scale .ico{background-size: 90px !important}
+    .mod_finance09 .percent_wrap .profit .ico{background-size: 80px !important}
+    .mod_finance09 .percent_wrap .growth .ico{background-size: 70px !important}
+    .mod_finance09 .percent_wrap .stable .ico{background-size: 70px !important}
+    
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual{padding: 5rem 0 10rem 0}
+    .mod_visual .txt{margin-top: 2rem}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    .mod_visual .imgCi img{max-width: 120px}
+    
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    
+}
+
+@media all and (max-width:640px){
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    
+    .mod_visual .imgCi {bottom: 20px}
+    
+    .pro_tit {font-size: 30px}
+    .pro_tit span{font-size: 12px}
+    
+    
+    
+}
