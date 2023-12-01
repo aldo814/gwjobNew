@@ -90,7 +90,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_interview04 .container .iv_cont > div .interview{padding-bottom: 80px}
 
 @media all and (max-width:1440px){
-    .mod_visual .container{width: calc(100% - 40px);height: auto;}
+    .mod_visual .container,
+    .mod_info03 .container{width: calc(100% - 40px);height: auto;}
     
     
 }
