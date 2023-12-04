@@ -73,7 +73,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .slick-dots li.slick-active button{width: 50px;border-radius: 30px;background: #18006d}
 .mod_strategic01 .slick-dots li.slick-active:only-child{display: none}
 .mod_strategic01 .task_wrap .keyTask{height: calc(100% - 130px);}
-.mod_strategic01 .task_wrap .keyTask li .item_wrap:after{content: '';background: url(../images/2248138829_kv_img.png) no-repeat center;width: 100%;height: 219px;margin-top: 5rem}
+.mod_strategic01 .task_wrap .keyTask li:after{content: '';background: url(../images/2248138829_kv_img.png) no-repeat center;width: 100%;height: 219px;margin-top: 5rem}
 .mod_strategic01 .task_wrap .keyTask li{height: 100%}
 .mod_strategic01 .task_wrap .keyTask li .item_wrap{display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;height: 100%}
 .mod_strategic01 .task_wrap .keyTask li .tit{font-size: 3rem;font-weight: bold;}

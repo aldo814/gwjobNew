@@ -2,7 +2,7 @@
                     $('.mod_business_cst02 .bizDiv').slick({
                         slidesToShow: 1,
                         arrows: true,
-                        infinite: false,
+                        infinite: true,
                         fade:true
                     });
                 }
