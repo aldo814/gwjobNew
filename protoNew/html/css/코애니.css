@@ -1,0 +1,176 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_visual{box-sizing: border-box;height: 700px;background: url(../images/코애니/visual.png) no-repeat center;background-size: cover;position: relative}
+.mod_visual .container{position: static}
+.mod_visual:before{content: '';display: block;width: 50%;height: 100%;background: rgba(0, 0, 0, 0.3);position: absolute;left: 0;top: 0}
+.mod_visual  .txt{position: absolute;top: 50%;left: 0;transform: translateY(-50%)}
+.mod_visual .title{font-size: 2.6rem;color: #fff;margin-bottom: 3rem}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
+
+.mod_history02 .history .slick-slide > span::before{background:#5c4229 }
+.mod_history02 .history .slick-slide > span{border-color:#5c4229 ;color:#5c4229 }
+.mod_history02 .history .slick-slide > ul li .month{color: #ccc;}
+
+.mod_history02 .history .slick-slide > span::before{background: #00765e}
+.mod_history02 .history .slick-slide > span{border-color: #00765e;color:#00765e }
+.mod_history02 .history .slick-slide > ul li .month{color: #cccccc}
+.mod_history02 .history .slick-slide {height: auto}
+.mod_info05{margin: 7rem 0;}
+.mod_info05 .info_area{display: flex;justify-content: space-between}
+.mod_info05 .info_area:before{content: '';background: url(../images/코애니/vision.png) no-repeat center;width: 580px;height: auto;background-size: cover;}
+.mod_info05 .info_area .txt{width: calc(100% - 620px);}
+.mod_info05 .info_area .txt .item{margin:7rem 0 }
+.mod_info05 .info_area .txt h4{font-size: 3rem;font-weight: bold;color: #5c4229;border-bottom: 1px solid #5c4229;padding-bottom: 10px;margin-bottom: 15px}
+.mod_info05 .info_area .txt div{font-size: 1.8rem}
+
+.mod_keyValue{background: #f8f8f8}
+.mod_keyValue .keyValue:before{content: '';display: block;background: url(../images/코애니/cv_img.png) no-repeat;width: 602px;height: 583px;position: absolute;left: 0;top: 0;}
+.mod_keyValue .keyValue{position: relative;padding-left: 652px;min-height: 583px;padding-top: 10rem;}
+.mod_keyValue .keyValue .tit{display: block;font-size: 4rem;font-weight: bold;margin-bottom: 1.5rem;}
+.mod_keyValue .keyValue .desc{font-size: 1.8rem;color: #5a5a5a;}
+
+.mod_keyTask{background: url(../images/코애니/kt_img.png) no-repeat;background-size: cover;text-align: center;}
+.mod_keyTask h3{font-size: 4rem;font-weight: bold;margin-bottom: 1.5rem;color: #5c4229}
+.mod_keyTask li *{color: #fff;font-size: 2rem;font-weight: 500;}
+
+.mod_business_cst03 {margin: 7.0rem 0;}
+.mod_business_cst03 .biz_wrap {min-height: 615px;margin-top: 10rem}
+.mod_business_cst03 .bizDiv {display: flex;flex-direction: column}
+.mod_business_cst03 .bizDiv{margin-top: 4.0rem}
+.mod_business_cst03 .bizDiv img{position: absolute;right: 0;top: 50%;transform: translateY(-50%);display: none}
+.mod_business_cst03 .bizDiv .text_area{width: calc(100% - 400px);position: relative;z-index: 2;margin-bottom: 3.0rem;padding-left: 5rem}
+.mod_business_cst03 .bizDiv div:last-child .text_area{margin-bottom: 0}
+.mod_business_cst03 .bizDiv .text_area h4{cursor: pointer;font-size: 2.4rem;color: #ccc;margin-bottom: 1.5rem;transition:all 0.3s;font-weight: bold;}
+.mod_business_cst03 .bizDiv > div:nth-child(1) .text_area h4:before{content: '1 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(2) .text_area h4:before{content: '2 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(3) .text_area h4:before{content: '3 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(4) .text_area h4:before{content: '4 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(6) .text_area h4:before{content: '5 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(7) .text_area h4:before{content: '7 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(8) .text_area h4:before{content: '8 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(9) .text_area h4:before{content: '9 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv > div:nth-child(10) .text_area h4:before{content: '10 ㅣ';display: inline-block;margin-right: 1rem}
+.mod_business_cst03 .bizDiv .text_area h4:hover,
+.mod_business_cst03 .bizDiv .text_area h4:active,
+.mod_business_cst03 .bizDiv .text_area h4:focus {color: #000}
+.mod_business_cst03 .bizDiv .text_area p {font-size: 1.8rem;color: #666;font-weight: 500;display: none}
+.mod_business_cst03 .bizDiv .active .text_area{box-shadow: 10px 5px 20px 0px rgba(0, 0, 0, 0.10);background: #fff;padding: 7rem 5rem}
+.mod_business_cst03 .bizDiv .active h4{color: #333;font-size: 2.6rem;}
+.mod_business_cst03 .bizDiv .active p {display: block}
+.mod_business_cst03 .bizDiv .active img {display: block}
+
+.mod_product03{margin: 7rem 0;text-align: center;}
+.mod_product03 .addMsg{margin-bottom: 7rem}
+.mod_product03 h4{font-size: 2.8rem;font-weight: bold;margin: 5rem 0 2rem 0}
+.mod_product03 p{font-size: 1.8rem;color: #666666}
+.mod_product03 .slick-slide,
+.mod_interview04 .slick-slide{height: auto}
+ .slick-dots{margin-top: 5rem;text-align: center;}
+.slick-dots li{display: inline-block;margin: 0 5px}
+.slick-dots li button{width: 10px;height: 10px;text-indent: -9999px;background: #ccc;border-radius: 50%;}
+.slick-dots li.slick-active button{background: #5c4229;border-radius: 30px;width: 30px}
+.mod_product03  img{margin: auto}
+.mod_interview04 .container .iv_tab .btn_g button.next,
+.mod_interview04 .container .iv_tab .btn_g button.prev,
+.mod_interview04 .container .slick-dots li.slick-active{background: #5c4229}
+.mod_interview04 .container .iv_cont:after,
+.mod_interview04 .container .iv_cont > div .interview .q{color: #d4c2a9}
+.mod_interview04 .container .iv_cont > div .photo{bottom: 0;right: 0}
+.mod_interview04 .container .iv_cont > div{height: auto;padding-bottom: 180px}
+.mod_interview04 .container .iv_cont > div .interview{height: auto;position: static}
+.mod_comPic .slick-slide{height: auto}
+.comMov{border-radius: 0;}
+.comPic + .comMov{margin-top: 7rem}
+
+.mod_comPic .slick-list{margin: 0 -10px}
+.mod_comPic .slick-slide{margin: 0 10px;height: auto}
+
+@media all and (max-width:1440px){
+    .mod_visual .container,
+    .mod_keyValue .container{width: calc(100% - 40px);height: auto;}
+    .mod_visual .txt{left: 20px}
+    .mod_visual img{max-width: 300px}
+    
+    .mod_business_cst03 .container{width: calc(100% - 40px)}
+    
+    .mod_comPic .container{width: calc(100% - 40px)}
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{height: auto;padding: 10rem 0}
+    .mod_visual .txt{position: sticky;transform: none;}
+    
+    .mod_info05 .info_area:before{width: 50%}
+    .mod_info05 .info_area .txt{width: calc(50% - 40px)}
+    .mod_info05 .info_area .txt .item{margin: 5rem 0}
+    
+    
+	.mod_business_cst03 .bizDiv .text_area{width: calc(100% - 200px)}
+    
+    .mod_keyValue .keyValue:before{position: static;margin: 0 auto 2rem auto}
+    .mod_keyValue .keyValue{min-height: auto;padding-left: 0;padding-top: 0}
+    
+     .mod_product03 .container{max-width: calc(100% - 40px)}
+    
+    .mod_interview04 .container .iv_cont > div{padding-bottom: 0}
+
+    
+    
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual{min-height: auto;}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    .mod_visual .imgCi img{max-width: 90px}
+    
+    .mod_info05 .info_area{display: block;}
+    .mod_info05 .info_area:before{width: 100%;height: 200px;display: block}
+    .mod_info05 .info_area .txt{width: 100%;}
+    
+    
+	.mod_business_cst03 .container{min-height: 414px}
+    .mod_business_cst03 .bizDiv img{max-width: 300px}
+    
+    
+    .mod_keyValue .keyValue:before{background-size: 500px;width: 500px;height: 425px}
+    
+    .mod_product03 .addMsg{word-break: keep-all}
+    
+  
+}
+
+@media all and (max-width:640px){
+    .mod_visual{padding: 40px 0 40px 0}
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    .mod_visual .imgCi img{max-width: 60px}
+    
+    .pro_tit span{font-size: 12px}
+    .pro_tit {font-size: 30px}
+    .mod_imgCom h3{font-size: 30px}
+    
+    .mod_business_cst03 .container{min-height: auto}
+	.mod_business_cst03 .bizDiv img{top: 0;transform: translateY(0);position: static;max-width: 100%;width: 100%; object-fit: cover;height: 200px}
+	.mod_business_cst03 .bizDiv .text_area{width: 100%}
+    .mod_business_cst03 .biz_wrap{margin-top: 4rem;min-height: auto}
+    .mod_business_cst03 .bizDiv .active .text_area{padding: 3rem}
+    .mod_business_cst03 .bizDiv .text_area{padding: 0  3rem}
+    
+    .mod_visual:before{width: 60%}
+    
+    
+    .mod_keyValue .keyValue:before{background-size: 280px;width: 280px;height: 240px}
+    .mod_keyValue .keyValue .tit,
+    .mod_keyTask h3{font-size: 2.6rem;}
+    .mod_keyTask li *{font-size: 1.8rem}
+}
