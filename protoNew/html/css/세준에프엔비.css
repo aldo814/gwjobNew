@@ -120,7 +120,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_keyValue .keyValue .list .tit:before{background-size: auto 100% !important;height: 40px}
     
     
-    .mod_talent02 .talent ul li:before{height: 400px !importan;background-size:  cover !important;background-position: center !important}
+    .mod_talent02 .talent ul li:before{height: 400px !important;background-size:  cover !important;background-position: center !important}
     
     
 }
@@ -168,4 +168,5 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_keyTask ul .list{padding: 4rem}
     .mod_keyTask ul .list .tit{font-size: 2rem}
     
+    .mod_talent02 .talent ul li:before{height: 200px !important}
 }
