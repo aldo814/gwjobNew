@@ -153,6 +153,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
     
     .mod_interview04 .container .iv_cont > div .interview{height: auto;}
+    .mod_info02 > div:nth-child(1) img, .mod_info02 > div:nth-child(5) img{height: auto;}
    
 }
 
