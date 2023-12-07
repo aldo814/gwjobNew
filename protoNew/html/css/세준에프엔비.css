@@ -112,7 +112,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 }
 @media all and (max-width:1024px){
     
-    .mod_visual{min-height: 400px;height: auto;padding:40px 0 120px 0;box-sizing: border-box}
+    .mod_visual{min-height: 400px;height: auto;padding:10rem 0;box-sizing: border-box}
+    .mod_visual .txt{position: static;transform: none;}
     
     .mod_keyValue .keyValue .list{width: 180px;height: 180px;}
     .mod_keyValue .keyValue .list .tit{font-size: 2.2rem;}
@@ -142,11 +143,19 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_talent02 .talent ul li{width: 100%;}
     .mod_talent02 .talent ul li + li{margin-top: 3rem}
     .mod_talent02 .talent ul li p{height: auto;padding: 2rem;font-size: 1.6rem;}
+    
+        
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
    
 }
 
 @media all and (max-width:640px){
-    .mod_visual{padding: 40px 0 40px 0}
+    .mod_visual{padding: 10rem 0}
     .mod_visual .txt .title{font-size: 2rem}
     .mod_visual .txt .comName{font-size: 3.6rem}
     
