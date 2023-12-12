@@ -10,7 +10,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_visual{box-sizing: border-box;height: 700px;background: url(../images/코애니/visual.png) no-repeat center;background-size: cover;position: relative}
 .mod_visual .container{position: static}
 .mod_visual:before{content: '';display: block;width: 50%;height: 100%;background: rgba(0, 0, 0, 0.3);position: absolute;left: 0;top: 0}
-.mod_visual  .txt{position: absolute;top: 50%;left: 0;transform: translateY(-50%)}
+.mod_visual  .txt{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%;max-width: 1200px}
 .mod_visual .title{font-size: 2.6rem;color: #fff;margin-bottom: 3rem}
 .mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
 

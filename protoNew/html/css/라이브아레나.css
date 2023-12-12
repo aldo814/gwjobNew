@@ -1,0 +1,195 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/라이브아레나/visual.png) no-repeat center;background-size: cover;position: relative}
+.mod_visual .container{position: static}
+.mod_visual .title{font-size: 2.6rem;color: #fff;margin: 0 0 1rem 0;}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
+.mod_visual .txt{position: absolute;left: 50%;width: calc(100% - 40px);top: 50%;transform: translate(-50%,-50%);max-width: 1200px;text-align: center;}
+.mod_visual .imgCi{width: 300px;margin: 0 auto 2rem auto;background: #fff;padding: 1rem;box-sizing: border-box;border-radius: 50px}
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.sns_mod_info{background: url(../images/라이브아레나/infoBg.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #f9f871}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+.mod_history02 .history .slick-slide > span::before{background: #318db2}
+.mod_history02 .history .slick-slide > span{border-color: #318db2;color: #318db2}
+.mod_history02 .history .slick-slide > ul li .month{color: #ccc}
+.mod_history02 .history .slick-slide{height: auto;}
+.mod_info03{padding: 7rem 0;background: #f4f4f4;}
+.mod_info03 .item{border-radius: 20px;}
+.mod_info03 .info_wrap{display: flex;justify-content:space-between;}
+.mod_info03 .info_wrap > .item{width: calc(33.333% - 13.333px);padding: 4rem;box-sizing: border-box;text-align: center;color: #333;display: flex;flex-direction: column;}
+.mod_info03 .info_wrap > .item:nth-child(1){background: #86bed9;}
+.mod_info03 .info_wrap > .item:nth-child(2){background: #abc5d3;}
+.mod_info03 .info_wrap > .item:nth-child(3){background: #c3dcea;}
+.mod_info03 .info_wrap > .item:before{content: '';width: 195px;height: 195px;border-radius: 50%;background: #fff;margin:0 auto 3rem auto;background-size:  cover !important}
+.mod_info03 .info_wrap > .item:nth-child(1):before{background: url(../images/라이브아레나/vision.png) no-repeat;}
+.mod_info03 .info_wrap > .item:nth-child(2):before{background: url(../images/라이브아레나/slogan.png) no-repeat;}
+.mod_info03 .info_wrap > .item:nth-child(3):before{background: url(../images/라이브아레나/mission.png) no-repeat;}
+.mod_info03 .info_wrap .item .tit{font-size: 3rem;font-weight: bold;margin-bottom: 1.5rem}
+.mod_info03 .info_wrap .item div:not(.tit){font-size: 1.8rem;word-break: keep-all}
+.mod_info03 .kv_wrap .item{margin-top: 20px;background: #fff;position: relative;display: flex;overflow: hidden}
+.mod_info03 .kv_wrap .item:before{content: '';width: 490px;background-size: cover !important}
+.mod_info03 .kv_wrap .item:nth-child(1):before{background: url(../images/라이브아레나/kt.png) no-repeat; }
+.mod_info03 .kv_wrap .item h3{font-size: 3rem;font-weight: bold;border-bottom: 1px solid #000;display: inline-block;margin-bottom: 3rem}
+.mod_info03 .kv_wrap .item .text{width: calc(100% - 490px);padding: 10rem}
+.mod_info03 .kv_wrap .item li,
+.mod_info03 .kv_wrap .item li *{font-size: 1.8rem;color: #666666}
+
+.mod_finance08 h3 span{color: #318db2;font-weight: bold;}
+.mod_finance08 .tit_wrap > h3 span:after{background: #318db2}
+.mod_finance08 .conts_wrap > div{background: #318db2}
+.mod_finance08 .conts_wrap > div:nth-child(even){border-color: #318db2;color: #318db2}
+.mod_finance08 .conts_wrap  > div:nth-child(even) .tit{color: #333}
+.mod_percent02{background: #f4f4f4}
+.mod_percent02 .percent_wrap .scale .ico{background: url(../images/라이브아레나/per01.png) no-repeat center}
+.mod_percent02 .percent_wrap .growth .ico{background: url(../images/라이브아레나/per02.png) no-repeat center}
+.mod_percent02 .percent_wrap .profit .ico{background: url(../images/라이브아레나/per03.png) no-repeat center}
+.mod_percent02 .percent_wrap .stable .ico{background: url(../images/라이브아레나/per04.png) no-repeat center}
+.mod_percent02 .percent_wrap > div > div span{color: #318db2}
+
+.mod_business_area04 h3 span{color: #ccc}
+.mod_business_area04 .bizDiv .slick-slide .info > h4{color: #00a3ed;}
+
+
+.mod_product02 h3{margin-bottom: 0}
+.mod_product02 .slick-slide{height: auto;}
+.mod_product02 .product_wrap {position: relative;}
+.mod_product02 .item{display: flex;flex-direction: row-reverse;justify-content: space-between;}
+.mod_product02 .slider-container{position: absolute;top: 0;left: 0;}
+.mod_product02 h4{font-size:3rem;font-weight: bold;margin-bottom: 2rem;color: #000;}
+.mod_product02 p{font-size: 1.8rem;color: #666;word-break: keep-all}
+.mod_product02 .thumb{width: 55%;}
+.mod_product02 .thumb img{width: 100%}
+.mod_product02 .info{width: 45%;padding-right: 4rem;box-sizing: border-box;padding-top: 3.5rem}
+.mod_product02 .slides-numbers span{font-size: 2rem;font-weight: 500;color: #333b97}
+.mod_product02 .slick-dots{position: absolute;left: 0;bottom: 0;}
+.mod_product02 .slick-dots li {display: inline-block;}
+.mod_product02 .slick-dots li + li{margin-left: 10px}
+
+.mod_product02{background: url(../images/라이브아레나/pro_bg.png) no-repeat top left #f4f4f4;padding: 8rem 0}
+.mod_product02 .pro_tit:after{content: '';display: block;width: 100%;background: url(../images/라이브아레나/pro_top.png) no-repeat;background-size: cover;height: 400px;margin: 4rem auto 10rem auto}
+.mod_product02 .product_slide{padding: 0 7rem}
+.mod_product02 .slick-arrow,
+.mod_comPic .slick-arrow{width: 27px;height: 47px;text-indent: -9999px;position: absolute;top: 50%;transform: translateY(-50%);}
+.mod_product02 .slick-prev,
+.mod_comPic .slick-prev{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/이앤지테크/prev.png) no-repeat;left:0}
+.mod_product02 .slick-next,
+.mod_comPic .slick-next{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/이앤지테크/next.png) no-repeat;right: 0}
+.mod_product02 .slides-numbers {padding-left: 7rem}
+.mod_product02 .slides-numbers span{color: #318db2;font-size: 2.4rem;font-weight: bold;}
+.mod_product02 h4{color: #318db2}
+
+.mod_imgCom .slick-slide{height: auto;}
+.mod_imgCom img{width: 100%}
+.mod_business_area04 .bizDiv .slick-slide .thumb img{width: 100%}
+
+.mod_imgCom .img_area{position: relative;}
+.mod_imgCom .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_imgCom .sw_btn_wrap .slick-disabled{opacity:.3;}
+.mod_imgCom .sw_btn_wrap .prev_arrow{left:0;background-position:0 0;}
+.mod_imgCom .sw_btn_wrap .next_arrow{right:0;background-position:-70px 0;}
+
+.mod_comMov .comMov{margin-top: 7rem;border-radius: 0}
+
+@media all and (max-width:1440px){
+    .mod_visual .container{width: calc(100% - 40px);height: auto;}
+     .mod_info03 .container{width: calc(100% - 40px);}
+    
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{min-height: 400px;height: auto;padding:10rem 0;box-sizing: border-box}
+    .mod_visual .txt{position: static;transform: none;width: 100%}
+     .mod_info03 .kv_wrap .item:before{width: 350px;}
+    .mod_info03 .kv_wrap .item .text{width: calc(100% - 350px)}
+    
+ 
+    
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual{min-height: auto;}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    
+        
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+     .mod_info03 .info_wrap > .item:before{width: 160px;height: 160px}
+    .mod_info03 .info_wrap > .item{padding: 2.5rem}
+    .mod_info03 .info_wrap .item .tit{font-size: 2.4rem}
+    .mod_info03 .kv_wrap .item:before{width: 300px;}
+    .mod_info03 .kv_wrap .item .text{width: calc(100% - 300px);padding: 10rem 5rem}
+    .mod_info03 .kv_wrap .item h3{font-size: 2.4rem;margin-bottom: 2rem}
+    
+     .mod_product02 .pro_tit:after{height: 250px}
+    .mod_product02 .addMsg{font-size: 1.6rem}
+    
+    .mod_visual .imgCi{width: 200px;}
+    .mod_visual .imgCi img{max-width: 80%}
+   
+}
+
+@media all and (max-width:640px){
+    .mod_visual{padding: 10rem 0}
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    .pro_tit span{font-size: 12px}
+    .pro_tit{font-size: 30px}
+    
+     .mod_info03 .info_wrap{display: block;}
+    .mod_info03 .info_wrap > .item{width: 100%;}
+    .mod_info03 .info_wrap > .item + .item{margin-top: 20px}
+    .mod_info03 .info_wrap > .item:before{width: 120px;height: 120px;}
+    
+    .mod_info03 .kv_wrap .item:before{height: 160px;width: 100%;background-position:  center !important}
+    .mod_info03 .kv_wrap .item{flex-direction: column;}
+    .mod_info03 .kv_wrap .item .text{width: 100%;padding: 3rem}
+    
+    .mod_product02 h4{font-size: 2.2rem}
+    .mod_product02 .item{flex-direction: column-reverse}
+    .mod_product02 .thumb,
+    .mod_product02 .info{width: calc(100%)}
+    .mod_product02 .info{margin-bottom: 2rem}
+    
+    .mod_product02{background-size: 100%}
+    .mod_product02 .pro_tit:after{height: 200px;margin: 2rem auto 5rem auto}
+    
+    .mod_visual .imgCi{width: 150px;}
+    
+}
