@@ -1,0 +1,136 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/네오바이오텍/visual.png) no-repeat center;background-size: cover;position: relative}
+.mod_visual .container{position: static}
+.mod_visual .title{font-size: 2.6rem;color: #fff;margin: 0 0 1rem 0}
+.mod_visual .comName{color: #e31c93;font-size: 6.5rem;font-weight: bold;}
+.mod_visual .txt{position: absolute;left: 50%;width: calc(100% - 40px);top: 50%;transform: translate(-50%,-50%);max-width: 1200px;}
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.sns_mod_info{background: url(../images/네오바이오텍/infoBg.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #ff4476}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+.mod_history02 .history .slick-slide > span::before{background: #e31c93}
+.mod_history02 .history .slick-slide > span{border-color: #e31c93;color: #e31c93}
+.mod_history02 .history .slick-slide > ul li .month{color: #ccc}
+.mod_history02 .history .slick-slide{height: auto;}
+
+.mod_info06 {padding: 7rem 0;background: #f4f4f4;}
+.mod_info06 .slogan{text-align: center;font-weight: bold;color: #333;font-size: 4rem;}
+.mod_info06 .info_area{display: flex;justify-content: space-between;background: url(../images/네오바이오텍/vision_bg.png) no-repeat;min-height: 375px;max-width: 957px;margin: auto;margin-top: 5rem}
+.mod_info06 .info_area > .item{text-align: center;width: calc(33.333% - 10px);padding:150px 40px;word-break: keep-all;}
+.mod_info06 .info_area > .item h4{font-size: 3rem;margin-bottom: 1rem;font-weight: bold;}
+.mod_info06 .info_area > .item p,
+.mod_info06 .info_area > .item .tit{font-size: 1.8rem;color: #525252;}
+
+.mod_keyTask{padding: 7rem 0;background: url(../images/네오바이오텍/keyYask.png) no-repeat right center;background-size: cover;}
+.mod_keyTask .kt_area{display: flex;align-items: center;}
+.mod_keyTask .kt_area h4{width: 280px;font-size: 4rem;font-weight: bold;padding-right: 30px;border-right: 3px solid #333;color: #333;box-sizing: border-box;}
+.mod_keyTask .kt_area .keyTask {width: calc(100% - 280px);padding-left: 3rem;font-size: 1.8rem;color: #525252;}
+
+.mod_business_area04 h3 span{color: #ccc;}
+.mod_business_area04 .bizDiv .slick-slide .info > h4{color: #ff735d}
+
+
+.mod_business_area03{background: #fff5fc}
+.mod_business_area03 h3 em{color: #e9538c}
+.mod_business_area03 .bizDiv .slick-slide{background: none;}
+
+.mod_finance05{background: #fff;padding: 0 !important;margin: 7rem 0}
+.mod_finance05 > div{background: #f5f5f5}
+.mod_finance05 h3 span{color: #ccc}
+.mod_percent05{margin: 0 !important;padding: 7rem 0;background: #f4f4f4}
+
+.mod_culture10{background: url(../images/네오바이오텍/wel_bg.png) no-repeat;background-size: cover;}
+.mod_culture10 .next_arrow{background: url(../images/네오바이오텍/next.png) no-repeat center rgba(0,0,0,.2)}
+.mod_culture10 .prev_arrow{background: url(../images/네오바이오텍/prev.png) no-repeat center rgba(0,0,0,.2)}
+.mod_culture10 .slide_arrow.slick-disabled{display: block !important;opacity: 0.5}
+
+.mod_interview06 .prev_arrow{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_prev.png) no-repeat #666 center;background-size: 10px}
+.mod_interview06 .next_arrow{background: url(https://aldo814.github.io/gwjobNew/protoNew/html/images/2218133427_next.png) no-repeat #666 center;background-size: 10px}
+.mod_interview06 .bg{margin-top: -150px}
+.mod_interview06 .photo{margin-left: 4rem}
+
+.mod_comMov{background: #f4f4f4}
+.mod_comMov .comMov{border-radius: 0}
+
+.slick-initialized .slick-slide{height: auto;}
+.mod_culture10 .container .slick-dots li.slick-active{background: #e31c93}
+
+@media all and (max-width:1440px){
+    .mod_visual .container,
+    .mod_info06 .container,
+    .mod_keyTask .container,
+    .mod_comMov .container{width: calc(100% - 40px);height: auto;}
+    
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{min-height: 400px;height: auto;padding:10rem 0;box-sizing: border-box}
+    .mod_visual .txt{position: static;transform: none;}
+    
+    .mod_info06 .info_area{background: none;max-width: 100%;min-height: auto;}
+    .mod_info06 .info_area > .item{padding: 7rem 4rem 4rem 4rem;border-radius: 30px;position: relative;}
+    .mod_info06 .info_area > .item:before{content: '';display: block;width: 70px;height: 70px;border-radius: 50%;position: absolute;left: 50%;top: -35px;transform: translateX(-50%);}
+    .mod_info06 .info_area > .item:nth-child(1){border:5px solid #e31c93;}
+    .mod_info06 .info_area > .item:nth-child(1):before{background: url(../images/네오바이오텍/m_vision.png) no-repeat center #f4f4f4;border: 5px solid #e31c93}
+    .mod_info06 .info_area > .item:nth-child(2){border:5px solid #a752d1;}
+    .mod_info06 .info_area > .item:nth-child(2):before{background: url(../images/네오바이오텍/m_mission.png) no-repeat center #f4f4f4;border: 5px solid #a752d1}
+    .mod_info06 .info_area > .item:nth-child(3){border:5px solid #0075f1;}
+    .mod_info06 .info_area > .item:nth-child(3):before{background: url(../images/네오바이오텍/m_kt.png) no-repeat center #f4f4f4;border: 5px solid #0075f1}
+    
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual{min-height: auto;}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    
+        
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+    
+    .mod_info06 .info_area{display: block;}
+    .mod_info06 .info_area > .item{width: 100%;margin-top: 7rem}
+    .mod_info06 .info_area > .item:first-child{margin-top: 9rem}
+    .mod_keyTask .kt_area{display: block;}
+    .mod_keyTask .kt_area h4{width: 100%;border-right: 0;padding-right: 0;font-size: 3rem}
+    .mod_keyTask .kt_area h4:after{content: '';display: block;width: 35px;height: 3px;background: #333;margin: 2rem 0}
+    .mod_keyTask .kt_area .keyTask{padding-left: 0;width: 100%;}
+    
+    .mod_interview06 .bg{margin-top: -100px}
+    
+    .mod_culture10 .slide_arrow,
+    .mod_culture10 .slide_arrow.slick-disabled{display: none !important}
+   
+}
+
+@media all and (max-width:640px){
+    .mod_visual{padding: 10rem 0}
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    .pro_tit span{font-size: 12px}
+    .pro_tit{font-size: 30px}
+    
+}

@@ -4,7 +4,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .pd70{padding: 7rem 0}
 
 .mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/협동조합모월/visual.png) no-repeat center;background-size: cover;}
-.mod_visual .container{display: flex;justify-content: center;align-items: center;height: 100%;text-align: center;}
+.mod_visual .container{display: flex;justify-content: center;align-items: center;height: 100%;text-align: center;min-height: 700px}
 .mod_visual .title{font-size: 2.6rem;color: #fff;margin: 3rem 0 1rem 0}
 .mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
 
@@ -21,6 +21,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
 
 .mod_history01 .history > div > span{background: #7f4d3e}
+.mod_history01 .history > div {min-height: 80px}
 .mod_history01 .history > div > ul > li .month{color: #7f4d3e}
 
 .mod_info03{padding: 7rem 0;background: #f4f4f4;}
@@ -58,6 +59,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_swot02 .swot_wrap .swotT span{background: #ababab}
 .mod_swot02 .swot_wrap .swotT .tit:before{background: url(../images/협동조합모월/swotT.png) no-repeat center;}
 .mod_swot02 h3 span{color: #ccc;}
+.mod_interview04 .container .iv_tab .btn_g{display: none}
 
 .mod_finance05{background: none;padding: 7rem 0}
 .mod_finance05 h3 span{color: #ccc}
@@ -92,6 +94,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 @media all and (max-width:1440px){
     .mod_visual .container,
     .mod_info03 .container{width: calc(100% - 40px);height: auto;}
+    .mod_visual .container{min-height: auto}
     
     
 }
