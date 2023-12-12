@@ -136,8 +136,35 @@
 .mod_business_cst02 .slick-prev{left: 0}
 .mod_business_cst02 .slick-next{right: 0}
 
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_info05{margin: 7rem 0;}
+.mod_info05 .info_area{display: flex;justify-content: space-between}
+.mod_info05 .info_area:before{content: '';background: url(../images/남이섬/infoImg.png) no-repeat center;width: 580px;height: auto;background-size: cover;}
+.mod_info05 .info_area .txt{width: calc(100% - 620px);}
+.mod_info05 .info_area .txt .item{margin:7rem 0 }
+.mod_info05 .info_area .txt h4{font-size: 3rem;font-weight: bold;color: #006c7e;border-bottom: 1px solid #ddd;padding-bottom: 10px;margin-bottom: 15px}
+.mod_info05 .info_area .txt div{font-size: 1.8rem}
+
+.mod_info06 {padding: 7rem 0;background: #f4f4f4;}
+.mod_info06 .slogan{text-align: center;font-weight: bold;color: #333;font-size: 4rem;}
+.mod_info06 .info_area{display: flex;justify-content: space-between;background: url(../images/네오바이오텍/vision_bg.png) no-repeat;min-height: 375px;max-width: 957px;margin: auto;margin-top: 5rem}
+.mod_info06 .info_area > .item{text-align: center;width: calc(33.333% - 10px);padding:150px 40px;word-break: keep-all;}
+.mod_info06 .info_area > .item h4{font-size: 3rem;margin-bottom: 1rem;font-weight: bold;}
+.mod_info06 .info_area > .item p,
+.mod_info06 .info_area > .item .tit{font-size: 1.8rem;color: #525252;}
+
+.mod_keyTask{padding: 7rem 0;background: url(../images/네오바이오텍/keyYask.png) no-repeat right center;background-size: cover;}
+.mod_keyTask .kt_area{display: flex;align-items: center;}
+.mod_keyTask .kt_area h4{width: 280px;font-size: 4rem;font-weight: bold;padding-right: 30px;border-right: 3px solid #333;color: #333;box-sizing: border-box;}
+.mod_keyTask .kt_area .keyTask {width: calc(100% - 280px);padding-left: 3rem;font-size: 1.8rem;color: #525252;}
+
 @media all and (max-width:1440px){
     .mod_info03 .container{width: calc(100% - 40px);}
+    
+    
+    .mod_info06 .container{width: calc(100% - 40px)}
 }
 
 
@@ -148,6 +175,25 @@
 @media all and (max-width:1024px){  
      .mod_info03 .kv_wrap .item:before{width: 350px;}
     .mod_info03 .kv_wrap .item .text{width: calc(100% - 350px)}
+    
+    
+    .mod_info05 .info_area:before{width: 50%}
+    .mod_info05 .info_area .txt{width: calc(50% - 40px)}
+    .mod_info05 .info_area .txt .item{margin: 5rem 0}
+    
+    .mod_info05 .info_area:before{width: 50%}
+    .mod_info05 .info_area .txt{width: calc(50% - 40px)}
+    .mod_info05 .info_area .txt .item{margin: 5rem 0}
+    
+    .mod_info06 .info_area{background: none;max-width: 100%;min-height: auto;}
+    .mod_info06 .info_area > .item{padding: 7rem 4rem 4rem 4rem;border-radius: 30px;position: relative;}
+    .mod_info06 .info_area > .item:before{content: '';display: block;width: 70px;height: 70px;border-radius: 50%;position: absolute;left: 50%;top: -35px;transform: translateX(-50%);}
+    .mod_info06 .info_area > .item:nth-child(1){border:5px solid #e31c93;}
+    .mod_info06 .info_area > .item:nth-child(1):before{background: url(../images/네오바이오텍/m_vision.png) no-repeat center #f4f4f4;border: 5px solid #e31c93}
+    .mod_info06 .info_area > .item:nth-child(2){border:5px solid #a752d1;}
+    .mod_info06 .info_area > .item:nth-child(2):before{background: url(../images/네오바이오텍/m_mission.png) no-repeat center #f4f4f4;border: 5px solid #a752d1}
+    .mod_info06 .info_area > .item:nth-child(3){border:5px solid #0075f1;}
+    .mod_info06 .info_area > .item:nth-child(3):before{background: url(../images/네오바이오텍/m_kt.png) no-repeat center #f4f4f4;border: 5px solid #0075f1}
     }
 
 @media all and (max-width:768px){
@@ -176,6 +222,18 @@
     .mod_info03 .kv_wrap .item:before{width: 300px;}
     .mod_info03 .kv_wrap .item .text{width: calc(100% - 300px);padding: 10rem 5rem}
     .mod_info03 .kv_wrap .item h3{font-size: 2.4rem;margin-bottom: 2rem}
+    
+    .mod_info05 .info_area{display: block;}
+    .mod_info05 .info_area:before{width: 100%;height: 200px;display: block}
+    .mod_info05 .info_area .txt{width: 100%;}
+    .mod_info06 .info_area{display: block;}
+    .mod_info06 .info_area > .item{width: 100%;margin-top: 7rem}
+    .mod_info06 .info_area > .item:first-child{margin-top: 9rem}
+    
+    .mod_keyTask .kt_area{display: block;}
+    .mod_keyTask .kt_area h4{width: 100%;border-right: 0;padding-right: 0;font-size: 3rem}
+    .mod_keyTask .kt_area h4:after{content: '';display: block;width: 35px;height: 3px;background: #333;margin: 2rem 0}
+    .mod_keyTask .kt_area .keyTask{padding-left: 0;width: 100%;}
 }
 
 @media all and (max-width:640px){
@@ -208,7 +266,10 @@
     .mod_info04 .info_wrap > .item{margin-left: 0;margin-top: 20px}
     .mod_info04 .info_wrap > .item ul{padding: 0}
     .mod_info04 .info_wrap > .item ul li .tit{width: 40px}
-    .mod_info04 .info_wrap > .item ul li .desc{width: calc(100% - 40px)} 
+    .mod_info04 .info_wrap > .item ul li .desc{width: calc(100% - 40px)}
+    
+     .pro_tit {font-size: 30px}
+    .pro_tit span{font-size: 12px}
     
 }
     
