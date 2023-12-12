@@ -123,6 +123,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_visual .container{width: calc(100% - 40px);height: auto;}
      .mod_info03 .container{width: calc(100% - 40px);}
     
+     .mod_history02{overflow: hidden}
+    
     
 }
 @media all and (max-width:1024px){

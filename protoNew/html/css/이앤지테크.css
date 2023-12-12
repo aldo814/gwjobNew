@@ -104,6 +104,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_visual .container,
     .mod_info04 .container{width: calc(100% - 40px);}
     .mod_visual .imgCi img{max-width: 300px}
+    
+    .mod_history02{overflow: hidden}
      
 }
 

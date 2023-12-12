@@ -1,6 +1,6 @@
 .mod_business_cst02{background: #f4f4f4;position: relative}
 .mod_business_cst02 .pro_tit{position: absolute;left: 50%;top: 7rem;text-align: left;max-width: 1200px;width: calc(100% - 40px);transform: translateX(-50%)}
-.mod_business_cst02 .item{display: flex;flex-direction: row-reverse;position: relative;justify-content: space-between}
+.mod_business_cst02 .item{display: flex !important;flex-direction: row-reverse;position: relative;justify-content: space-between}
 .mod_business_cst02 .thumb{width:50%;position: absolute;height: 100%}
 .mod_business_cst02 .thumb img{min-width: 100%;height: 100%;object-fit: cover}
 .mod_business_cst02 .thumb:before{content: '';display: block;width: 0px;height: 0px; border-bottom: 600px solid #f4f4f4;border-left: 180px solid transparent;border-right: 180px solid transparent;position: absolute;left: -180px;z-index: 1}

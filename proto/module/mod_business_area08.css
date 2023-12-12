@@ -1,6 +1,6 @@
 .mod_product02 .slick-slide{height: auto;}
 .mod_product02 .product_wrap {position: relative;}
-.mod_product02 .item{display: flex;flex-direction: row-reverse;justify-content: space-between;}
+.mod_product02 .item{display: flex !important;flex-direction: row-reverse;justify-content: space-between;}
 .mod_product02 .slider-container{position: absolute;top: 0;left: 0;}
 .mod_product02 h4{font-size:3rem;font-weight: bold;margin-bottom: 2rem;color: #000;}
 .mod_product02 p{font-size: 1.8rem;color: #333;word-break: keep-all}
