@@ -1,0 +1,81 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/르네블루/visual.png) no-repeat center;background-size: cover;position: relative}
+.mod_visual .txt{position: absolute;right: 0;top: 10rem}
+.mod_visual .title{color: #fff;font-size: 2.6rem;}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;margin-top: 1rem}
+
+
+.pro_tit{text-align: center;font-weight:600;font-size:40px;text-align:center;margin-bottom:48px}
+.pro_tit span{display: block;color:#ccc;font-size:21px;letter-spacing:12px;font-weight:400;margin-bottom:8px;text-transform: uppercase;}
+
+.mod_comInfo02 {padding: 7rem 0;background: url(../images/르네블루/contBg.png) no-repeat;background-size: cover}
+.mod_comInfo02 .txt{background: rgba(255, 255, 255, 0.92);padding: 5rem;text-align: center;}
+.mod_comInfo02 h4{font-size: 3rem;font-weight: bold;margin-bottom: 3rem;}
+.mod_comInfo02 p{font-size: 1.8rem;color: #666}
+
+.mod_info_wrap .add_txt{text-align: center;font-size: 1.8rem;color: #666;margin-bottom: 6rem}
+.mod_info01{background: url(../images/르네블루/vision.png) no-repeat;background-size: cover}
+.mod_info01 > div .num{color: #507edb}
+
+.mod_imgCom .slick-slide{height: auto;}
+.mod_imgCom img{width: 100%}
+.mod_business_area04 .bizDiv .slick-slide .thumb img{width: 100%}
+
+.mod_imgCom .img_area{position: relative;}
+.mod_imgCom .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_imgCom .sw_btn_wrap .slick-disabled{opacity:.3;}
+.mod_imgCom .sw_btn_wrap .prev_arrow{left:0;background-position:0 0;}
+.mod_imgCom .sw_btn_wrap .next_arrow{right:0;background-position:-70px 0;}
+
+.mod_culture10{background: url(../images/르네블루/welBg.png) no-repeat;background-size: cover;}
+
+@media all and (max-width:1440px){
+    .mod_visual .container,
+    .mod_comInfo02 .container{width: calc(100% - 40px);height: auto;}
+    .mod_visual .txt{position: static;text-align: right;}
+    .mod_visual .txt{position: static;text-align: right;}
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{min-height: 400px;height: auto;padding:10rem 0;box-sizing: border-box}
+    
+
+    
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual{min-height: auto;}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    .mod_visual .imgCi img{max-width: 150px}
+    
+    .mod_business_area03 h3{font-size: 2.6rem}
+}
+
+@media all and (max-width:640px){
+    .mod_visual{padding: 10rem 0}
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    .pro_tit span{font-size: 12px}
+    .pro_tit{font-size: 30px}
+    
+}
