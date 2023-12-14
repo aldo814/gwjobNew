@@ -54,14 +54,34 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 
 .mod_culture09{background: #fff;}
 .mod_culture09 h3 span{color: #ccc}
-.mod_culture09 .item.deduct:before{background: url(../images/비즈온네트웍스/wel01.png) no-repeat center #f2062c}
+.mod_culture09 .item.deduct:before,
+.mod_culture09 .item.facilities:before{background: url(../images/비즈온네트웍스/wel01.png) no-repeat center #f2062c}
 .mod_culture09 .item.education:before{background: url(../images/비즈온네트웍스/wel02.png) no-repeat center #57423f}
 .mod_culture09 .item.leisure:before{background: url(../images/비즈온네트웍스/wel03.png) no-repeat center #bfa6a2}
-.mod_culture09 .item.insurance:before{background: url(../images/비즈온네트웍스/wel04.png) no-repeat center #fab012}
+.mod_culture09 .item.insurance:before,
+.mod_culture09 .item.holiday:before{background: url(../images/비즈온네트웍스/wel04.png) no-repeat center #fab012}
 .mod_culture09 .item.convenience:before{background: url(../images/비즈온네트웍스/wel05.png) no-repeat center #007cff}
 .mod_culture09 .item.reward:before{background: url(../images/비즈온네트웍스/wel06.png) no-repeat center #004eda}
 .mod_culture09 .item dd{position: relative;padding-left: 15px;}
 .mod_culture09 .item dd:before{content: '-';display: block;position: absolute;left: 0;top: 0}
+
+.mod_culture09 .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_culture09 .slick-disabled{opacity:.3;}
+.mod_culture09 .prev_arrow{left:0;background-position:0 0;}
+.mod_culture09 .next_arrow{right:0;background-position:-70px 0;}
 
 .mod_imgCom {background: #f4f4f4}
 .mod_imgCom .slick-slide{height: auto;}
