@@ -178,6 +178,12 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     
     .mod_finance03 > div .tab_wrap .tab > div{border-color: #0064a2 !important}
 
+    .mod_info02 > div:nth-child(1) img, .mod_info02 > div:nth-child(5) img{height: auto;}
+    
+    .mod_info02 > div:nth-child(1){order: 0}
+    .mod_info02 > div:nth-child(2){order: 1}
+    .mod_info02 > div:nth-child(4){order: 3}
+    .mod_info02 > div:nth-child(5){order: 2}
     
    
 }
