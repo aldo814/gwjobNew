@@ -1,0 +1,177 @@
+html{font-size: 10px}
+body{width: 100%;margin: auto;font-size: 1.6rem}
+.mg70{margin: 7rem 0}
+.pd70{padding: 7rem 0}
+
+.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/속초의료원/visual.png) no-repeat center;background-size: cover;position: relative;}
+.mod_visual .ciBg{background: #fffefd;width: 100%;text-align: left}
+.mod_visual .container{position: static;}
+.mod_visual .txt{text-align: center;margin-top: 17rem}
+.mod_visual .title{font-size: 3rem;color: #fff;margin-bottom: 1rem}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;display: inline-block}
+
+.sns_mod_info{background: url(../images/속초의료원/infoBg.png) no-repeat !important;background-size: cover !important;}
+.sns_mod_info.sty01 {background: #333;padding: 10rem 0}
+.sns_mod_info.sty01 .info_wrap{display: flex;}
+.sns_mod_info.sty01 .info_wrap > li{width: calc(25% - 22.5px);margin-right: 30px;text-align: center;font-size: 2rem;color: #e48937}
+.sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
+.sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
+.sns_mod_info.sty01 ul li:last-child{margin-right: 0}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(https://aldo814.github.io/gwjobNew/proto/inc/images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+
+.mod_history01 .history > div > span{background: #fabe00}
+.mod_history01 .history > div > ul > li .month{color: #333}
+.mod_history01 .history > div ul > li .event span{color: #666}
+
+.mod_info03{padding: 7rem 0;background: #f4f4f4;}
+.mod_info03 .item{border-radius: 20px;}
+.mod_info03 .info_wrap{display: flex;justify-content:space-between;}
+.mod_info03 .info_wrap > .item{width: calc(33.333% - 13.333px);padding: 4rem;box-sizing: border-box;text-align: center;color: #fff;display: flex;flex-direction: column;}
+.mod_info03 .info_wrap > .item:nth-child(1){background: #fabe00;}
+.mod_info03 .info_wrap > .item:nth-child(2){background: #00923e;}
+.mod_info03 .info_wrap > .item:nth-child(3){background: #004ca0;}
+.mod_info03 .info_wrap > .item:before{content: '';width: 195px;height: 195px;border-radius: 50%;background: #fff;margin:0 auto 3rem auto;background-size:  cover !important}
+.mod_info03 .info_wrap > .item:nth-child(1):before{background: url(../images/속초의료원/vision.png) no-repeat;}
+.mod_info03 .info_wrap > .item:nth-child(2):before{background: url(../images/속초의료원/slogan.png) no-repeat;}
+.mod_info03 .info_wrap > .item:nth-child(3):before{background: url(../images/속초의료원/mission.png) no-repeat;}
+.mod_info03 .info_wrap .item .tit{font-size: 3rem;font-weight: bold;margin-bottom: 1.5rem}
+.mod_info03 .info_wrap .item div:not(.tit){font-size: 1.8rem;word-break: keep-all}
+.mod_info03 .kv_wrap .item{margin-top: 20px;background: #fff;position: relative;display: flex;overflow: hidden}
+.mod_info03 .kv_wrap .item:before{content: '';width: 490px;background-size: cover !important}
+.mod_info03 .kv_wrap .item:nth-child(1):before{background: url(../images/속초의료원/kv.png) no-repeat; }
+.mod_info03 .kv_wrap .item:nth-child(2):before{background: url(../images/속초의료원/kt.png) no-repeat; }
+.mod_info03 .kv_wrap .item h3{font-size: 3rem;font-weight: bold;border-bottom: 1px solid #000;display: inline-block;margin-bottom: 3rem}
+.mod_info03 .kv_wrap .item .text{width: calc(100% - 490px);padding: 10rem}
+.mod_info03 .kv_wrap .item li,
+.mod_info03 .kv_wrap .item li *{font-size: 1.8rem;color: #666666}
+
+.mod_talent01{background: #004ca0}
+.mod_talent01 > .container{align-items: center}
+.mod_talent01 .title_area h2{color: #fff;}
+.mod_talent01 .title_area h2:before{background: #fff}
+.mod_talent01 > .container > div{color: #fff}
+.mod_talent01  ul li{font-size: 2.2rem}
+
+.mod_business_area02 h3 span{color: #ccc}
+.mod_swot06 .swot_wrap .diagram_area strong{color: #fabe00}
+.mod_finance03{background: #f4f4f4}
+.mod_finance03 h3 span{color: #ccc}
+.mod_finance03 > div .tab_wrap{box-shadow: none;border: 1px solid #ccc}
+.mod_finance03 > div .tab_wrap .tab > div.on{background: #333333}
+.mod_finance03 > div .tab_wrap .tab > div + div,
+.mod_finance03 > div .tab_wrap .tab{border-color: #333333;color: #999}
+
+.mod_percent02{background: none;padding: 0;margin-top: 7rem;background: #f4f4f4}
+.mod_finance03 > div{padding: 0;background: none;}
+.mod_percent02 .percent_wrap .scale .ico{background: url(../images/속초의료원/per01.png) no-repeat center}
+.mod_percent02 .percent_wrap .growth .ico{background: url(../images/속초의료원/per02.png) no-repeat center}
+.mod_percent02 .percent_wrap .profit .ico{background: url(../images/속초의료원/per03.png) no-repeat center;background-size: 100%}
+.mod_percent02 .percent_wrap .stable .ico{background: url(../images/속초의료원/per04.png) no-repeat center}
+.mod_percent02 .percent_wrap > div > div span{color: #fabe00}
+
+.mod_culture05 h3 span{color: #ccc}
+.mod_culture05 .culture_wrap{background: url(../images/속초의료원/cul01.png) no-repeat;background-size: cover}
+.mod_culture05 .container .slick-dots li.slick-active{background: #232653}
+.mod_culture05 .container .slick-dots li{background: rgba(255, 255, 255, 0.42)}
+
+.mod_interview04{background: url(../images/속초의료원/itvBg.png) no-repeat;background-size: cover}
+.mod_interview04 .container .iv_cont:after{color: #fabe00}
+.mod_interview04 .container .iv_cont > div .interview .q{color: #fabe00;font-weight: 400}
+.mod_interview04 .container .slick-dots li.slick-active{background: #fabe00}
+.mod_interview04 .container .iv_cont > div .int
+
+
+.mod_imgCom .slick-slide{height: auto;}
+.mod_imgCom img{width: 100%}
+
+.mod_imgCom .img_area{position: relative;}
+.mod_imgCom .sw_btn_wrap .slick-arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border:none;
+    font-size:0;
+    width:70px;
+    height:100px;
+    background-color:rgba(0,0,0,.5);
+    background-image:url(https://www.gwjob.kr/page/ijcp/images/empmn/slider_arrow2.png);
+    background-repeat:no-repeat;
+    opacity:.7;
+    z-index:1;
+}
+.mod_imgCom .sw_btn_wrap .slick-disabled{opacity:.3;}
+.mod_imgCom .sw_btn_wrap .prev_arrow{left:0;background-position:0 0;}
+.mod_imgCom .slick-list{margin: 0 -10px}
+.mod_imgCom .slick-slide{margin: 0 10px;height: auto}
+.mod_imgCom .sw_btn_wrap .next_arrow{right:0;background-position:-70px 0;}erview .a{max-width: calc(100% - 180px);word-break: keep-all}
+.comMov{border-radius: 0;margin-top: 3rem}
+
+@media all and (max-width:1440px){
+    .mod_visual .container{width: calc(100% - 40px);}
+     .mod_info03 .container,
+    .mod_finance03 .container{width: calc(100% - 40px);}
+    
+    
+}
+@media all and (max-width:1024px){
+    
+    .mod_visual{min-height: auto;height: auto;}
+    .mod_visual .txt{margin-top: 5rem;padding-bottom: 8rem}
+     .mod_info03 .kv_wrap .item:before{width: 350px;}
+    .mod_info03 .kv_wrap .item .text{width: calc(100% - 350px)}
+    .mod_interview04 .container .iv_cont > div .interview .a{max-width: 100%}
+}
+
+@media all and (max-width:768px){
+     html{font-size: 8px}
+    .mod_visual .txt{margin-top: 0rem}
+    .mod_visual{min-height: auto;}
+    .mod_visual .txt .title{font-size: 2.6rem;word-break: keep-all}
+    .mod_visual .txt .comName{font-size: 4rem}
+    .mod_visual .imgCi img{max-width: 90px}
+    .mod_visual .txt{padding: 5rem}
+    
+    .sns_mod_info.sty01{padding: 5rem 0}
+    .sns_mod_info.sty01 .info_wrap{flex-wrap: wrap;}
+    .sns_mod_info.sty01 .info_wrap > li{width: calc(50% - 10px);margin-right: 20px}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(2n){margin-right: 0}
+    .sns_mod_info.sty01 .info_wrap > li:nth-child(-n + 2){margin-bottom: 20px}
+    .sns_mod_info.sty01 .info_wrap > li > div.ico{background-size: 50px !important;height: 50px;}
+    
+     .mod_info03 .info_wrap > .item:before{width: 160px;height: 160px}
+    .mod_info03 .info_wrap > .item{padding: 2.5rem}
+    .mod_info03 .info_wrap .item .tit{font-size: 2.4rem}
+    .mod_info03 .kv_wrap .item:before{width: 300px;}
+    .mod_info03 .kv_wrap .item .text{width: calc(100% - 300px);padding: 10rem 5rem}
+    .mod_info03 .kv_wrap .item h3{font-size: 2.4rem;margin-bottom: 2rem}
+    
+    .mod_finance03 > div .tab_wrap .tab{overflow: hidden}
+    .mod_finance03 > div .tab_wrap .tab > div{border-color: #333 !important;overflow: hidden}
+    .mod_finance03 > div .tab_wrap{overflow: hidden}
+    
+  
+    
+   
+}
+
+@media all and (max-width:640px){
+    .mod_visual .txt .title{font-size: 2rem}
+    .mod_visual .txt .comName{font-size: 3.6rem}
+    .mod_visual .imgCi img{max-width: 60px}
+    
+    .pro_tit {font-size: 30px}
+    .pro_tit span{font-size: 12px}
+    
+    .mod_info03 .info_wrap{display: block;}
+    .mod_info03 .info_wrap > .item{width: 100%;}
+    .mod_info03 .info_wrap > .item + .item{margin-top: 20px}
+    .mod_info03 .info_wrap > .item:before{width: 120px;height: 120px;}
+    
+    .mod_info03 .kv_wrap .item:before{height: 160px;width: 100%;background-position:  center !important}
+    .mod_info03 .kv_wrap .item{flex-direction: column;}
+    .mod_info03 .kv_wrap .item .text{width: 100%;padding: 3rem}
+
+}
