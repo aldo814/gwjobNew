@@ -49,15 +49,14 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 @media all and (max-width:1440px){
     .mod_visual .container,
     .mod_comInfo02 .container{width: calc(100% - 40px);height: auto;}
-    .mod_visual .txt{position: static;text-align: right;}
-    .mod_visual .txt{position: static;text-align: right;}
     
 }
 @media all and (max-width:1024px){
     
     .mod_visual{min-height: 400px;height: auto;padding:10rem 0;box-sizing: border-box}
     
-
+    
+    .mod_visual .txt{position: static;text-align: right;}
     
 }
 
