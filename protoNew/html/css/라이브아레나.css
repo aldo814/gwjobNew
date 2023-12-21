@@ -3,7 +3,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mg70{margin: 7rem 0}
 .pd70{padding: 7rem 0}
 
-.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/라이브아레나/visual.png) no-repeat center;background-size: cover;position: relative}
+.mod_visual{box-sizing: border-box;min-height: 700px;background: url(../images/라이브아레나/visual.png) no-repeat center bottom;background-size: cover;position: relative}
 .mod_visual .container{position: static}
 .mod_visual .title{font-size: 2.6rem;color: #fff;margin: 0 0 1rem 0;}
 .mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
@@ -32,10 +32,11 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_info03{padding: 7rem 0;background: #f4f4f4;}
 .mod_info03 .item{border-radius: 20px;}
 .mod_info03 .info_wrap{display: flex;justify-content:space-between;}
-.mod_info03 .info_wrap > .item{width: calc(33.333% - 13.333px);padding: 4rem;box-sizing: border-box;text-align: center;color: #333;display: flex;flex-direction: column;}
-.mod_info03 .info_wrap > .item:nth-child(1){background: #86bed9;}
-.mod_info03 .info_wrap > .item:nth-child(2){background: #abc5d3;}
-.mod_info03 .info_wrap > .item:nth-child(3){background: #c3dcea;}
+.mod_info03 .info_wrap > .item{width: calc(33.333% - 13.333px);padding: 4rem;box-sizing: border-box;text-align: center;display: flex;flex-direction: column;color: #fff;word-break: keep-all;white-space: normal}
+.mod_info03 .info_wrap > .item br{display: none !important}
+.mod_info03 .info_wrap > .item:nth-child(1){background: #195ba6;}
+.mod_info03 .info_wrap > .item:nth-child(2){background: #007396;}
+.mod_info03 .info_wrap > .item:nth-child(3){background: #003e5d;}
 .mod_info03 .info_wrap > .item:before{content: '';width: 195px;height: 195px;border-radius: 50%;background: #fff;margin:0 auto 3rem auto;background-size:  cover !important}
 .mod_info03 .info_wrap > .item:nth-child(1):before{background: url(../images/라이브아레나/vision.png) no-repeat;}
 .mod_info03 .info_wrap > .item:nth-child(2):before{background: url(../images/라이브아레나/slogan.png) no-repeat;}
@@ -44,11 +45,19 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_info03 .info_wrap .item div:not(.tit){font-size: 1.8rem;word-break: keep-all}
 .mod_info03 .kv_wrap .item{margin-top: 20px;background: #fff;position: relative;display: flex;overflow: hidden}
 .mod_info03 .kv_wrap .item:before{content: '';width: 490px;background-size: cover !important}
-.mod_info03 .kv_wrap .item:nth-child(1):before{background: url(../images/라이브아레나/kt.png) no-repeat; }
+.mod_info03 .kv_wrap .item:nth-child(1):before{background: url(../images/라이브아레나/kv.png) no-repeat; }
+.mod_info03 .kv_wrap .item:nth-child(2){flex-direction: row-reverse}
+.mod_info03 .kv_wrap .item:nth-child(2):before{background: url(../images/라이브아레나/kt.png) no-repeat; }
+.mod_info03 .kv_wrap .item:nth-child(2) .text{text-align: right}
 .mod_info03 .kv_wrap .item h3{font-size: 3rem;font-weight: bold;border-bottom: 1px solid #000;display: inline-block;margin-bottom: 3rem}
 .mod_info03 .kv_wrap .item .text{width: calc(100% - 490px);padding: 10rem}
 .mod_info03 .kv_wrap .item li,
 .mod_info03 .kv_wrap .item li *{font-size: 1.8rem;color: #666666}
+.mod_talent01{background: linear-gradient(90deg, rgba(40,105,204,1) 0%, rgba(83,23,146,1) 100%);}
+.mod_talent01 .title_area h2,
+.mod_talent01 .title_area span,
+.mod_talent01 .text_area .txt{color: #fff}
+.mod_talent01 .title_area h2:before{background: #fff}
 
 .mod_finance08 h3 span{color: #318db2;font-weight: bold;}
 .mod_finance08 .tit_wrap > h3 span:after{background: #318db2}
@@ -65,7 +74,10 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_business_area04 h3 span{color: #ccc}
 .mod_business_area04 .bizDiv .slick-slide .info > h4{color: #00a3ed;}
 
-
+.mod_culture07{padding: 7rem 0;background: #f4f4f4}
+.mod_culture07 h3 span{color: #ccc}
+.mod_culture07 .container .slick-track > .item{background: #002b49}
+.mod_culture07 .container .slick-track > .item:nth-child(even){background: #f1962e}
 .mod_product02 h3{margin-bottom: 0}
 .mod_product02 .slick-slide{height: auto;}
 .mod_product02 .product_wrap {position: relative;}
@@ -180,7 +192,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_info03 .info_wrap > .item:before{width: 120px;height: 120px;}
     
     .mod_info03 .kv_wrap .item:before{height: 160px;width: 100%;background-position:  center !important}
-    .mod_info03 .kv_wrap .item{flex-direction: column;}
+    .mod_info03 .kv_wrap .item{flex-direction: column !important;}
     .mod_info03 .kv_wrap .item .text{width: 100%;padding: 3rem}
     
     .mod_product02 h4{font-size: 2.2rem}
