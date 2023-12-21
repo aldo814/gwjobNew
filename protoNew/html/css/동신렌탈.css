@@ -2,11 +2,13 @@ html{font-size: 10px}
 body{width: 100%;margin: auto;font-size: 1.6rem}
 .mg70{margin: 7rem 0}
 .pd70{padding: 7rem 0}
-.mod_visual{width: 100%;height: 700px;padding: 60px 0;background: url(images/2268137001_visual.png) no-repeat;background-size: cover;}
-.mod_visual img{display: block;margin:0 0 5rem auto}
-.mod_visual .comName{color: #003b90;font-size: 6.5rem;font-weight: bold;}
-.mod_visual .title{font-size: 2.6rem;color: #fff}
-.sns_mod_info{background: url(images/2268137001_info.png) no-repeat !important;background-size: cover !important}
+.mod_visual{width: 100%;height: 700px;padding: 10rem 0;background: url(../images/동신렌탈/visual.png) no-repeat;background-size: cover;}
+.mod_visual .container{display: flex;flex-direction: row-reverse;justify-content: space-between}
+.mod_visual img{display: block;}
+.mod_visual .comName{color: #fff;font-size: 6.5rem;font-weight: bold;}
+.mod_visual .title{font-size: 2.6rem;color: #fff;margin-bottom: 1rem}
+.mod_visual .txt{background: #094695;display: inline-block;padding: 5rem;}
+.sns_mod_info{background: url(../images/2268137001_info.png) no-repeat !important;background-size: cover !important}
 .mod_culture05 .culture_wrap{background: none}
 .sns_mod_info li{color: #003b90 !important}
 .mod_history04 .history_wrap{margin-top: 5rem;}
@@ -21,7 +23,25 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_info02 > div .tit{margin-bottom: 2rem}
 .mod_info02 > div .num{color: #003b90}
 .mod_info02 > div:nth-child(3){background: #003b90}
-.mod_talent01{background: #f4f4f4;padding: 8rem 0}
+
+.mod_info_cst .item{display: flex;}
+.mod_info_cst .item .txt{display: flex;flex-direction: column;justify-content: center;align-items: center;width: calc(100% - 924px);padding: 3rem;font-size: 1.8rem;text-align: center;}
+.mod_info_cst .item .img{width: 924px;}
+.mod_info_cst .item .img img{height: 100%;object-fit: cover;}
+.mod_info_cst .item .num{color: #003b90;font-size: 1.8rem;font-weight: bold;margin-bottom: 1rem}
+.mod_info_cst .item .txt .tit{font-size: 3.8rem;font-weight: bold;margin-bottom: 1.5rem}
+.mod_info_cst .item .txt div{font-size: 1.8rem}
+.mod_info_cst .item:nth-child(1){background: #f5f5f5;}
+.mod_info_cst .slogan_area{text-align: center;background: #003b90;padding: 7rem 0;color: #fff;}
+.mod_info_cst .slogan_area h3{display: flex;justify-content: center;color: #fff;font-size: 1.8rem;font-weight: bold;margin-bottom: 2rem}
+.mod_info_cst .slogan_area h3 span{margin-left: 3rem}
+.mod_info_cst .slogan_area .slogan{font-size: 1.8rem;}
+
+.mod_talent01{background: url(../images/동신렌탈/talBg.png) no-repeat;background-size: cover;padding: 8rem 0}
+.mod_talent01 > .container{align-items: center}
+.mod_talent01 > .container > div{color: #fff;}
+.mod_talent01 .title_area h2{color: #fff;}
+.mod_talent01 .title_area h2:before{background: #fff}
 .mod_strategic01 .task_wrap{display: flex;justify-content: space-between;margin-bottom: 10rem}
 .mod_strategic01 .task_wrap .item{width: calc(50% - 15px);padding: 4rem 3rem;box-sizing: border-box;}
 .mod_strategic01 .task_wrap .item:nth-child(1){background: #fff;}
@@ -33,7 +53,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_strategic01 .task_wrap .list .tit{font-size: 2rem;font-weight: 500;margin-bottom: 1rem}
 .mod_strategic01 .task_wrap .list .desc{color: #666666;}
 .mod_strategic01 .slick-slide{height: auto}
-.mod_strategic01 .slick-dots{position: absolute;left: 50%;transform: translateX(-50%);text-align: center}
+.mod_strategic01 .slick-dots{position: absolute;left: 50%;transform: translateX(-50%);text-align: center;bottom: -70px}
 .mod_strategic01 .slick-dots li{display: inline-block;margin: 0 10px;}
 .mod_strategic01 .slick-dots li button{width: 15px;height: 15px;background: #f4f4f4;border-radius: 50%;text-indent: -9999px;}
 .mod_strategic01 .slick-dots li.slick-active button{background: #003b90}
@@ -51,18 +71,19 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .mod_percent01 .percent_wrap > div > div span strong{font-size: 1.8rem;font-weight: 400;margin-right: 1rem}
 .mod_percent01 .percent_wrap > div > div span em{font-size: 2.4rem;font-weight: bold;}
 .mod_percent01 .percent_wrap .ico{margin: 1rem auto 0 auto;width: 100% !important;height: 111px !important}
-.mod_percent01 .percent_wrap .scale .ico{background: url(images/2268137001_fin01.png) no-repeat center;}
-.mod_percent01 .percent_wrap .growth .ico{background: url(images/2268137001_fin02.png) no-repeat center;}
-.mod_percent01 .percent_wrap .profit .ico{background: url(images/2268137001_fin03.png) no-repeat center;}
-.mod_percent01 .percent_wrap .stable .ico{background: url(images/2268137001_fin04.png) no-repeat center;}
+.mod_percent01 .percent_wrap .scale .ico{background: url(../images/2268137001_fin01.png) no-repeat center;}
+.mod_percent01 .percent_wrap .growth .ico{background: url(../images/2268137001_fin02.png) no-repeat center;}
+.mod_percent01 .percent_wrap .profit .ico{background: url(../images/2268137001_fin03.png) no-repeat center;}
+.mod_percent01 .percent_wrap .stable .ico{background: url(../images/2268137001_fin04.png) no-repeat center;}
 .mod_business_area01{background: #003b90;}
 .mod_business_area01 .container{background: #0a397d}
+.mod_interview06 .qa_ceo .interview_txt strong{color: #0a397d}
 .mod_business_area01 .sw_btn_wrap .prevv_arrow{left:0;background-position:0 0;}
 .mod_business_area01 .sw_btn_wrap .nextt_arrow{right:0;background-position:-70px 0;}
 .mod_culture05{padding: 0;position: relative;}
 .mod_culture05 h3 span{color: #cccccc;}
-.mod_culture05 .culwel_wrap.first{background: url(images/2268137001_culture.png) no-repeat;background-size:cover}
-.mod_culture05 .culwel_wrap{background: url(images/2268137001_welfare.png) no-repeat;background-size:cover}
+.mod_culture05 .culwel_wrap.first{background: url(../images/2268137001_culture.png) no-repeat;background-size:cover}
+.mod_culture05 .culwel_wrap{background: url(../images/2268137001_welfare.png) no-repeat;background-size:cover}
 .mod_culture05 .container .slick-dots{top: auto;bottom: 20px;}
 .mod_culture05 .culwel_wrap > div{height: 100%;padding: 50px 50px 80px 50px;}
 .mod_culture05 .slick-slider{height: calc(100% - 30px)}
@@ -76,7 +97,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     width:70px;
     height:100px;
     background-color:rgba(0,0,0,.5);
-    background-image:url(images/slider_arrow2.png);
+    background-image:url(../images/slider_arrow2.png);
     background-repeat:no-repeat;
     opacity:.7;
     z-index:1;
@@ -104,7 +125,7 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     width:70px;
     height:100px;
     background-color:rgba(0,0,0,.5);
-    background-image:url(images/slider_arrow2.png);
+    background-image:url(../images/slider_arrow2.png);
     background-repeat:no-repeat;
     opacity:.7;
     z-index:1;
@@ -125,18 +146,23 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 .sns_mod_info.sty01 .info_wrap > li > div{font-size: 1.8rem;color: #fff;}
 .sns_mod_info.sty01 .ico{margin: 0 auto 2.0rem auto;}
 .sns_mod_info.sty01 ul li:last-child{margin-right: 0}
-.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
-.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(1) .ico{background: url(../images/ico_finance01.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(2) .ico{background: url(../images/ico_finance02.png) no-repeat center;width: 109px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(3) .ico{background: url(../images/ico_finance03.png) no-repeat center;width: 111px;height: 101px;}
+.sns_mod_info.sty01 ul li:nth-child(4) .ico{background: url(../images/ico_finance04.png) no-repeat center;width: 99px;height: 101px;}
 
-.mod_interview06 .prev_arrow{background: url(images/2268137001_itv_prev.png) no-repeat center #666;}
-.mod_interview06 .next_arrow {background: url(images/2268137001_itv_next.png) no-repeat center #666}
+.mod_interview06 .prev_arrow{background: url(../images/2268137001_itv_prev.png) no-repeat center #666;}
+.mod_interview06 .next_arrow {background: url(../images/2268137001_itv_next.png) no-repeat center #666}
 
+@media all and (max-width:1600px){
+    .mod_info_cst .item .img,
+    .mod_info_cst .item .txt{width: 50%}
+}
 
 @media all and (max-width:1200px){
     .mod_visual .container,
-    .mod_strategic01 .container{width: calc(100% - 40px)}
+    .mod_strategic01 .container,
+     .slogan_area .container{width: calc(100% - 40px)}
     .mod_percent01 .container{padding: 0}
     
     .mod_interview06 .interview_txt h3{max-width: calc(100% - 60px)}
@@ -154,7 +180,8 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
 
 @media all and (max-width:768px){
     html{font-size: 8px}
-    .mod_visual {height: 250px;padding: 3rem 0}
+    .mod_visual {height:auto;padding: 3rem 0;padding: 5rem 0}
+    .mod_visual .container{display: block;}
     .mod_visual img{max-width: 130px;margin: 0 0 2rem auto;}
     .mod_visual .title{font-size: 2rem;}
     .mod_visual .comName{font-size: 3rem;}
@@ -183,6 +210,9 @@ body{width: 100%;margin: auto;font-size: 1.6rem}
     .mod_interview06 .bg{margin-top: -100px}
     .mod_info02 > div:nth-child(1), .mod_info02 > div:nth-child(5){height: 150px}
     
+    .mod_info_cst .item{display: block;}
+    .mod_info_cst .item .img, .mod_info_cst .item .txt{width: 100%}
+    .mod_info_cst .item .img img{height: auto;}
     
 }
 
