@@ -6,11 +6,10 @@ interview06 = $('.mod_interview06 .interview');
                     slidesToScroll: 1,
                     autoplay: false,
                     dots: false,
-                    prevArrow:'.mod_interview06 .prev_arrow',
-                    nextArrow:'.mod_interview06 .next_arrow',
-                    arrows: true,
-                    infinite: true,
-                    adaptiveHeight: false,
+                    infinite: false,
+                    adaptiveHeight: true,
+                    prevArrow: $('.prev_arrow'),
+                    nextArrow: $('.next_arrow'),
                 });
             }
             interview06_slide();
@@ -20,6 +19,8 @@ interview06 = $('.mod_interview06 .interview');
                 var $parent = $this.parent().siblings();
                 $parent.find(".q").removeClass("active");
                 $this.addClass("active");
-                interview06.slick('unslick');
-                interview06_slide();
+
+                var itHeight = $('.mod_interview06 .slick-track').height();
+                $('.mod_interview06 .slick-list').css('height', itHeight);
+
             });
