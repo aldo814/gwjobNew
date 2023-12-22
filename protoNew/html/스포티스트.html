@@ -467,15 +467,16 @@
             }
             interview06_slide();
 
-            $(".mod_interview06 .bg .q").click(function() {
+               $(".mod_interview06 .bg .q").click(function() {
                 var $this = $(this);
                 var $parent = $this.parent().siblings();
                 $parent.find(".q").removeClass("active");
                 $this.addClass("active");
-                interview06.slick('unslick');
-                interview06_slide();
-            });
 
+                var itHeight = $('.mod_interview06 .slick-track').height();
+                $('.mod_interview06 .slick-list').css('height', itHeight);
+
+            });
         });
 
     </script>
